@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@font-face{
+    font-family : 'Lexend';
+    src: url(../public/Lexend/Lexend-VariableFont_wght.ttf);
+    font-style: normal;
+}
+
+#b-font{
+    font-family: 'Lexend';
+    font-weight: 600;
+}
+#head{
+    font-family: 'Lexend';
+    font-weight: 500;
+}
+#nav-head{
+    font-family: 'Lexend';
+    font-weight: 400;
+}
+#p-font{
+    font-family: 'Lexend';
+    font-weight: 300;
+}
+
+
+
+#bg-posterS{
+    background-image: url(../public/images/Group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position:  center;
+    }
+
+    @media (min-width: 1536px){
+        #bg-poster{
+            background-image: url(../public/images/poster.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100%;
+            background-position:center;
+            
+            }
+    }
+    @media (min-width: 1280px){
+        #bg-poster{
+            background-image: url(../public/images/poster.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100%;
+            background-position: top center;
+            
+            }
+    }
+    @media (min-width: 1024px){
+        #bg-poster{
+            background-image: url(../public/images/poster.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100%;
+            background-position: top center;
+            
+            }
+        }
+
+            @media (min-width: 768px){
+                #bg-poster{
+                    background-image: url(../public/images/poster.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-size: 100%;
+                    background-position: top center;
+                    
+                    }
+    }
+    @media (min-width: 640px){
+        #bg-poster{
+            background-image: url(../public/images/poster.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100%;
+            background-position: top center;
+            
+            }
+}
