@@ -43,8 +43,6 @@ const page = () => {
     <>
       <section>
         <div>
-          <div className="sm:h-screen " id="bg-poster">
-            <div className="">
               <nav className="border 2xl:py-8 xl:py-4  lg:py-4 md:py-3 sm:py-2 py-2 bg-white">
                 <div className="flex justify-between sm:justify-around m-auto">
                   <div id="nav-menu">
@@ -80,7 +78,7 @@ const page = () => {
                     {isDrawerOpen && (
                       <div
                         id="drawer-form"
-                        className="fixed top-0 left-0 z-40 h-screen  overflow-y-auto transition-transform -translate-x-0 bg-white w-4/12 dark:bg-gray-800"
+                        className="fixed top-0 left-0 z-40 h-screen  overflow-y-auto transition-transform -translate-x-0 bg-white w-5/12 dark:bg-gray-800"
                         tabIndex={-1}
                         aria-labelledby="drawer-form-label"
                       >
@@ -142,19 +140,20 @@ const page = () => {
                   </div>
                 </div>
               </nav>
-            </div>
-            <div className="2xl:mt-80 2xl:ml-56 xl:mt-56 xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16 mt-3 ml-8">
+          <div className="sm:h-screen h-auto pt-10 " id="bg-poster">
+          
+            <div className="2xl:mt-96 2xl:ml-56 xl:mt-60 xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16  ml-8 mt-8">
               <h1
                 id="p-font"
                 className="2xl:text-[36px] 2xl:leading-[45px] text-[#50362D] xl:text-[25px] xl:leading-[20px] lg:text-[20px] lg:leading-[32px] md:text-[18px] md:leading-[25px]
                 sm:text-[14px] sm:leading-[16px]
-                text-[14px] leading-[10px]"
+                text-[12px] leading-[10px] "
               >
                 Mixing Function and Flavor
               </h1>
               <h1
                 id="p-font"
-                className="2xl:text-[80px] 2xl:mt-1 2xl:leading-[90px] text-[#1E1E1E]  xl:text-[48px] xl:leading-[55px] lg:text-[40px] lg:leading-[32px] md:text-[35px] md:leading-[35px] sm:text-[28px] sm:leading-[25px] text-[22px] leading-[25px]"
+                className="2xl:text-[70px] 2xl:mt-1 2xl:leading-[60px] text-[#1E1E1E]  xl:text-[48px] xl:leading-[55px] lg:text-[40px] lg:leading-[32px] md:text-[35px] md:leading-[35px] sm:text-[28px] sm:leading-[25px] text-[22px] leading-[25px]"
               >
                 Curated{" "}
               </h1>

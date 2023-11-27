@@ -101,10 +101,10 @@
     #bg-posterS{
         background-image: url(../public/images/Group.png);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-size: 100%;
-        background-position:  center;
-        /* padding: 200px; */
+        background-position: top center;
+      
         }
 }
 @media(max-width: 640px){
