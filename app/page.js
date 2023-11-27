@@ -14,7 +14,7 @@ import ListingsSI from "../public/images/Listings 6.svg";
 import groupP from "../public/images/groupP.svg";
 import aa from "../public/images/11.svg";
 import bb from "../public/images/22.svg";
-import cc from "../public/images/55.svg";
+import cc from "../public/images/pending.svg";
 import dd from "../public/images/33.svg";
 import ee from "../public/images/44.svg";
 import twitter from "../public/images/twitter.svg";
@@ -42,105 +42,106 @@ const page = () => {
     <>
       <section>
         <div>
-              <nav className="border 2xl:py-8 xl:py-4  lg:py-4 md:py-3 sm:py-2 py-2 bg-white">
-                <div className="flex justify-between sm:justify-around m-auto">
-                  <div id="nav-menu">
-                    <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 my-auto py-2">
-                      <div className="">
-                        <li className="cursor-pointer list-none 2xl:text-[20px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 md:text-[14px] md:leading-3 sm:text-[12px] text-[10px] sm:leading-2 text-[#666666] ">
-                          Shop Teas
-                        </li>
-                      </div>
-                      <div>
-                        <li className=" cursor-pointer  list-none 2xl:text-[20px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 text-[#666666] md:text-[14px] md:leading-3 sm:text-[12px] sm:leading-2 text-[10px] ">
-                          About Me
-                        </li>
-                      </div>
-                    </div>
+          <nav className="border 2xl:py-8 xl:py-4  lg:py-4 md:py-3 sm:py-2 py-2 bg-white">
+            <div className="flex justify-between sm:justify-around m-auto">
+              <div id="nav-menu">
+                <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 my-auto py-2">
+                  <div className="">
+                    <li className="cursor-pointer list-none 2xl:text-[20px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 md:text-[14px] md:leading-3 sm:text-[12px] text-[10px] sm:leading-2 text-[#666666] ">
+                      Shop Teas
+                    </li>
                   </div>
-                  <div className=" ml-3" id="nav-drawer">
-                    <div className="text-center">
-                      <button
-                        className="  focus:ring-4  font-medium rounded-lg text-[10px]    mb-2 focus:outline-none "
-                        type="button"
-                        onClick={openDrawer}
-                      >
-                        <div className="">
-                          <div className="bg-black p-[1.5px] my-1 w-6"></div>
-                          <div className="bg-black p-[1.5px] my-1"></div>
-                          <div className="bg-black p-[1.5px] my-1"></div>
-                        </div>
-                      </button>
-                    </div>
-
-                           {/* Drawer */}
-                    {isDrawerOpen && (
-                      <div
-                        id="drawer-form"
-                        className="fixed top-0 left-0 z-40 h-screen  overflow-y-auto transition-transform -translate-x-0 bg-white w-6/12 dark:bg-gray-800"
-                        tabIndex={-1}
-                        aria-labelledby="drawer-form-label"
-                      >
-                        <div>
-                          <button
-                            type="button"
-                            onClick={closeDrawer}
-                            className="text-gray-400  shadow-2xl text-sm  p-1 mt-2 mr-2 border rounded-lg float-right "
-                          >
-                            close
-                          </button>
-                        </div>
-                        <div className="mt-10 ">
-                          <div className=" lg:w-3/12 xl:w-2/12 md:w-full sm:w-full my-4">
-                            <Image
-                              src={leaves}
-                              className="mx-auto md:w-12 sm:w-8 w-6"
-                            />
-
-                            <h1
-                              className="2xl:text-[35px] xl:text-[30px] lg:text-[25px] md:text-[25px] md:mb-5 sm:text-[25px] sm:mb-5 text-[18px]  text-center"
-                              id="nav-head"
-                            >
-                              TEAS
-                            </h1>
-                          </div>
-                          <hr/>
-                          <ul>
-                            <li className="text-sm first-letter:uppercase text-center my-2">Shop Teas</li>
-                            <li className="text-sm first-letter:uppercase text-center my-2">
-                            About Me
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                  <div className="  ">
-                    <h1
-                      className="2xl:text-[35px] xl:text-[30px] lg:text-[30px] md:text-[25px]  sm:text-[20px] text-[16px]"
-                      id="nav-head"
-                    >
-                      TEAS
-                    </h1>
-                  </div>
-                  <div className="flex justify-around 2xl:gap-8 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto mr-3">
-                    <Image
-                      src={search}
-                      className="cursor-pointer 2xl:w-full xl:w-5 lg:w-4 md:w-3  sm:w-3 w-3"
-                    />
-                    <Image
-                      src={user}
-                      className="cursor-pointer 2xl:w-full xl:w-5 lg:w-4 md:w-3  sm:w-3 w-3"
-                    />
-                    <Image
-                      src={shopbag}
-                      className="cursor-pointer 2xl:w-full xl:w-5 lg:w-4 md:w-3  sm:w-3 w-3"
-                    />
+                  <div>
+                    <li className=" cursor-pointer  list-none 2xl:text-[20px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 text-[#666666] md:text-[14px] md:leading-3 sm:text-[12px] sm:leading-2 text-[10px] ">
+                      About Me
+                    </li>
                   </div>
                 </div>
-              </nav>
+              </div>
+              <div className=" ml-3" id="nav-drawer">
+                <div className="text-center">
+                  <button
+                    className="  focus:ring-4  font-medium rounded-lg text-[10px]    mb-2 focus:outline-none "
+                    type="button"
+                    onClick={openDrawer}
+                  >
+                    <div className="">
+                      <div className="bg-black p-[1.5px] my-1 w-6"></div>
+                      <div className="bg-black p-[1.5px] my-1"></div>
+                      <div className="bg-black p-[1.5px] my-1"></div>
+                    </div>
+                  </button>
+                </div>
+
+                {/* Drawer */}
+                {isDrawerOpen && (
+                  <div
+                    id="drawer-form"
+                    className="fixed top-0 left-0 z-40 h-screen  overflow-y-auto transition-transform -translate-x-0 bg-white w-6/12 dark:bg-gray-800"
+                    tabIndex={-1}
+                    aria-labelledby="drawer-form-label"
+                  >
+                    <div>
+                      <button
+                        type="button"
+                        onClick={closeDrawer}
+                        className="text-gray-400  shadow-2xl text-sm  p-1 mt-2 mr-2 border rounded-lg float-right "
+                      >
+                        close
+                      </button>
+                    </div>
+                    <div className="mt-10 ">
+                      <div className=" lg:w-3/12 xl:w-2/12 md:w-full sm:w-full my-4">
+                        <Image
+                          src={leaves}
+                          className="mx-auto md:w-12 sm:w-8 w-6"
+                        />
+
+                        <h1
+                          className="2xl:text-[35px] xl:text-[30px] lg:text-[25px] md:text-[25px] md:mb-5 sm:text-[25px] sm:mb-5 text-[18px]  text-center"
+                          id="nav-head"
+                        >
+                          TEAS
+                        </h1>
+                      </div>
+                      <hr />
+                      <ul>
+                        <li className="text-sm first-letter:uppercase text-center my-2">
+                          Shop Teas
+                        </li>
+                        <li className="text-sm first-letter:uppercase text-center my-2">
+                          About Me
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                )}
+              </div>
+              <div className="  ">
+                <h1
+                  className="2xl:text-[35px] xl:text-[30px] lg:text-[30px] md:text-[25px]  sm:text-[20px] text-[16px]"
+                  id="nav-head"
+                >
+                  TEAS
+                </h1>
+              </div>
+              <div className="flex justify-around 2xl:gap-8 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto mr-3">
+                <Image
+                  src={search}
+                  className="cursor-pointer 2xl:w-full xl:w-5 lg:w-4 md:w-3  sm:w-3 w-3"
+                />
+                <Image
+                  src={user}
+                  className="cursor-pointer 2xl:w-full xl:w-5 lg:w-4 md:w-3  sm:w-3 w-3"
+                />
+                <Image
+                  src={shopbag}
+                  className="cursor-pointer 2xl:w-full xl:w-5 lg:w-4 md:w-3  sm:w-3 w-3"
+                />
+              </div>
+            </div>
+          </nav>
           <div className="sm:h-screen h-auto pt-10 " id="bg-poster">
-          
             <div className="2xl:mt-96 2xl:ml-56 xl:mt-60 xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16  ml-8 mt-8">
               <h1
                 id="p-font"
@@ -186,13 +187,13 @@ const page = () => {
               <Image src={leaves} className="mx-auto md:w-12 sm:w-8 w-8" />
               <h1
                 id="head"
-                className="2xl:text-[60px] text-center 2xl:leading-[70px] 2xl:mt-7 xl:text-[40px] xl:leading-[35px] xl:mt-1 lg:text-[35px] lg:leading-[35px] lg:mt-4 md:text-[25px] md:leading-[25px] md:mt-2 sm:text-[20px] sm:leading-[20px] sm:mt-2 text-[18px] leading-[18px] mt-1"
+                className="2xl:text-[60px] text-center 2xl:leading-[70px] 2xl:mt-7 xl:text-[40px] xl:leading-[35px] xl:mt-1 lg:text-[35px] lg:leading-[35px] lg:mt-4 md:text-[25px] md:leading-[25px] md:mt-2 sm:text-[20px] sm:leading-[20px] sm:mt-2 text-[25px] leading-[30px] mt-1"
               >
                 Unique Herbs and Spices
               </h1>
               <h2
                 id="head"
-                className="text-center 2xl:text-[36px]  2xl:leading-[36px] 2xl:mt-3 xl:text-[24px]  xl:leading-[30px] xl:mt-1 lg:text-[21px]  lg:leading-[20px] lg:my-2 md:text-[15px]  md:leading-[15px] md:my-2 sm:text-[12px]  sm:leading-[10px] sm:my-1  text-[11px]  leading-[7px] my-1"
+                className="text-center 2xl:text-[36px]  2xl:leading-[36px] 2xl:mt-3 xl:text-[24px]  xl:leading-[30px] xl:mt-1 lg:text-[21px]  lg:leading-[20px] lg:my-2 md:text-[15px]  md:leading-[15px] md:my-2 sm:text-[12px]  sm:leading-[10px] sm:my-1  text-[16px]  leading-[20px] my-1"
               >
                 No Added Flavors
               </h2>
@@ -201,7 +202,7 @@ const page = () => {
                 className="text-[#666666] text-center  2xl:leading-[30px] 2xl:text-[20px] 2xl:mt-6 2xl:w-4/12 mx-auto 
                 xl:leading-22px] xl:text-[12px] xl:mt-4 xl:w-4/12  lg:leading-[18px] lg:text-[10px] lg:mt-4 lg:w-4/12
                 md:leading-[14px] md:text-[8px] md:mt-2 md:w-4/12
-                leading-[12px] sm:text-[7px] sm:mt-2 sm:w-4/12 text-[10px] mt-1 w-10/12
+                leading-[22px] sm:text-[7px] sm:mt-2 sm:w-4/12 text-[14px] mt-1 w-10/12
               "
               >
                 Bringing my most favorite blends together with the strength and
@@ -397,32 +398,61 @@ const page = () => {
                   #SuliTeas
                 </h1>
               </div>
-              <div className="flex  sm:flex-row gap-4 2xl:gap-4 2xl:mt-16 xl:mt-6 lg:mt-4 md:mt-2 sm:mt-1 mt-1 flex-col relative">
-                <Image
-                  src={aa}
-                  className=" 2xl:w-72 xl:w-48  lg:w-36   md:w-32 sm:w-28 w-full "
-                />
-                <Image
-                  src={bb}
-                  className=" 2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28   w-full"
-                />
-                <Image
-                  src={instagram}
-                  className=" 2xl:w-8 xl:w-6  lg:w-5 md:w-4 sm:w-4  absolute sm:ml-[300px] sm:mt-[50px]  md:ml-[340px] md:mt-[55px]  lg:ml-[380px] lg:mt-[60px]  xl:ml-[499px] xl:mt-[84px]  2xl:ml-[740px] 2xl:mt-[135px] sm:z-10  mt-[755px] ml-[140px]"
-                />
-                <Image
-                  src={cc}
-                  className="  2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28 w-full   "
-                />
 
-                <Image
-                  src={dd}
-                  className=" 2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28   w-full"
-                />
-                <Image
-                  src={ee}
-                  className=" 2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28   w-full"
-                />
+              <div className="flex xl:w-10/12 xl:mx-auto  sm:flex-row gap-4 2xl:w-full 2xl:gap-4 xl:gap-4 2xl:mt-10 xl:mt-6 lg:mt-4 md:mt-2 sm:mt-1 mt-1 flex-col relative">
+                <div id="image2">
+                  <Image
+                    id="img1"
+                    src={aa}
+                    className=" 2xl:w-72 xl:w-48  lg:w-36   md:w-32 sm:w-28 w-full "
+                  />
+                  <div className="img3">
+                    <Image id="img4" src={instagram} />
+                  </div>
+                </div>
+
+                <div id="image2" className="rounded-lg">
+                  <Image
+                    id="img1"
+                    src={bb}
+                    className=" 2xl:w-72 xl:w-48  lg:w-36   md:w-32 sm:w-28 w-full "
+                  />
+                  <div className="img3">
+                    <Image id="img4" src={instagram} />
+                  </div>
+                </div>
+           
+                <div id="image2" className="rounded-lg">
+                  <Image
+                    id="img1"
+                    src={cc}
+                    className=" 2xl:w-72 xl:w-48  lg:w-36   md:w-32 sm:w-28 w-full "
+                  />
+                  <div className="img3">
+                    <Image id="img4" src={instagram} />
+                  </div>
+                </div>
+
+                <div id="image2" className="rounded-lg">
+                  <Image
+                    id="img1"
+                    src={dd}
+                    className=" 2xl:w-72 xl:w-48  lg:w-36   md:w-32 sm:w-28 w-full "
+                  />
+                  <div className="img3">
+                    <Image id="img4" src={instagram} />
+                  </div>
+                </div>
+                <div id="image2" className="rounded-lg">
+                  <Image
+                    id="img1"
+                    src={ee}
+                    className=" 2xl:w-72 xl:w-48  lg:w-36   md:w-32 sm:w-28 w-full "
+                  />
+                  <div className="img3">
+                    <Image id="img4" src={instagram} />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -443,61 +473,61 @@ const page = () => {
                 <div className="flex justify-around xl: lg:w-[70%] lg:m-0 xl:w-[70%]  2xl:w-[90%] xl:m-0 md:w-6/12 md:my-5 sm:w-6/12 sm:my-5 w-full ">
                   <div className="">
                     <h1
-                      className="2xl:text-[18px] 2xl:mb-6 xl:text-[16px] xl:mb-4  lg:text-[14px] lg:mb-3 md:text-[12px] md:mb-2  sm:text-[12px] sm:mb-2 text-[12px]"
+                      className="2xl:text-[18px] 2xl:mb-6 xl:text-[16px] xl:mb-4  lg:text-[14px] lg:mb-3 md:text-[12px] md:mb-2  sm:text-[12px] sm:mb-2 text-[16px]"
                       id="nav-head"
                     >
                       Quick links
                     </h1>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px] lg:my-1 lg:leading-[20px] lg:text-[12px] md:my-1 md:leading-[20px] md:text-[12px]  sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px] lg:my-1 lg:leading-[20px] lg:text-[12px] md:my-1 md:leading-[20px] md:text-[12px]  sm:my-1 sm:leading-[20px] sm:text-[12px] text-[16px] leading-[16px]">
                       Home
                     </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px]    sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px]    sm:my-1 sm:leading-[20px] sm:text-[12px] text-[16px] leading-[16px]">
                       Shop Teas
                     </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px]  sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px]  sm:my-1 sm:leading-[20px] sm:text-[12px] text-[16px] leading-[16px]">
                       About Me
                     </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px]  sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px]  sm:my-1 sm:leading-[20px] sm:text-[12px] text-[16px] leading-[16px]">
                       Contact Us
                     </li>
                   </div>
                   <div>
                     <h1
-                      className="2xl:text-[18px] 2xl:mb-6 xl:text-[16px] xl:mb-4   lg:text-[14px] lg:mb-3 md:text-[12px] md:mb-2 sm:text-[12px] sm:mb-2 text-[12px]"
+                      className="2xl:text-[18px] 2xl:mb-6 xl:text-[16px] xl:mb-4   lg:text-[14px] lg:mb-3 md:text-[12px] md:mb-2 sm:text-[12px] sm:mb-2 text-[16px]"
                       id="nav-head"
                     >
                       Other Links
                     </h1>{" "}
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[14px] leading-[15px]">
                       Privacy Policy
                     </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[14px] leading-[15px]">
                       Return Policy
                     </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[14px] leading-[15px]">
                       Refund Policy
                     </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px] ">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[14px] leading-[15px] ">
                       Cookies
                     </li>
                   </div>
                   <div>
                     <h1
-                      className="2xl:text-[18px] 2xl:mb-4 xl:text-[16px] xl:mb-4  lg:text-[14px] lg:mb-3 md:text-[12px] md:mb-2 sm:text-[12px] sm:mb-2 text-[12px]"
+                      className="2xl:text-[18px] 2xl:mb-4 xl:text-[16px] xl:mb-4  lg:text-[14px] lg:mb-3 md:text-[12px] md:mb-2 sm:text-[12px] sm:mb-2 text-[16px]"
                       id="nav-head"
                     >
                       My Account
                     </h1>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[12px] leading-[15px]">
                       Shopping Bag
                     </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[12px] leading-[15px]">
                       Wish List
                     </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[12px] leading-[15px]">
                       Order History
                     </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[10px] leading-[15px]">
+                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[16px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[12px]  lg:my-1 lg:leading-[20px] lg:text-[12px]  md:my-1 md:leading-[20px] md:text-[12px] sm:my-1 sm:leading-[20px] sm:text-[12px] text-[12px] leading-[15px]">
                       Order Tracking
                     </li>
                   </div>
@@ -506,7 +536,7 @@ const page = () => {
               <div className="flex justify-center my-3 md:flex md:justify-center sm:flex sm:justify-center lg:flex-none xl:flex-none xl:w-3/12 2xl:w-3/12 ">
                 <div className="lg:w-full xl:w-full 2xl:w-full relative md:w-4/12 sm:w-4/12 ">
                   <h1
-                    className="2xl:text-[18px] 2xl:mb-8 xl:text-[16px] xl:mb-2  lg:text-[14px] lg:mb-2 md:text-[12px] md:mb-2 sm:text-[12px] sm:mb-2 text-[12px] my-1"
+                    className="2xl:text-[18px] 2xl:mb-8 xl:text-[16px] xl:mb-2  lg:text-[14px] lg:mb-2 md:text-[12px] md:mb-2 sm:text-[12px] sm:mb-2 text-[16px] my-1"
                     id="nav-head"
                   >
                     Subscribe to our emails
@@ -518,20 +548,20 @@ const page = () => {
                   <input
                     type="text"
                     placeholder="Email"
-                    className=" cursor-pointer border border-[#315031] bg-[#E9F5DE] relative rounded  2xl:w-8/12 2xl:p-2 xl:w-8/12 xl:p-0.5  lg:w-10/12 lg:p-0.5  p-0 "
+                    className=" cursor-pointer border border-[#315031] bg-[#E9F5DE] relative rounded  2xl:w-8/12 2xl:p-2 xl:w-8/12 xl:p-0.5  lg:w-10/12 lg:p-0.5  px-1 "
                   />
-                  <div className="flex justify-center md:justify-center lg:justify-start sm:justify-center 2xl:gap-7  2xl:my-4 xl:gap-5  xl:my-3 lg:my-2 lg:gap-4 md:my-5 sm:my-5   md:gap-4 sm:gap-4 my-2 gap-2 ">
+                  <div className="flex justify-center md:justify-center lg:justify-start sm:justify-center 2xl:gap-7  2xl:my-4 xl:gap-5  xl:my-3 lg:my-2 lg:gap-4 md:my-5 sm:my-5   md:gap-4 sm:gap-4 my-2 gap-4 ">
                     <Link href="https://twitter.com/" target="_blank">
                       <Image
                         src={twitter}
-                        className=" 2xl:w-8 xl:w-6 lg:w-6 w-5"
+                        className=" 2xl:w-8 xl:w-6 lg:w-6 w-7"
                       />
                     </Link>
                     <Link
                       href="https://www.facebook.com/login/"
                       target="_blank"
                     >
-                      <Image src={fbb} className=" 2xl:w-7 xl:w-5 lg:w-5 w-4" />
+                      <Image src={fbb} className=" 2xl:w-7 xl:w-5 lg:w-5 w-6" />
                     </Link>
                     <Link
                       href="https://www.instagram.com/accounts/login/"
@@ -539,7 +569,7 @@ const page = () => {
                     >
                       <Image
                         src={insta}
-                        className=" 2xl:w-7 xl:w-5 lg:w-5 w-4"
+                        className=" 2xl:w-7 xl:w-5 lg:w-5 w-6"
                       />
                     </Link>
                     <Link
@@ -548,18 +578,18 @@ const page = () => {
                     >
                       <Image
                         src={music}
-                        className=" 2xl:w-6 xl:w-4 lg:w-4 w-3"
+                        className=" 2xl:w-6 xl:w-4 lg:w-4 w-5"
                       />
                     </Link>
                     <Link href="https://www.youtube.com/" target="_blank">
-                      <Image src={YTt} className=" 2xl:w-8 xl:w-6 lg:w-6 w-5" />
+                      <Image src={YTt} className=" 2xl:w-8 xl:w-6 lg:w-6 w-7" />
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
             <hr className="mx-auto 2xl:w-[80%] xl:w-[90%] lg:w-[90%]  md:w-[70%] border  sm:w-[70%]   border-[#315031]" />
-            <h1 className=" 2xl:text-[16px]  2xl:leading-[24px] xl:text-[12px]  xl:leading-[20px] xl:pb-4 lg:text-[12px]  lg:leading-[20px] lg:pb-4 text-[#666666] text-center  2xl:pb-5 md:text-[12px]  md:leading-[20px] md:pb-4  sm:text-[12px]  sm:leading-[20px] sm:pb-4 text-[10px] my-1 ">
+            <h1 className=" 2xl:text-[16px]  2xl:leading-[24px] xl:text-[12px]  xl:leading-[20px] xl:pb-4 lg:text-[12px]  lg:leading-[20px] lg:pb-4 text-[#666666] text-center  2xl:pb-5 md:text-[12px]  md:leading-[20px] md:pb-4  sm:text-[12px]  sm:leading-[20px] sm:pb-4 text-[10px] my-1 pb-3">
               © 2023 Teas. All Rights Reserved.
             </h1>
           </footer>
