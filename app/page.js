@@ -245,19 +245,19 @@ const page = () => {
                 <div className="flex justify-center 2xl:mt-4 xl:mt-1 lg:mt-1">
                   <div className="  w-3/12">
                     <h1
-                      className="text-center  bg-[#5C161D] 2xl:my-32 text-white rounded-[8px]  2xl:w-7/12 2xl:py-3  2xl:text-[18px] 2xl:leading-[28px]  mx-auto xl:w-7/12 xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-28   lg:w-7/12 lg:py-2  lg:text-[12px] lg:leading-[20px] lg:mt-20 md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-10  w-8/12 py-[6px]  text-[8px] leading-[10px] mt-16 "
+                      className="text-center  bg-[#5C161D] 2xl:my-32 text-white rounded-[8px]  2xl:w-7/12 2xl:py-3  2xl:text-[18px] 2xl:leading-[28px]  mx-auto xl:w-7/12 xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-28   lg:w-7/12 lg:py-2  lg:text-[12px] lg:leading-[20px] lg:mt-20 md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-10  w-11/12 py-[6px]  text-[8px] leading-[10px] mt-16 "
                       id="head"
                     >
                       Immune Boost Beast
                     </h1>
                     <h1
-                      className="2xl:my-32 text-white rounded-[8px]  w-7/12 2xl:py-3 text-center  bg-[#A47750] 2xl:text-[18px] 2xl:leading-[28px]  2xl:ml-6  xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-16  lg:py-2  lg:text-[12px] lg:leading-[20px] lg:mt-12  md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-10  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-8  py-[6px]  text-[8px] leading-[10px] mt-12"
+                      className="2xl:my-32 text-white rounded-[8px]  2xl:py-3 text-center  bg-[#A47750] 2xl:text-[18px] 2xl:leading-[28px]  2xl:ml-6  xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-16  lg:py-2  lg:text-[12px] lg:leading-[20px] lg:mt-12  md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-10  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-8  py-[6px]  text-[8px] leading-[10px] mt-12 w-11/12 "
                       id="head"
                     >
                       Champion Chai
                     </h1>
                     <h1
-                      className="2xl:my-32 text-white rounded-[8px]  w-7/12 2xl:py-3 text-center  bg-[#7A8654] 2xl:text-[18px] 2xl:leading-[28px]  mx-auto  xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-16  lg:py-2  lg:text-[12px] lg:leading-[20px] lg:mt-12  md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-10   sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-8  py-[6px]  text-[8px] leading-[10px] mt-12"
+                      className="2xl:my-32 text-white rounded-[8px]  w-11/12 2xl:py-3 text-center  bg-[#7A8654] 2xl:text-[18px] 2xl:leading-[28px]  mx-auto  xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-16  lg:py-2  lg:text-[12px] lg:leading-[20px] lg:mt-12  md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-10   sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-8  py-[6px]  text-[8px] leading-[10px] mt-12"
                       id="head"
                     >
                       Weight Wonder
@@ -292,19 +292,19 @@ const page = () => {
                   </div>
                   <div className=" w-3/12">
                     <h1
-                      className=" text-white  bg-[#32504D] text-center rounded-[8px] mx-auto w-7/12 2xl:my-32 2xl:py-3 2xl:text-[18px] 2xl:leading-[28px]  xl:mt-28 xl:py-3 xl:text-[14px] xl:leading-[20px] lg:mt-20 lg:py-2 lg:text-[12px] lg:leading-[20px] md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-10  w-8/12 py-[6px]  text-[8px] leading-[10px] mt-16"
+                      className=" text-white  bg-[#32504D] text-center rounded-[8px] mx-auto w-11/12 2xl:my-32 2xl:py-3 2xl:text-[18px] 2xl:leading-[28px]  xl:mt-28 xl:py-3 xl:text-[14px] xl:leading-[20px] lg:mt-20 lg:py-2 lg:text-[12px] lg:leading-[20px] md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-10  py-[6px]  text-[8px] leading-[10px] mt-16"
                       id="head"
                     >
                       Anxiety Assist
                     </h1>
                     <h1
-                      className="  text-white rounded-[8px]  w-7/12 text-center  bg-[#482E69] 2xl:py-3  2xl:my-32 2xl:text-[18px] 2xl:leading-[28px] 2xl:ml-48  xl:mt-16 xl:py-3  xl:text-[14px] xl:leading-[20px] xl:ml-36   lg:mt-12 lg:py-2 lg:text-[12px] lg:leading-[20px] lg:ml-28  md:ml-24   md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-10   sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-8 sm:ml-12  ml-14 py-[6px]  text-[8px] leading-[10px] mt-12"
+                      className="  text-white rounded-[8px]  w-11/12 text-center  bg-[#482E69] 2xl:py-3  2xl:my-32 2xl:text-[18px] 2xl:leading-[28px] 2xl:ml-48  xl:mt-16 xl:py-3  xl:text-[14px] xl:leading-[20px] xl:ml-36   lg:mt-12 lg:py-2 lg:text-[12px] lg:leading-[20px] lg:ml-28  md:ml-24   md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-10   sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-8 sm:ml-12  ml-2 py-[6px]  text-[8px] leading-[10px] mt-12"
                       id="head"
                     >
                       Flair Fighter
                     </h1>
                     <h1
-                      className=" text-white rounded-[8px]  mx-auto  w-7/12 text-center  bg-[#7D062A] 2xl:py-3  2xl:my-32 2xl:text-[18px] 2xl:leading-[28px]  xl:mt-16 xl:py-3  xl:text-[14px] xl:leading-[20px] lg:py-2 lg:my-32 lg:text-[12px] lg:leading-[20px] lg:mt-12 md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-10  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-8  py-[6px]  text-[8px] leading-[10px] mt-12"
+                      className=" text-white rounded-[8px]  mx-auto  w-11/12 text-center  bg-[#7D062A] 2xl:py-3  2xl:my-32 2xl:text-[18px] 2xl:leading-[28px]  xl:mt-16 xl:py-3  xl:text-[14px] xl:leading-[20px] lg:py-2 lg:my-32 lg:text-[12px] lg:leading-[20px] lg:mt-12 md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-10  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-8  py-[6px]  text-[8px] leading-[10px] mt-12"
                       id="head"
                     >
                       Detox Delite
