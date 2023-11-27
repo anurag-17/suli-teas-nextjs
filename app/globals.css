@@ -91,9 +91,9 @@
     #bg-poster{
         background-image: url(../public/images/poster.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-size: 100%;
-        background-position: top center;
-        
+        background-position:  center;
+    
         }
 }
