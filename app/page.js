@@ -26,7 +26,6 @@ import arrow from "../public/images/arrow.svg";
 import Link from "next/link";
 import instagram from "../public/images/instagram 1.svg";
 import { useState } from "react";
-// import { XMarkIcon } from "@heroicons/react/24/outline";
 
 const page = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
