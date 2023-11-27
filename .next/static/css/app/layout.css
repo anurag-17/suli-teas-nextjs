@@ -572,9 +572,6 @@ video {
 .top-0 {
   top: 0px;
 }
-.z-10 {
-  z-index: 10;
-}
 .z-20 {
   z-index: 20;
 }
@@ -614,6 +611,9 @@ video {
 .mb-1 {
   margin-bottom: 0.25rem;
 }
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -631,6 +631,9 @@ video {
 }
 .ml-8 {
   margin-left: 2rem;
+}
+.ml-\[140px\] {
+  margin-left: 140px;
 }
 .mr-2 {
   margin-right: 0.5rem;
@@ -650,9 +653,6 @@ video {
 .mt-12 {
   margin-top: 3rem;
 }
-.mt-16 {
-  margin-top: 4rem;
-}
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -665,14 +665,20 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.mt-\[750px\] {
+  margin-top: 750px;
+}
+.mt-\[755px\] {
+  margin-top: 755px;
+}
 .flex {
   display: flex;
 }
-.h-screen {
-  height: 100vh;
-}
 .h-auto {
   height: auto;
+}
+.h-screen {
+  height: 100vh;
 }
 .w-10\/12 {
   width: 83.333333%;
@@ -706,6 +712,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-6\/12 {
+  width: 50%;
 }
 .-translate-x-0 {
   --tw-translate-x: -0px;
@@ -834,6 +843,10 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
 .py-\[4px\] {
   padding-top: 4px;
   padding-bottom: 4px;
@@ -845,11 +858,11 @@ video {
 .pb-0 {
   padding-bottom: 0px;
 }
-.pt-5 {
-  padding-top: 1.25rem;
-}
 .pt-10 {
   padding-top: 2.5rem;
+}
+.pt-5 {
+  padding-top: 1.25rem;
 }
 .text-center {
   text-align: center;
@@ -862,9 +875,6 @@ video {
 }
 .text-\[12px\] {
   font-size: 12px;
-}
-.text-\[14px\] {
-  font-size: 14px;
 }
 .text-\[16px\] {
   font-size: 16px;
@@ -887,9 +897,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-.text-\[1px\] {
-  font-size: 1px;
 }
 .font-medium {
   font-weight: 500;
@@ -1104,6 +1111,10 @@ display: block;
   }
 }
 @media (min-width: 640px) {
+
+  .sm\:z-10 {
+    z-index: 10;
+  }
 
   .sm\:my-1 {
     margin-top: 0.25rem;
@@ -2097,12 +2108,12 @@ display: block;
     margin-top: 1rem;
   }
 
-  .xl\:mt-56 {
-    margin-top: 14rem;
-  }
-
   .xl\:mt-6 {
     margin-top: 1.5rem;
+  }
+
+  .xl\:mt-60 {
+    margin-top: 15rem;
   }
 
   .xl\:mt-8 {
@@ -2111,10 +2122,6 @@ display: block;
 
   .xl\:mt-\[84px\] {
     margin-top: 84px;
-  }
-
-  .xl\:mt-60 {
-    margin-top: 15rem;
   }
 
   .xl\:flex {
@@ -2465,24 +2472,12 @@ display: block;
     margin-top: 1.75rem;
   }
 
-  .\32xl\:mt-80 {
-    margin-top: 20rem;
+  .\32xl\:mt-96 {
+    margin-top: 24rem;
   }
 
   .\32xl\:mt-\[135px\] {
     margin-top: 135px;
-  }
-
-  .\32xl\:ml-60 {
-    margin-left: 15rem;
-  }
-
-  .\32xl\:mt-9 {
-    margin-top: 2.25rem;
-  }
-
-  .\32xl\:mt-96 {
-    margin-top: 24rem;
   }
 
   .\32xl\:flex {
@@ -2634,16 +2629,12 @@ display: block;
     font-size: 60px;
   }
 
-  .\32xl\:text-\[80px\] {
-    font-size: 80px;
+  .\32xl\:text-\[70px\] {
+    font-size: 70px;
   }
 
   .\32xl\:text-\[90px\] {
     font-size: 90px;
-  }
-
-  .\32xl\:text-\[70px\] {
-    font-size: 70px;
   }
 
   .\32xl\:leading-6 {
@@ -2694,16 +2685,16 @@ display: block;
     line-height: 45px;
   }
 
+  .\32xl\:leading-\[60px\] {
+    line-height: 60px;
+  }
+
   .\32xl\:leading-\[70px\] {
     line-height: 70px;
   }
 
   .\32xl\:leading-\[90px\] {
     line-height: 90px;
-  }
-
-  .\32xl\:leading-\[60px\] {
-    line-height: 60px;
   }
 }
 

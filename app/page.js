@@ -77,7 +77,7 @@ const page = () => {
                     {isDrawerOpen && (
                       <div
                         id="drawer-form"
-                        className="fixed top-0 left-0 z-40 h-screen  overflow-y-auto transition-transform -translate-x-0 bg-white w-5/12 dark:bg-gray-800"
+                        className="fixed top-0 left-0 z-40 h-screen  overflow-y-auto transition-transform -translate-x-0 bg-white w-6/12 dark:bg-gray-800"
                         tabIndex={-1}
                         aria-labelledby="drawer-form-label"
                       >
@@ -315,7 +315,7 @@ const page = () => {
                 <div className="flex justify-center 2xl:mt-4 xl:mt-1 lg:mt-1">
                   <div className="  w-3/12">
                     <h1
-                      className="text-center  bg-[#5C161D] 2xl:my-32 text-white rounded-[8px]  2xl:w-7/12 2xl:py-3  2xl:text-[18px] 2xl:leading-[28px]  mx-auto xl:w-7/12 xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-28   lg:w-7/12 lg:py-2  lg:text-[12px] lg:leading-[20px] lg:mt-20 md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-10  w-11/12 py-[6px]  text-[8px] leading-[10px] mt-16 "
+                      className="text-center  bg-[#5C161D] 2xl:my-32 text-white rounded-[8px]  2xl:w-7/12 2xl:py-3  2xl:text-[18px] 2xl:leading-[28px]  mx-auto xl:w-7/12 xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-28   lg:w-7/12 lg:py-2  lg:text-[12px] lg:leading-[20px] lg:mt-20 md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-10  w-11/12 py-[6px]  text-[8px] leading-[10px] mt-10 "
                       id="head"
                     >
                       Immune Boost Beast
@@ -362,7 +362,7 @@ const page = () => {
                   </div>
                   <div className=" w-3/12">
                     <h1
-                      className=" text-white  bg-[#32504D] text-center rounded-[8px] mx-auto w-11/12 2xl:my-32 2xl:py-3 2xl:text-[18px] 2xl:leading-[28px]  xl:mt-28 xl:py-3 xl:text-[14px] xl:leading-[20px] lg:mt-20 lg:py-2 lg:text-[12px] lg:leading-[20px] md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-10  py-[6px]  text-[8px] leading-[10px] mt-16"
+                      className=" text-white  bg-[#32504D] text-center rounded-[8px] mx-auto w-11/12 2xl:my-32 2xl:py-3 2xl:text-[18px] 2xl:leading-[28px]  xl:mt-28 xl:py-3 xl:text-[14px] xl:leading-[20px] lg:mt-20 lg:py-2 lg:text-[12px] lg:leading-[20px] md:w-7/12 md:py-1  md:text-[10px] md:leading-[16px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[8px] sm:leading-[12px] sm:mt-10  py-[6px]  text-[8px] leading-[10px] mt-10"
                       id="head"
                     >
                       Anxiety Assist
@@ -384,7 +384,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-center 2xl:mt-12 xl:mt-12 lg:mt-6">
+          <div className="flex justify-center 2xl:mt-12 xl:mt-12 lg:mt-6 mb-10">
             <div className=" ">
               <div className="mt-12">
                 <h1 className="2xl:text-[28px] xl:text-[22px] lg:text-[20px] md:text-[18px] sm:text-[16px] text-[#315031] text-center">
@@ -408,11 +408,11 @@ const page = () => {
                 />
                 <Image
                   src={instagram}
-                  className=" 2xl:w-8 xl:w-6  lg:w-5 md:w-4 sm:w-4  absolute sm:ml-[300px] sm:mt-[50px]  md:ml-[340px] md:mt-[55px]  lg:ml-[380px] lg:mt-[60px]  xl:ml-[499px] xl:mt-[84px]  2xl:ml-[740px] 2xl:mt-[135px] mt-500px ml:50 z-10 "
+                  className=" 2xl:w-8 xl:w-6  lg:w-5 md:w-4 sm:w-4  absolute sm:ml-[300px] sm:mt-[50px]  md:ml-[340px] md:mt-[55px]  lg:ml-[380px] lg:mt-[60px]  xl:ml-[499px] xl:mt-[84px]  2xl:ml-[740px] 2xl:mt-[135px] sm:z-10  mt-[755px] ml-[140px]"
                 />
                 <Image
                   src={cc}
-                  className="  2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28 w-full relative "
+                  className="  2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28 w-full   "
                 />
 
                 <Image
@@ -426,9 +426,9 @@ const page = () => {
               </div>
             </div>
           </div>
-          <footer className="bg-[#E9F5DE] 2xl:pt-24 2xl:mt-24 xl:pt-20 xl:mt-20  lg:pt-16 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10">
-            <div className="lg:flex lg:justify-around lg:flex-row xl:flex xl:flex-row xl:justify-around 2xl:flex 2xl:justify-around   2xl:mb-20 xl:mb-5 lg:mb-5 md:flex-col md:justify-center     md:mb-5              sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center">
-              <div className="lg:w-3/12 xl:w-2/12 md:w-full sm:w-full my-2">
+          <footer className="bg-[#E9F5DE] 2xl:pt-24 2xl:mt-24 xl:pt-20 xl:mt-20  lg:pt-16 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10 ">
+            <div className="lg:flex lg:justify-around lg:flex-row xl:flex xl:flex-row xl:justify-around 2xl:flex 2xl:justify-around   2xl:mb-20 xl:mb-5 lg:mb-5 md:flex-col md:justify-center md:mb-5 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center">
+              <div className="lg:w-3/12 xl:w-2/12 md:w-full sm:w-full py-5 ">
                 <Image src={leaves} className="mx-auto md:w-12 sm:w-8 w-6" />
 
                 <h1
