@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import search from "../public/images/search.svg";
@@ -24,27 +25,98 @@ import YTt from "../public/images/YTt.svg";
 import arrow from "../public/images/arrow.svg";
 import Link from "next/link";
 import instagram from "../public/images/instagram 1.svg";
+import { useState } from "react";
+// import { XMarkIcon } from "@heroicons/react/24/outline";
 
 const page = () => {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const openDrawer = () => {
+    setIsDrawerOpen(true);
+  };
+
+  const closeDrawer = () => {
+    setIsDrawerOpen(false);
+  };
+
   return (
     <>
       <section>
         <div>
           <div className="sm:h-screen " id="bg-poster">
             <div className="">
-              <nav className="border 2xl:py-8 xl:py-4  lg:py-4 md:py-3 sm:py-2 bg-white">
-                <div className="flex justify-around m-auto">
-                  <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 my-auto ">
-                    <div className="">
-                      <li className="cursor-pointer list-none 2xl:text-[20px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 md:text-[14px] md:leading-3 sm:text-[12px] text-[10px] sm:leading-2 text-[#666666] ">
-                        Shop Teas
-                      </li>
+              <nav className="border 2xl:py-8 xl:py-4  lg:py-4 md:py-3 sm:py-2 py-2 bg-white">
+                <div className="flex justify-between sm:justify-around m-auto">
+                  <div id="nav-menu">
+                    <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 my-auto py-2">
+                      <div className="">
+                        <li className="cursor-pointer list-none 2xl:text-[20px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 md:text-[14px] md:leading-3 sm:text-[12px] text-[10px] sm:leading-2 text-[#666666] ">
+                          Shop Teas
+                        </li>
+                      </div>
+                      <div>
+                        <li className=" cursor-pointer  list-none 2xl:text-[20px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 text-[#666666] md:text-[14px] md:leading-3 sm:text-[12px] sm:leading-2 text-[10px] ">
+                          About Me
+                        </li>
+                      </div>
                     </div>
-                    <div>
-                      <li className=" cursor-pointer  list-none 2xl:text-[20px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 text-[#666666] md:text-[14px] md:leading-3 sm:text-[12px] sm:leading-2 text-[10px] ">
-                        About Me
-                      </li>
+                  </div>
+                  <div className=" ml-3" id="nav-drawer">
+                    <div className="text-center">
+                      <button
+                        className="  focus:ring-4  font-medium rounded-lg text-[10px]    mb-2 focus:outline-none "
+                        type="button"
+                        onClick={openDrawer}
+                      >
+                        <div className="">
+                          <div className="bg-black p-[1.5px] my-1 w-6"></div>
+                          <div className="bg-black p-[1.5px] my-1"></div>
+                          <div className="bg-black p-[1.5px] my-1"></div>
+                        </div>
+                      </button>
                     </div>
+
+                           {/* Drawer */}
+                    {isDrawerOpen && (
+                      <div
+                        id="drawer-form"
+                        className="fixed top-0 left-0 z-40 h-screen  overflow-y-auto transition-transform -translate-x-0 bg-white w-4/12 dark:bg-gray-800"
+                        tabIndex={-1}
+                        aria-labelledby="drawer-form-label"
+                      >
+                        <div>
+                          <button
+                            type="button"
+                            onClick={closeDrawer}
+                            className="text-gray-400  shadow-2xl text-sm  p-1 mt-2 mr-2 border rounded-lg float-right "
+                          >
+                            close
+                          </button>
+                        </div>
+                        <div className="mt-10 ">
+                          <div className=" lg:w-3/12 xl:w-2/12 md:w-full sm:w-full my-4">
+                            <Image
+                              src={leaves}
+                              className="mx-auto md:w-12 sm:w-8 w-6"
+                            />
+
+                            <h1
+                              className="2xl:text-[35px] xl:text-[30px] lg:text-[25px] md:text-[25px] md:mb-5 sm:text-[25px] sm:mb-5 text-[18px]  text-center"
+                              id="nav-head"
+                            >
+                              TEAS
+                            </h1>
+                          </div>
+                          <hr/>
+                          <ul>
+                            <li className="text-sm first-letter:uppercase text-center my-2">Shop Teas</li>
+                            <li className="text-sm first-letter:uppercase text-center my-2">
+                            About Me
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    )}
                   </div>
                   <div className="  ">
                     <h1
@@ -54,7 +126,7 @@ const page = () => {
                       TEAS
                     </h1>
                   </div>
-                  <div className="flex justify-around 2xl:gap-8 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto ">
+                  <div className="flex justify-around 2xl:gap-8 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto mr-3">
                     <Image
                       src={search}
                       className="cursor-pointer 2xl:w-full xl:w-5 lg:w-4 md:w-3  sm:w-3 w-3"
@@ -71,7 +143,7 @@ const page = () => {
                 </div>
               </nav>
             </div>
-            <div className="2xl:mt-80 2xl:ml-56 xl:mt-56 xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16 mt-16 ml-8">
+            <div className="2xl:mt-80 2xl:ml-56 xl:mt-56 xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16 mt-3 ml-8">
               <h1
                 id="p-font"
                 className="2xl:text-[36px] 2xl:leading-[45px] text-[#50362D] xl:text-[25px] xl:leading-[20px] lg:text-[20px] lg:leading-[32px] md:text-[18px] md:leading-[25px]
@@ -96,7 +168,7 @@ const page = () => {
               </h1>
               <p
                 id="nav-head"
-                className="2xl:text-[18px] 2xl:mt-5 2xl:leading-[23px] xl:text-[13px] xl:mt-2 xl:leading-[23px] lg:text-[10.5px] lg:mt-0 lg:leading-[20px] md:text-[9px] md:mt-0 md:leading-[20px] sm:text-[7px] sm:mt-0 sm:leading-[14px] text-[10px] mt-0 leading-[14px]"
+                className="2xl:text-[18px] 2xl:mt-5 2xl:leading-[23px] xl:text-[13px] xl:mt-2 xl:leading-[23px] lg:text-[10.5px] lg:mt-0 lg:leading-[20px] md:text-[9px] md:mt-0 md:leading-[20px] sm:text-[7px] sm:mt-0 sm:leading-[14px] text-[8px] mt-0 leading-[14px]"
               >
                 Explore the best herbal tea collections at Suli teas.
               </p>
@@ -233,7 +305,7 @@ const page = () => {
                 </div>
               </div>
               <div
-                className=" 2xl:mt-28 xl:mt-12 lg:mt-10 md:mt-10 sm:mt-10 mt-5"
+                className=" 2xl:mt-28 xl:mt-12 lg:mt-10 md:mt-10 sm:mt-10 mt-5 "
                 id="bg-posterS"
               >
                 <h1
@@ -321,7 +393,7 @@ const page = () => {
                   Instagram
                 </h1>
                 <h1
-                  className=" text-[22px] text-center 2xl:text-[60px] 2xl:leading-[70px] 2xl:mt-1 xl:text-[40px] xl:leading-[40px] xl:mt-1 lg:text-[30px] lg:leading-[30px] lg:mt-1 md:text-[25px] md:leading-[25px] md:mt-1  sm:text-[20px] sm:leading-[20px] sm:mt-1"
+                  className=" text-[25px] text-center 2xl:text-[60px] 2xl:leading-[70px] 2xl:mt-1 xl:text-[40px] xl:leading-[40px] xl:mt-1 lg:text-[30px] lg:leading-[30px] lg:mt-1 md:text-[25px] md:leading-[25px] md:mt-1  sm:text-[20px] sm:leading-[20px] sm:mt-1"
                   id="head"
                 >
                   #SuliTeas
@@ -330,11 +402,11 @@ const page = () => {
               <div className="flex  sm:flex-row gap-4 2xl:gap-4 2xl:mt-16 xl:mt-6 lg:mt-4 md:mt-2 sm:mt-1 mt-1 flex-col relative">
                 <Image
                   src={aa}
-                  className=" 2xl:w-72 xl:w-48  lg:w-36   md:w-32 sm:w-28 w-28 "
+                  className=" 2xl:w-72 xl:w-48  lg:w-36   md:w-32 sm:w-28 w-full "
                 />
                 <Image
                   src={bb}
-                  className=" 2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28   w-28"
+                  className=" 2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28   w-full"
                 />
                 <Image
                   src={instagram}
@@ -342,25 +414,27 @@ const page = () => {
                 />
                 <Image
                   src={cc}
-                  className="  2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28 w-28 relative "
+                  className="  2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28 w-full relative "
                 />
 
                 <Image
                   src={dd}
-                  className=" 2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28   w-28"
+                  className=" 2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28   w-full"
                 />
                 <Image
                   src={ee}
-                  className=" 2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28   w-28"
+                  className=" 2xl:w-72 xl:w-48  lg:w-36 md:w-32 sm:w-28   w-full"
                 />
               </div>
             </div>
           </div>
           <footer className="bg-[#E9F5DE] 2xl:pt-24 2xl:mt-24 xl:pt-20 xl:mt-20  lg:pt-16 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10">
             <div className="lg:flex lg:justify-around lg:flex-row xl:flex xl:flex-row xl:justify-around 2xl:flex 2xl:justify-around   2xl:mb-20 xl:mb-5 lg:mb-5 md:flex-col md:justify-center     md:mb-5              sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center">
-              <div className="lg:w-3/12 xl:w-2/12 md:w-full sm:w-full">
+              <div className="lg:w-3/12 xl:w-2/12 md:w-full sm:w-full my-2">
+                <Image src={leaves} className="mx-auto md:w-12 sm:w-8 w-6" />
+
                 <h1
-                  className="2xl:text-[35px] xl:text-[30px] lg:text-[25px] md:text-[25px] md:mb-5 sm:text-[25px] sm:mb-5 text-[18px] my-2 text-center"
+                  className="2xl:text-[35px] xl:text-[30px] lg:text-[25px] md:text-[25px] md:mb-5 sm:text-[25px] sm:mb-5 text-[18px]  text-center"
                   id="nav-head"
                 >
                   TEAS

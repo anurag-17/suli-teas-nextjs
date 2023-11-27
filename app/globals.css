@@ -97,3 +97,34 @@
     
         }
 }
+@media (max-width: 640px){
+    #bg-posterS{
+        background-image: url(../public/images/Group.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: 100%;
+        background-position:  center;
+        /* padding: 200px; */
+        }
+}
+@media(max-width: 640px){
+    #nav-drawer{
+display: block;
+    }
+}
+@media(min-width: 640px){
+    #nav-drawer{
+display: none;
+    }
+}
+@media(max-width: 640px){
+    #nav-menu{
+display: none;
+    }
+}
+@media(min-width: 640px){
+    #nav-menu{
+display: block;
+    }
+}
+
