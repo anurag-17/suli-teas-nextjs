@@ -707,6 +707,15 @@ video {
 .w-full {
   width: 100%;
 }
+.w-96 {
+  width: 24rem;
+}
+.w-3\/4 {
+  width: 75%;
+}
+.w-2\/4 {
+  width: 50%;
+}
 .-translate-x-0 {
   --tw-translate-x: -0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1470,6 +1479,11 @@ display: block;
     margin-bottom: 1.25rem;
   }
 
+  .md\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .md\:mb-1 {
     margin-bottom: 0.25rem;
   }
@@ -1634,10 +1648,6 @@ display: block;
 
   .md\:text-\[12px\] {
     font-size: 12px;
-  }
-
-  .md\:text-\[14px\] {
-    font-size: 14px;
   }
 
   .md\:text-\[15px\] {
@@ -2509,6 +2519,10 @@ display: block;
     height: 2.5rem;
   }
 
+  .\32xl\:w-10 {
+    width: 2.5rem;
+  }
+
   .\32xl\:w-20 {
     width: 5rem;
   }
@@ -2563,10 +2577,6 @@ display: block;
 
   .\32xl\:w-full {
     width: 100%;
-  }
-
-  .\32xl\:w-10 {
-    width: 2.5rem;
   }
 
   .\32xl\:justify-around {
@@ -2650,6 +2660,10 @@ display: block;
     font-size: 24px;
   }
 
+  .\32xl\:text-\[25px\] {
+    font-size: 25px;
+  }
+
   .\32xl\:text-\[28px\] {
     font-size: 28px;
   }
@@ -2660,6 +2674,10 @@ display: block;
 
   .\32xl\:text-\[36px\] {
     font-size: 36px;
+  }
+
+  .\32xl\:text-\[45px\] {
+    font-size: 45px;
   }
 
   .\32xl\:text-\[50px\] {
@@ -2676,14 +2694,6 @@ display: block;
 
   .\32xl\:text-\[90px\] {
     font-size: 90px;
-  }
-
-  .\32xl\:text-\[25px\] {
-    font-size: 25px;
-  }
-
-  .\32xl\:text-\[45px\] {
-    font-size: 45px;
   }
 
   .\32xl\:leading-6 {

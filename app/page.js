@@ -4,7 +4,7 @@ import Image from "next/image";
 import search from "../public/images/search.webp";
 import user from "../public/images/usera.webp";
 import shopbag from "../public/images/shopbag.webp";
-import leaves from "../public/images/leaves 1.webp";
+import leaves from "../public/images/leaves 1.svg";
 import ListingsF from "../public/images/Listings-1.webp";
 import ListingsS from "../public/images/Listings-2.webp";
 import ListingsT from "../public/images/Listings-3.webp";
@@ -24,7 +24,7 @@ import music from "../public/images/music.webp";
 import YTt from "../public/images/YTt.webp";
 import arrow from "../public/images/arrow.webp";
 import Link from "next/link";
-import instagram from "../public/images/instagram 1.webp";
+import instagram from "../public/images/instagram 1.svg";
 import { useState } from "react";
 
 const page = () => {
@@ -44,15 +44,15 @@ const page = () => {
         <div>
           <nav className="border 2xl:py-8 xl:py-4  lg:py-4 md:py-3 sm:py-2 py-2 bg-white">
             <div className="flex justify-between sm:justify-around m-auto">
-              <div id="nav-menu">
-                <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 my-auto py-2">
-                  <div className="">
-                    <li className="cursor-pointer list-none 2xl:text-[25px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 md:text-[14px] md:leading-3 sm:text-[12px] text-[10px] sm:leading-2 text-[#666666] ">
+              <div id="nav-menu" className=" my-auto">
+                <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 py-auto ">
+                  <div className="my-auto ">
+                    <li className="cursor-pointer list-none 2xl:text-[25px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 md:text-[18px] md:leading-3 sm:text-[16px] text-[10px] sm:leading-2 text-[#666666] ">
                       Shop Teas
                     </li>
                   </div>
                   <div>
-                    <li className=" cursor-pointer  list-none 2xl:text-[25px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 text-[#666666] md:text-[14px] md:leading-3 sm:text-[12px] sm:leading-2 text-[10px] ">
+                    <li className=" cursor-pointer  list-none 2xl:text-[25px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 text-[#666666] md:text-[18px] md:leading-3 sm:text-[16px] sm:leading-2 text-[10px] ">
                       About Me
                     </li>
                   </div>
@@ -67,7 +67,7 @@ const page = () => {
                   >
                     <div className="">
                       <div className="bg-black p-[1.5px] my-1 w-6"></div>
-                      <div className="bg-black p-[1.5px] my-1"></div>
+                      <div className="bg-black p-[1.5px] my-1"  ></div>
                       <div className="bg-black p-[1.5px] my-1"></div>
                     </div>
                   </button>
@@ -385,7 +385,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-center 2xl:mt-12 xl:mt-12 lg:mt-6 mb-10">
+          <div className="w-2/4 sm:w-full mx-auto sm:flex sm:justify-center 2xl:mt-12 xl:mt-12 lg:mt-6 mb-10">
             <div className=" ">
               <div className="mt-12">
                 <h1 className="2xl:text-[28px] xl:text-[22px] lg:text-[20px] md:text-[18px] sm:text-[20px] text-[20px] text-[#315031] text-center">
@@ -404,7 +404,7 @@ const page = () => {
                   <Image
                     id="img1"
                     src={aa}
-                    className=" 2xl:w-72 xl:w-48  lg:w-36   md:w-32 sm:w-28 w-full "
+                    className=" 2xl:w-72 xl:w-48  lg:w-36   md:w-32 sm:w-28 w-96 "
                   />
                   <div className="img3">
                     <Image id="img4" src={instagram} />
