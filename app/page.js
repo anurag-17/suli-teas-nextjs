@@ -1,30 +1,30 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import search from "../public/images/search.svg";
-import user from "../public/images/usera.svg";
-import shopbag from "../public/images/shopbag.svg";
-import leaves from "../public/images/leaves 1.svg";
-import ListingsF from "../public/images/Listings 1.svg";
-import ListingsS from "../public/images/Listings 2.svg";
-import ListingsT from "../public/images/Listings 3.svg";
-import ListingsFo from "../public/images/Listings 4.svg";
-import ListingsFI from "../public/images/Listings 5.svg";
-import ListingsSI from "../public/images/Listings 6.webp";
-import groupP from "../public/images/groupP.svg";
-import aa from "../public/images/11.svg";
-import bb from "../public/images/22.svg";
-import cc from "../public/images/pending.svg";
-import dd from "../public/images/33.svg";
-import ee from "../public/images/44.svg";
-import twitter from "../public/images/twitter.svg";
-import fbb from "../public/images/fbb.svg";
-import insta from "../public/images/insta.svg";
-import music from "../public/images/music.svg";
-import YTt from "../public/images/YTt.svg";
-import arrow from "../public/images/arrow.svg";
+import search from "../public/images/search.webp";
+import user from "../public/images/usera.webp";
+import shopbag from "../public/images/shopbag.webp";
+import leaves from "../public/images/leaves 1.webp";
+import ListingsF from "../public/images/Listings-1.webp";
+import ListingsS from "../public/images/Listings-2.webp";
+import ListingsT from "../public/images/Listings-3.webp";
+import ListingsFo from "../public/images/Listings-4.webp";
+import ListingsFI from "../public/images/Listings-5.webp";
+import ListingsSI from "../public/images/Listings-6.webp";
+import groupP from "../public/images/groupP.webp";
+import aa from "../public/images/11.webp";
+import bb from "../public/images/22.webp";
+import cc from "../public/images/pending.webp";
+import dd from "../public/images/33.webp";
+import ee from "../public/images/44.webp";
+import twitter from "../public/images/twitter.webp";
+import fbb from "../public/images/fbb.webp";
+import insta from "../public/images/insta.webp";
+import music from "../public/images/music.webp";
+import YTt from "../public/images/YTt.webp";
+import arrow from "../public/images/arrow.webp";
 import Link from "next/link";
-import instagram from "../public/images/instagram 1.svg";
+import instagram from "../public/images/instagram 1.webp";
 import { useState } from "react";
 
 const page = () => {
@@ -47,12 +47,12 @@ const page = () => {
               <div id="nav-menu">
                 <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 my-auto py-2">
                   <div className="">
-                    <li className="cursor-pointer list-none 2xl:text-[20px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 md:text-[14px] md:leading-3 sm:text-[12px] text-[10px] sm:leading-2 text-[#666666] ">
+                    <li className="cursor-pointer list-none 2xl:text-[25px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 md:text-[14px] md:leading-3 sm:text-[12px] text-[10px] sm:leading-2 text-[#666666] ">
                       Shop Teas
                     </li>
                   </div>
                   <div>
-                    <li className=" cursor-pointer  list-none 2xl:text-[20px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 text-[#666666] md:text-[14px] md:leading-3 sm:text-[12px] sm:leading-2 text-[10px] ">
+                    <li className=" cursor-pointer  list-none 2xl:text-[25px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 text-[#666666] md:text-[14px] md:leading-3 sm:text-[12px] sm:leading-2 text-[10px] ">
                       About Me
                     </li>
                   </div>
@@ -94,11 +94,11 @@ const page = () => {
                       <div className=" lg:w-3/12 xl:w-2/12 md:w-full sm:w-full my-4">
                         <Image
                           src={leaves}
-                          className="mx-auto md:w-12 sm:w-8 w-6"
+                          className="mx-auto md:w-12 sm:w-8 w-10"
                         />
 
                         <h1
-                          className="2xl:text-[35px] xl:text-[30px] lg:text-[25px] md:text-[25px] md:mb-5 sm:text-[25px] sm:mb-5 text-[18px]  text-center"
+                          className="2xl:text-[35px] xl:text-[30px] lg:text-[25px] md:text-[25px] md:mb-5 sm:text-[25px] sm:mb-5 text-[25px]  text-center"
                           id="nav-head"
                         >
                           TEAS
@@ -119,7 +119,7 @@ const page = () => {
               </div>
               <div className="  ">
                 <h1
-                  className="2xl:text-[35px] xl:text-[30px] lg:text-[40px] md:text-[35px]  sm:text-[30px] text-[25px]"
+                  className="2xl:text-[45px] xl:text-[30px] lg:text-[40px] md:text-[35px]  sm:text-[30px] text-[25px]"
                   id="nav-head"
                 >
                   TEAS
@@ -128,15 +128,15 @@ const page = () => {
               <div className="flex justify-around 2xl:gap-8 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto mr-3">
                 <Image
                   src={search}
-                  className="cursor-pointer 2xl:w-full xl:w-5 lg:w-4 md:w-3  sm:w-3 w-5"
+                  className="cursor-pointer 2xl:w-10 2xl:h-10 xl:w-5 lg:w-4 md:w-3  sm:w-3 w-5"
                 />
                 <Image
                   src={user}
-                  className="cursor-pointer 2xl:w-full xl:w-5 lg:w-4 md:w-3  sm:w-3 w-5"
+                  className="cursor-pointer 2xl:w-10 2xl:h-10 xl:w-5 lg:w-4 md:w-3  sm:w-3 w-5"
                 />
                 <Image
                   src={shopbag}
-                  className="cursor-pointer 2xl:w-full xl:w-5 lg:w-4 md:w-3  sm:w-3 w-5"
+                  className="cursor-pointer 2xl:w-10 2xl:h-10  xl:w-5 lg:w-4 md:w-3  sm:w-3 w-5"
                 />
               </div>
             </div>
@@ -184,10 +184,10 @@ const page = () => {
           </div>
           <div className="flex justify-center 2xl:mt-24 xl:mt-16 lg:mt-16 md:mt-10 sm:mt-6 my-3">
             <div className="">
-              <Image src={leaves} className="mx-auto md:w-12 sm:w-8 w-8" />
+              <Image src={leaves} className="mx-auto 2xl:w-20 md:w-12 sm:w-8 w-8" />
               <h1
                 id="head"
-                className="2xl:text-[60px] text-center 2xl:leading-[70px] 2xl:mt-7 xl:text-[40px] xl:leading-[35px] xl:mt-1 lg:text-[35px] lg:leading-[35px] lg:mt-4 md:text-[25px] md:leading-[25px] md:mt-2 sm:text-[20px] sm:leading-[20px] sm:mt-2 text-[25px] leading-[30px] mt-1"
+                className="2xl:text-[60px] text-center 2xl:leading-[70px] 2xl:mt-7 xl:text-[40px] xl:leading-[35px] xl:mt-1 lg:text-[35px] lg:leading-[35px] lg:mt-4 md:text-[25px] md:leading-[25px] md:mt-2 sm:text-[20px] sm:leading-[20px] sm:mt-2 text-[25px] leading-[30px] "
               >
                 Unique Herbs and Spices
               </h1>
@@ -543,12 +543,12 @@ const page = () => {
                   </h1>
                   <Image
                     src={arrow}
-                    className="absolute  z-20 ml-56 mt-2 2xl:w-5  2xl:ml-72  2xl:mt-4 xl:w-4  xl:ml-48  xl:mt-2 lg:ml-48  lg:mt-3 md:mt-2 md:ml-56 sm:mt-2 sm:ml-56 "
+                    className="absolute  z-20 ml-56 mt-2 2xl:w-5  2xl:ml-72  2xl:mt-4 xl:w-4  xl:ml-48  xl:mt-2 lg:ml-48 lg:mt-3 md:mt-2 md:ml-56 sm:mt-2 sm:ml-56 "
                   />
                   <input
                     type="text"
                     placeholder="Email"
-                    className=" cursor-pointer border border-[#315031] bg-[#E9F5DE] relative rounded  2xl:w-8/12 2xl:p-2 xl:w-8/12 xl:p-0.5  lg:w-10/12 lg:p-0.5  px-1 "
+                    className=" cursor-pointer border border-[#315031] bg-[#E9F5DE] relative rounded  2xl:w-8/12 2xl:p-2 xl:w-8/12 xl:p-0.5  lg:w-10/12 lg:p-0.5  w-full px-1"
                   />
                   <div className="flex justify-center md:justify-center lg:justify-start sm:justify-center 2xl:gap-7  2xl:my-4 xl:gap-5  xl:my-3 lg:my-2 lg:gap-4 md:my-5 sm:my-5   md:gap-4 sm:gap-4 my-2 gap-4 ">
                     <Link href="https://twitter.com/" target="_blank">
