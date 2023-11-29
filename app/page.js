@@ -366,7 +366,7 @@ const page = () => {
                       Champion Chai
                     </h1>
                     <h1
-                      className="2xl:my-32 text-white rounded-[8px]  w-11/12 2xl:py-4 text-center  bg-[#7A8654] 2xl:w-7/12 2xl:text-[22px] 2xl:leading-[28px]  mx-auto  xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-16 xl:w-7/12 lg:py-2 lg:w-7/12  lg:text-[12px] lg:leading-[20px] lg:mt-14  md:w-9/12 md:py-1  md:text-[14px] md:leading-[22px] md:mt-12   sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mb-12 sm:mb-0  py-[6px]  text-[16px] leading-[30px] mt-12"
+                      className="2xl:my-32 text-white rounded-[8px]  w-11/12 2xl:py-4 text-center  bg-[#7A8654] 2xl:w-7/12 2xl:text-[22px] 2xl:leading-[28px]  mx-auto  xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-16 xl:w-7/12 lg:py-2 lg:w-7/12  lg:text-[12px] lg:leading-[20px] lg:mt-14  md:w-9/12 md:py-1  md:text-[14px] md:leading-[22px] md:mt-12   sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mb-0 py-[6px]  text-[16px] leading-[30px] mt-12"
                       id="head"
                     >
                       Weight Wonder
@@ -374,7 +374,7 @@ const page = () => {
                   </div>
                   <div
                     data-aos="zoom-out-up"
-                    className="border rounded-[14px] w-full mt-10 shadow-2xl 2xl:p-10 2xl:pb-3  xl:px-10 xl:py-6 xl:pb-0 lg:px-6 lg:w-1/4 lg:py-4 lg:pb-0 md:px-5 md:py-3 md:mt-10 md:pb-0 sm:px-5 sm:py-3 sm:pb-0 sm:w-full sm:my-2 sm:mt-10  px-3 py-1 pb-0  "
+                    className="border rounded-[14px] w-full mt-10 shadow-2xl 2xl:p-10 2xl:pb-3  xl:px-10 xl:py-6 xl:pb-0 lg:px-6 lg:w-1/4 lg:py-4 lg:pb-0 md:px-5 md:py-3 md:mt-10 md:pb-0 sm:px-5 sm:py-3 sm:pb-0 sm:w-full sm:my-2 px-3 py-1 pb-0  "
                   >
                     <h1
                       id="head"
