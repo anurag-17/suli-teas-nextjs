@@ -374,7 +374,7 @@ const page = () => {
                   </div>
                   <div
                     data-aos="zoom-out-up"
-                    className="border rounded-[14px] w-full mt-10 shadow-2xl 2xl:p-10 2xl:pb-3  xl:px-10 xl:py-6 xl:pb-0 lg:px-6 lg:w-1/4 lg:py-4 lg:pb-0 md:px-5 md:py-3 md:mt-10 md:pb-0 sm:px-5 sm:py-3 sm:pb-0 sm:w-full sm:my-2 px-3 py-1 pb-0  "
+                    className="border rounded-[14px] w-full mt-10 shadow-2xl 2xl:p-10 2xl:pb-3  xl:px-10 xl:py-6 xl:pb-0 lg:px-6 lg:w-1/4 lg:py-4 lg:pb-0 md:px-5 md:py-3 md:mt-10 sm:mt-10 md:pb-0 sm:px-5 sm:py-3 sm:pb-0 sm:w-full sm:my-2 px-3 py-1 pb-0  "
                   >
                     <h1
                       id="head"
