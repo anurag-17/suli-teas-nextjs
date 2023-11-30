@@ -1077,12 +1077,12 @@ display: block;
 display: none;
     }
 }
-@media(max-width: 768px){
+@media(max-width: 640px){
     #nav-menu{
 display: none;
     }
 }
-@media(min-width:768px){
+@media(min-width:640px){
     #nav-menu{
 display: block;
     }
@@ -2638,6 +2638,10 @@ li:hover::before {
 
   .\32xl\:w-full {
     width: 100%;
+  }
+
+  .\32xl\:w-16 {
+    width: 4rem;
   }
 
   .\32xl\:justify-between {

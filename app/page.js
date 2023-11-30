@@ -505,7 +505,7 @@ const page = () => {
               <div className="2xl:w-3/12 lg:w-2/12 xl:w-2/12 md:w-full sm:w-full pt-5 sm:pt-0 md:pt-0 lg:py-0">
                 <Image
                   src={leaves}
-                  className="mx-auto 2xl:w-10 md:w-12 sm:w-8 w-8"
+                  className="mx-auto 2xl:w-20 md:w-12 sm:w-8 w-8"
                 />
 
                 <h1
