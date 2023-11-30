@@ -57,7 +57,7 @@ const page = () => {
                   <div className="my-auto ">
                     <li
                       id="hover-underline-animation"
-                      className="cursor-pointer list-none 2xl:text-[25px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 md:text-[18px] md:leading-3 sm:text-[16px] text-[10px] sm:leading-2 text-[#666666] "
+                      className="cursor-pointer list-none 2xl:text-[25px] 2xl:leading-8 xl:text-[14px] xl:leading-6 lg:text-[14px] lg:leading-3 md:text-[18px] md:leading-3 sm:text-[16px] text-[10px] sm:leading-2 text-[#666666] "
                     >
                       Shop Teas
                     </li>
@@ -65,7 +65,7 @@ const page = () => {
                   <div>
                     <li
                       id="hover-underline-animation"
-                      className=" cursor-pointer  list-none 2xl:text-[25px] 2xl:leading-6 xl:text-[14px] xl:leading-4 lg:text-[14px] lg:leading-3 text-[#666666] md:text-[18px] md:leading-3 sm:text-[16px] sm:leading-2 text-[10px] "
+                      className=" cursor-pointer  list-none 2xl:text-[25px] 2xl:leading-8 xl:text-[14px] xl:leading-6 lg:text-[14px] lg:leading-3 text-[#666666] md:text-[18px] md:leading-3 sm:text-[16px] sm:leading-2 text-[10px] "
                     >
                       About Me
                     </li>
@@ -123,10 +123,10 @@ const page = () => {
                       </div>
                       <hr />
                       <ul>
-                        <li className="text-sm first-letter:uppercase text-center my-2">
+                        <li  id="hover-underline-animation" className="text-sm first-letter:uppercase text-center my-2">
                           Shop Teas
                         </li>
-                        <li className="text-sm first-letter:uppercase text-center my-2">
+                        <li  id="hover-underline-animation" className="text-sm first-letter:uppercase text-center my-2">
                           About Me
                         </li>
                       </ul>
@@ -394,7 +394,7 @@ const page = () => {
                     <div className="flex justify-center">
                       <button className="bg-black  2xl:my-6   2xl:px-10 rounded-bl-full rounded-tr-full xl:mt-4 xl:px-0  lg:mt-3 lg:px-0  md:my-4 md:px-0  sm:my-2 sm:px-0 my-2 ">
                         <h1
-                          className="text-white 2xl:text-[20px] 2xl:leading-[26px] 2xl:py-[20px] 2xl:px-[40px]  xl:text-[12px] xl:leading-[20px] xl:py-[6px] xl:px-[22px]  lg:text-[14px] lg:leading-[20px] lg:py-[6px] lg:px-[22px]  md:text-[14px] md:leading-[16px] md:py-[4px] md:px-[16px] sm:text-[14px] sm:leading-[15px] sm:py-[2px] sm:px-[8px] text-[14px] leading-[20px] py-[5px] px-[12px] "
+                          className="text-white 2xl:text-[20px] 2xl:leading-[22px] 2xl:py-[16px] 2xl:px-[20px]  xl:text-[14px] xl:leading-[20px] xl:py-[8px] xl:px-20 lg:text-[14px] lg:leading-[20px] lg:py-[6px] lg:px-[22px]  md:text-[14px] md:leading-[16px] md:py-[4px] md:px-[16px] sm:text-[14px] sm:leading-[20px] sm:py-[3px] sm:px-[14px] text-[14px] leading-[20px] py-[7px] px-[20px] my-2 "
                           id="head"
                         >
                           Buy Now
@@ -410,7 +410,7 @@ const page = () => {
                       Anxiety Assist
                     </h1>
                     <h1
-                      className="  text-white rounded-[8px]  w-11/12 text-center  bg-[#482E69] 2xl:py-4 2xl:w-7/12  2xl:my-32 2xl:text-[22px] 2xl:leading-[28px] 2xl:ml-48  xl:mt-16 xl:py-3  xl:text-[14px] xl:leading-[20px ] xl:w-7/12 xl:ml-36  lg:w-7/12    lg:mt-14 lg:py-2 lg:text-[12px] lg:leading-[20px] lg:ml-28    md:w-9/12 md:py-1  md:mx-auto md:text-[14px] md:leading-[22px] md:mt-12   sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-8 sm:mx-auto ml-2 py-[6px]  text-[16px] leading-[30px] mt-12"
+                      className="  text-white rounded-[8px]  w-11/12 text-center mx-auto bg-[#482E69] 2xl:py-4 2xl:w-7/12  2xl:my-32 2xl:text-[22px] 2xl:leading-[28px] 2xl:ml-48  xl:mt-16 xl:py-3  xl:text-[14px] xl:leading-[20px ] xl:w-7/12 xl:ml-36  lg:w-7/12    lg:mt-14 lg:py-2 lg:text-[12px] lg:leading-[20px] lg:ml-28    md:w-9/12 md:py-1  md:mx-auto md:text-[14px] md:leading-[22px] md:mt-12   sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-8 sm:mx-auto  py-[6px]  text-[16px] leading-[30px] mt-12"
                       id="head"
                     >
                       Flair Fighter
@@ -525,16 +525,17 @@ const page = () => {
                     >
                       Quick links
                     </h1>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[16px] lg:my-1 lg:leading-[25px] lg:text-[16px] md:my-1 md:leading-[25px] md:text-[16px]  sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    <li  id="hover-underline-animation"  className="list-none cursor-pointer  2xl:my-2 2xl:leading-[27px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[16px] lg:my-1 lg:leading-[25px] lg:text-[16px] md:my-1 md:leading-[25px] md:text-[16px]  sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Home
-                    </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px]    sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    </li><br/>
+                  
+                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px]    sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Shop Teas
-                    </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px]  sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    </li><br/>
+                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px]  sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       About Me
-                    </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px]  sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    </li><br/>
+                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px]  sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Contact Us
                     </li>
                   </div>
@@ -545,18 +546,20 @@ const page = () => {
                     >
                       Other Links
                     </h1>{" "}
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                   <ul>
+                   <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Privacy Policy
-                    </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    </li><br/>
+                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Return Policy
-                    </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    </li><br/>
+                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Refund Policy
-                    </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px] ">
+                    </li><br/>
+                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px] ">
                       Cookies
                     </li>
+                   </ul>
                   </div>
                   <div className="sm:mx-auto sm:my-5  mx-auto  my-5">
                     <h1
@@ -565,16 +568,16 @@ const page = () => {
                     >
                       My Account
                     </h1>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Shopping Bag
-                    </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    </li> <br/>
+                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Wish List
-                    </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    </li><br/>
+                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Order History
-                    </li>
-                    <li className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    </li><br/>
+                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Order Tracking
                     </li>
                   </div>
