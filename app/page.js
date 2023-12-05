@@ -17,11 +17,11 @@ import bb from "../public/images/22.webp";
 import cc from "../public/images/pending.webp";
 import dd from "../public/images/33.webp";
 import ee from "../public/images/44.webp";
-import twitter from "../public/images/twitter.webp";
-import fbb from "../public/images/fbb.webp";
-import insta from "../public/images/insta.webp";
-import music from "../public/images/music.webp";
-import YTt from "../public/images/YTt.webp";
+import twitter from "../public/images/twitter.svg";
+import fbb from "../public/images/facebook.svg";
+import insta from "../public/images/instagram.svg";
+import music from "../public/images/tiktok.png";
+import YTt from "../public/images/youtube.svg";
 import arrow from "../public/images/arrow.webp";
 import Link from "next/link";
 import instagram from "../public/images/instagram 1.svg";
@@ -56,7 +56,7 @@ const page = () => {
                 <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 py-auto ">
                   <div className="my-auto ">
                     <li
-                      id="hover-underline-animation"
+                      id="nav-head"
                       className="cursor-pointer list-none 2xl:text-[25px] 2xl:leading-8 xl:text-[18px] xl:leading-6 lg:text-[16px] lg:leading-4 md:text-[18px] md:leading-3 sm:text-[16px] text-[10px] sm:leading-2 text-[#666666] "
                     >
                       Shop Teas
@@ -64,7 +64,7 @@ const page = () => {
                   </div>
                   <div>
                     <li
-                      id="hover-underline-animation"
+                      id="nav-head"
                       className=" cursor-pointer  list-none 2xl:text-[25px] 2xl:leading-8 xl:text-[18px] xl:leading-6 lg:text-[16px] lg:leading-4 text-[#666666] md:text-[18px] md:leading-3 sm:text-[16px] sm:leading-2 text-[10px] "
                     >
                       About Me
@@ -145,15 +145,15 @@ const page = () => {
               <div className="flex justify-around 2xl:gap-8 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto mr-3">
                 <Image
                   src={search}
-                  className="cursor-pointer 2xl:w-10 2xl:h-10 xl:w-6 xl:h-6 lg:w-6 lg:h-6 md:w-5  sm:w-5 w-5"
+                  className="cursor-pointer 2xl:w-8 2xl:h-8 xl:w-6 xl:h-6 lg:w-6 lg:h-6 md:w-5  sm:w-5 w-5"
                 />
                 <Image
                   src={user}
-                  className="cursor-pointer 2xl:w-10 2xl:h-10 xl:w-6 xl:h-6 lg:w-6 lg:h-6 md:w-5  sm:w-5 w-5"
+                  className="cursor-pointer 2xl:w-8 2xl:h-8 xl:w-6 xl:h-6 lg:w-6 lg:h-6 md:w-5  sm:w-5 w-5"
                 />
                 <Image
                   src={shopbag}
-                  className="cursor-pointer 2xl:w-10 2xl:h-10  xl:w-6 xl:h-6 lg:w-6 lg:h-6 md:w-5  sm:w-5 w-5"
+                  className="cursor-pointer 2xl:w-8 2xl:h-8  xl:w-6 xl:h-6 lg:w-6 lg:h-6 md:w-5  sm:w-5 w-5"
                 />
               </div>
             </div>
@@ -162,7 +162,7 @@ const page = () => {
             <div className="2xl:mt-96 2xl:ml-56 xl:mt-60 xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16  ml-8 mt-8 sticky">
               <h1
                 id="p-font"
-                className="2xl:text-[36px] 2xl:leading-[45px] text-[#50362D] xl:text-[25px] xl:leading-[20px] lg:text-[22px] lg:leading-[32px] md:text-[18px] md:leading-[25px]
+                className="2xl:text-[36px] 2xl:leading-[48px] text-[#50362D] xl:text-[25px] xl:leading-[20px] lg:text-[22px] lg:leading-[32px] md:text-[18px] md:leading-[25px]
                 sm:text-[14px] sm:leading-[16px]
                 text-[12px] leading-[10px] "
               >
@@ -170,7 +170,7 @@ const page = () => {
               </h1>
               <h1
                 id="p-font"
-                className="2xl:text-[70px] 2xl:mt-1 2xl:leading-[60px] text-[#1E1E1E]  xl:text-[48px] xl:leading-[55px] lg:text-[40px] lg:leading-[32px] md:text-[35px] md:leading-[35px] sm:text-[28px] sm:leading-[25px] text-[24px] leading-[25px]"
+                className="2xl:text-[70px] 2xl:mt-1 2xl:leading-[60px] text-[#1E1E1E] xl:my-1   xl:text-[48px] xl:leading-[55px] lg:text-[40px] lg:my-1 lg:leading-[32px] md:text-[35px] md:leading-[35px] sm:text-[28px] sm:leading-[25px] text-[24px] leading-[25px]"
               >
                 Curated{" "}
               </h1>
@@ -184,11 +184,11 @@ const page = () => {
               </h1>
               <p
                 id="nav-head"
-                className="2xl:text-[25px] 2xl:mt-3 2xl:leading-[23px] xl:text-[18px] xl:mt-2 xl:leading-[23px] lg:text-[16px] lg:mt-0 lg:leading-[20px] md:text-[14px] md:mt-0 md:leading-[25px] sm:text-[12px] sm:mt-0 sm:leading-[25px] text-[10px] mt-0 leading-[25px]"
+                className="2xl:text-[25px] 2xl:my-6 xl:text-[18px] xl:my-6  xl:leading-[23px] lg:text-[16px] lg:my-4  lg:leading-[20px] md:text-[14px] md:mt-0 md:leading-[25px] sm:text-[12px] sm:mt-0 sm:leading-[25px] text-[10px] mt-0 leading-[25px]"
               >
                 Explore the best herbal tea collections at Suli teas.
               </p>
-              <button className="bg-black 2xl:my-6 2xl:px-10 rounded-bl-full rounded-tr-full xl:my-3 xl:px-6 lg:my-4 lg:px-5 md:my-2 md:px-5 sm:my-2 sm:px-3 mb-8">
+              <button className="bg-black 2xl:mt-10 2xl:px-10 rounded-bl-full rounded-tr-full xl:my-3 xl:px-6 lg:my-4 lg:px-5 md:my-2 md:px-5 sm:my-2 sm:px-3 mb-8">
                 <h1
                   className="text-white 2xl:text-[25px] 2xl:leading-[26px] 2xl:py-[20px] 2xl:px-[36px] xl:text-[18px] xl:leading-[18px] xl:py-[12px] xl:px-[22px]
                   lg:text-[16px] lg:leading-[14px] lg:py-[12px] lg:px-[7px] sm:text-[12px] sm:leading-[14px] sm:py-[5px] sm:px-[3px] text-[10px] leading-[15px] py-[4px] px-[10px] "
@@ -238,13 +238,13 @@ const page = () => {
                     <Image src={ListingsF} className="cursor-pointer " />
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[27px]  2xl:leading-[50px] xl:text-[16px]  xl:leading-[35px]  lg:text-[18px]  lg:leading-[30px] md:text-[16px]  md:leading-[25px] sm:text-[18px]  sm:leading-[30px]  text-[16px]  leading-[25px ]"
+                      className="text-[#1E1E1E] text-center 2xl:text-[25px] 2xl:my-3 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[18px]  lg:leading-[30px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
                     >
                       Weight Wonder
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:leading-[20px] lg:text-[22px] lg:leading-[25px] md:text-[18px] md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
+                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[22px] lg:my-2 lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -256,13 +256,13 @@ const page = () => {
                     <Image src={ListingsS} className="cursor-pointer " />
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[27px]  2xl:leading-[50px] xl:text-[16px]  xl:leading-[35px] lg:text-[18px]  lg:leading-[30px] md:text-[16px]  md:leading-[25px] sm:text-[18px]  sm:leading-[30px] text-[16px]  leading-[25px]"
+                      className="text-[#1E1E1E] text-center 2xl:text-[25px] 2xl:my-3 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[18px]  lg:leading-[30px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
                     >
                       Detox Delite
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:leading-[20px] lg:text-[22px] lg:leading-[25px] md:text-[18px] md:leading-[25px] sm:text-[20px] sm:leading-[25px]  text-[18px]  leading-[25px]"
+                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[22px] lg:my-2 lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -274,13 +274,13 @@ const page = () => {
                     <Image src={ListingsT} className="cursor-pointer " />
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[27px]  2xl:leading-[50px] xl:text-[16px]  xl:leading-[35px] lg:text-[18px]  lg:leading-[30px] md:text-[16px]  md:leading-[25px] sm:text-[18px]  sm:leading-[30px] text-[16px]  leading-[25px]"
+                      className="text-[#1E1E1E] text-center 2xl:text-[25px] 2xl:my-3 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[18px]  lg:leading-[30px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
                     >
                       Anxiety Assist
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:leading-[20px] lg:text-[22px] lg:leading-[25px] md:text-[18px] md:leading-[25px] sm:text-[20px] sm:leading-[25px]  text-[18px]  leading-[25px]"
+                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[22px] lg:my-2 lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -292,13 +292,13 @@ const page = () => {
                     <Image src={ListingsFo} className="cursor-pointer " />
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[27px]  2xl:leading-[50px] xl:text-[16px]  xl:leading-[35px] lg:text-[18px]  lg:leading-[30px] md:text-[16px]  md:leading-[25px] sm:text-[18px]  sm:leading-[30px] text-[16px]  leading-[25px]"
+                      className="text-[#1E1E1E] text-center 2xl:text-[25px] 2xl:my-3 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[18px]  lg:leading-[30px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
                     >
                       Champion Chai
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:leading-[20px] lg:text-[22px] lg:leading-[25px] md:text-[18px] md:leading-[25px] sm:text-[20px] sm:leading-[25px]  text-[18px]  leading-[25px]"
+                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[22px] lg:my-2 lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -310,13 +310,13 @@ const page = () => {
                     <Image src={ListingsFI} className="cursor-pointer " />
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[27px]  2xl:leading-[50px] xl:text-[16px]  xl:leading-[35px] lg:text-[18px]  lg:leading-[30px] md:text-[16px]  md:leading-[25px] sm:text-[18px]  sm:leading-[30px] text-[16px]  leading-[25px]"
+                      className="text-[#1E1E1E] text-center 2xl:text-[25px] 2xl:my-3 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[18px]  lg:leading-[30px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
                     >
                       Anxiety Assist
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:leading-[20px] lg:text-[22px] lg:leading-[25px] md:text-[18px] md:leading-[25px] sm:text-[20px] sm:leading-[25px]  text-[18px]  leading-[25px]"
+                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[22px] lg:my-2 lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -334,7 +334,7 @@ const page = () => {
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[36px] 2xl:leading-[37.5px] xl:text-[22px] xl:leading-[20px] lg:text-[22px] lg:leading-[25px] md:text-[18px] md:leading-[25px] sm:text-[20px] sm:leading-[25px]  text-[18px]  leading-[25px]"
+                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[22px] lg:my-2 lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -347,26 +347,26 @@ const page = () => {
               >
                 <h1
                   id="head"
-                  className="2xl:text-[50px] text-center 2xl:pt-24 2xl:leading-[70px] xl:text-[32px] xl:pt-10 xl:leading-[30px] lg:text-[30px] lg:pt-10 lg:leading-[70px] md:text-[22px] md:pt-5 md:leading-[40px] sm:text-[20px] sm:pt-5 sm:leading-[40px] text-[22px] pt-5 leading-[40px]"
+                  className="2xl:mb-12 2xl:text-[50px] text-center 2xl:pt-24 2xl:leading-[70px] xl:mb-10 xl:text-[32px] xl:pt-10 xl:leading-[30px] lg:mb-10 lg:text-[30px] lg:pt-10 lg:leading-[70px] md:mb-8 md:text-[22px] md:pt-5 md:leading-[40px] sm:mb-6 sm:text-[20px] sm:pt-5 sm:leading-[40px] text-[22px] pt-5 leading-[40px]"
                 >
                   Find Your Favorite
                 </h1>
                 <div className="flex flex-col justify-center w-2/3 mx-auto  sm:justify-center sm:flex-col sm:w-1/3 sm:mx-auto 2xl:mt-4 xl:mt-1  lg:w-full lg:justify-around lg:flex-row">
                   <div className="  w-full sm:w-full lg:w-3/12 ">
                     <h1
-                      className="text-center  bg-[#5C161D] 2xl:my-32 text-white rounded-[8px]  2xl:w-7/12 2xl:py-4  2xl:text-[25px] 2xl:mr-0 2xl:leading-[28px]  mx-auto  xl:mr-0  lg:mr-0  xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-24  xl:w-7/12 lg:w-8/12 lg:py-2  lg:text-[14px] lg:leading-[20px] lg:mt-20 md:w-9/12 md:py-1  md:text-[14px] md:leading-[22px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-10  w-11/12 py-[6px]  text-[16px] leading-[30px] mt-10  "
+                      className="text-center  bg-[#5C161D] 2xl:my-32 text-white rounded-[8px]  2xl:w-8/12 2xl:py-4  2xl:text-[22px] 2xl:mr-0 2xl:leading-[28px]  mx-auto  xl:mr-0  lg:mr-0  xl:py-3  xl:text-[14px] xl:leading-[18px] xl:mt-24  xl:w-8/12 lg:w-8/12 lg:py-2  lg:text-[14px] lg:leading-[20px] lg:mt-20 md:w-9/12 md:py-1  md:text-[14px] md:leading-[22px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-10  w-11/12 py-[6px]  text-[16px] leading-[30px] mt-10  "
                       id="head"
                     >
                       Immune Boost Beast
                     </h1>
                     <h1
-                      className="2xl:my-32 text-white mx-auto rounded-[8px] 2xl:w-7/12  2xl:py-4 text-center  bg-[#A47750] 2xl:text-[25px] 2xl:mr-0 2xl:leading-[28px]  2xl:ml-28  xl:py-3  xl:mr-20 xl:text-[14px] xl:leading-[20px] xl:mt-20 xl:w-7/12 lg:py-2 lg:w-8/12  lg:text-[14px] lg:leading-[20px] lg:mt-14 lg:mx-auto md:w-9/12 md:py-1  md:text-[14px] md:leading-[22px] md:mt-12 sm:mx-auto sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-8  py-[6px]  text-[16px] leading-[30px] mt-12 w-11/12 "
+                      className="2xl:my-32 text-white mx-auto rounded-[8px] 2xl:w-8/12  2xl:py-4 text-center  bg-[#A47750] 2xl:text-[22px] 2xl:mr-0 2xl:leading-[28px]  2xl:ml-28  xl:py-3  xl:mr-20 xl:text-[14px] xl:leading-[20px] xl:mt-20 xl:w-8/12 lg:py-2 lg:w-8/12  lg:text-[14px] lg:leading-[20px] lg:mt-14 lg:mx-auto md:w-9/12 md:py-1  md:text-[14px] md:leading-[22px] md:mt-12 sm:mx-auto sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-8  py-[6px]  text-[16px] leading-[30px] mt-12 w-11/12 "
                       id="head"
                     >
                       Champion Chai
                     </h1>
                     <h1
-                      className="2xl:my-32 text-white rounded-[8px]  w-11/12 2xl:py-4 text-center  bg-[#7A8654] 2xl:w-7/12 2xl:text-[25px] 2xl:mr-0 2xl:leading-[28px]  mx-auto  xl:mr-0  lg:mr-0  xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-20 xl:w-7/12 lg:py-2 lg:w-8/12  lg:text-[14px] lg:leading-[20px] lg:mt-14  md:w-9/12 md:py-1  md:text-[14px] md:leading-[22px] md:mt-12   sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mb-0 py-[6px]  text-[16px] leading-[30px] mt-12"
+                      className="2xl:my-32 text-white rounded-[8px]  w-11/12 2xl:py-4 text-center  bg-[#7A8654] 2xl:w-8/12 2xl:text-[22px] 2xl:mr-0 2xl:leading-[28px]  mx-auto  xl:mr-0  lg:mr-0  xl:py-3  xl:text-[14px] xl:leading-[20px] xl:mt-20 xl:w-8/12 lg:py-2 lg:w-8/12  lg:text-[14px] lg:leading-[20px] lg:mt-14  md:w-9/12 md:py-1  md:text-[14px] md:leading-[22px] md:mt-12   sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mb-0 py-[6px]  text-[16px] leading-[30px] mt-12"
                       id="head"
                     >
                       Weight Wonder
@@ -404,19 +404,19 @@ const page = () => {
                   </div>
                   <div className=" w-full  sm:w-full lg:w-3/12">
                     <h1
-                      className=" text-white  bg-[#32504D] text-center rounded-[8px] mx-auto w-11/12 2xl:w-7/12 2xl:my-32 2xl:py-4 2xl:text-[25px] 2xl:ml-0 2xl:leading-[28px] xl:ml-0 xl:mt-24 xl:py-3 xl:text-[14px] xl:leading-[20px] xl:w-7/12   lg:ml-0  lg:py-2 lg:w-8/12  lg:text-[14px] lg:leading-[20px] lg:mt-20 md:w-9/12 md:py-1  md:text-[14px] md:leading-[22px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-10  py-[6px]  text-[16px] leading-[30px] mt-10"
+                      className=" text-white  bg-[#32504D] text-center rounded-[8px] mx-auto w-11/12 2xl:w-8/12 2xl:my-32 2xl:py-4 2xl:text-[22px] 2xl:ml-0 2xl:leading-[28px] xl:ml-0 xl:mt-24 xl:py-3 xl:text-[14px] xl:leading-[20px] xl:w-8/12   lg:ml-0  lg:py-2 lg:w-8/12  lg:text-[14px] lg:leading-[20px] lg:mt-20 md:w-9/12 md:py-1  md:text-[14px] md:leading-[22px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-10  py-[6px]  text-[16px] leading-[30px] mt-10"
                       id="head"
                     >
                       Anxiety Assist
                     </h1>
                     <h1
-                      className="  text-white rounded-[8px]  w-11/12 text-center mx-auto bg-[#482E69] 2xl:py-4 2xl:w-7/12  2xl:my-32 2xl:text-[25px] 2xl:leading-[28px] 2xl:ml-24 xl:ml-20 xl:mt-20 xl:py-3  xl:text-[14px] xl:leading-[20px ] xl:w-7/12 xl:ml-36  lg:mx-auto lg:w-8/12    lg:mt-14 lg:py-2 lg:text-[14px] lg:leading-[20px] md:w-9/12 md:py-1  md:mx-auto md:text-[14px] md:leading-[22px] md:mt-12   sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-8 sm:mx-auto  py-[6px]  text-[16px] leading-[30px] mt-12"
+                      className="  text-white rounded-[8px]  w-11/12 text-center mx-auto bg-[#482E69] 2xl:py-4 2xl:w-8/12  2xl:my-32 2xl:text-[22px] 2xl:leading-[28px] 2xl:ml-24 xl:ml-20 xl:mt-20 xl:py-3  xl:text-[14px] xl:leading-[20px ] xl:w-8/12 xl:ml-36  lg:mx-auto lg:w-8/12    lg:mt-14 lg:py-2 lg:text-[14px] lg:leading-[20px] md:w-9/12 md:py-1  md:mx-auto md:text-[14px] md:leading-[22px] md:mt-12   sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-8 sm:mx-auto  py-[6px]  text-[16px] leading-[30px] mt-12"
                       id="head"
                     >
                       Flair Fighter
                     </h1>
                     <h1
-                      className=" text-white rounded-[8px]  mx-auto  w-11/12 text-center  bg-[#7D062A] 2xl:w-7/12 2xl:py-4  2xl:my-32 2xl:text-[25px] 2xl:ml-0 2xl:leading-[28px] xl:ml-0 xl:mt-20 xl:py-3  xl:text-[14px] xl:leading-[20px] xl:w-7/12  lg:ml-0  lg:py-2 lg:my-32 lg:w-8/12  lg:text-[14px] lg:leading-[20px] lg:mt-14 md:w-9/12 md:py-1  md:text-[14px] md:mx-auto  md:leading-[22px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-8  py-[6px]  text-[16px] leading-[30px] mt-12"
+                      className=" text-white rounded-[8px]  mx-auto  w-11/12 text-center  bg-[#7D062A] 2xl:w-8/12 2xl:py-4  2xl:my-32 2xl:text-[22px] 2xl:ml-0 2xl:leading-[28px] xl:ml-0 xl:mt-20 xl:py-3  xl:text-[14px] xl:leading-[20px] xl:w-8/12  lg:ml-0  lg:py-2 lg:my-32 lg:w-8/12  lg:text-[14px] lg:leading-[20px] lg:mt-14 md:w-9/12 md:py-1  md:text-[14px] md:mx-auto  md:leading-[22px] md:mt-12  sm:w-8/12 sm:py-1  sm:text-[14px] sm:leading-[15px] sm:mt-8  py-[6px]  text-[16px] leading-[30px] mt-12"
                       id="head"
                     >
                       Detox Delite
@@ -500,7 +500,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <footer className="bg-[#E9F5DE] 2xl:pt-24 2xl:mt-24 xl:pt-20 xl:mt-20  lg:pt-8 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10 ">
+          <footer className="bg-[#E9F5DE] 2xl:pt-24  2xl:pb-5  2xl:mt-24 xl:pb-1 pb-1  xl:pt-20 xl:mt-20  lg:pt-8 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10 ">
             <div className="lg:flex lg:justify-around lg:flex-row  xl:flex xl:flex-row xl:justify-around 2xl:flex 2xl:justify-around   2xl:mb-20 xl:mb-5 lg:mb-5 md:flex-col md:justify-center md:mb-5 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center">
               <div className="2xl:w-3/12 lg:w-2/12 xl:w-2/12 md:w-full sm:w-full pt-5 sm:pt-0 md:pt-0 lg:py-0">
                 <Image
@@ -563,14 +563,14 @@ const page = () => {
                   </div>
                   <div className="sm:mx-auto sm:my-5  mx-auto  my-5">
                     <h1
-                      className="2xl:text-[30px] 2xl:mb-4 xl:text-[20px] xl:mb-4  lg:text-[18px] lg:mb-3 md:text-[20px] md:mb-2 sm:text-[18px] sm:mb-2 text-[20px]"
+                      className="2xl:text-[30px] 2xl:mb-8 xl:text-[20px] xl:mb-4  lg:text-[18px] lg:mb-3 md:text-[20px] md:mb-2 sm:text-[18px] sm:mb-2 text-[20px]"
                       id="nav-head"
                     >
                       My Account
                     </h1>
-                    <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
+                    <li  id="nav-head " className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Shopping Bag
-                    </li> <br/>
+                    </li> 
                     <li  id="hover-underline-animation" className="list-none cursor-pointer  2xl:my-2 2xl:leading-[35px] 2xl:text-[25px] text-[#555555] xl:my-1 xl:leading-[25px] xl:text-[16px]  lg:my-1 lg:leading-[25px] lg:text-[16px]  md:my-1 md:leading-[25px] md:text-[16px] sm:my-1 sm:leading-[30px] sm:text-[16px] text-[16px] leading-[25px]">
                       Wish List
                     </li><br/>
@@ -604,7 +604,7 @@ const page = () => {
                     <Link href="https://twitter.com/" target="_blank">
                       <Image
                         src={twitter}
-                        className=" 2xl:w-12 xl:w-6 lg:w-6 md:w-8 w-7"
+                        className=" 2xl:w-10 xl:w-8 lg:w-7 md:w-7 w-6"
                       />
                     </Link>
                     <Link
@@ -613,7 +613,7 @@ const page = () => {
                     >
                       <Image
                         src={fbb}
-                        className=" 2xl:w-10 xl:w-5 lg:w-5 md:w-7 w-6"
+                        className=" 2xl:w-10 xl:w-8 lg:w-7 md:w-7 w-6"
                       />
                     </Link>
                     <Link
@@ -622,7 +622,7 @@ const page = () => {
                     >
                       <Image
                         src={insta}
-                        className=" 2xl:w-10 xl:w-5 lg:w-5 md:w-7 w-6"
+                        className=" 2xl:w-10 xl:w-8 lg:w-7 md:w-7 w-6"
                       />
                     </Link>
                     <Link
@@ -631,13 +631,13 @@ const page = () => {
                     >
                       <Image
                         src={music}
-                        className=" 2xl:w-8 xl:w-4 lg:w-4 md:w-6 w-5"
+                        className=" 2xl:w-10 xl:w-9 lg:w-7 md:w-7 w-6"
                       />
                     </Link>
                     <Link href="https://www.youtube.com/" target="_blank">
                       <Image
                         src={YTt}
-                        className=" 2xl:w-12 xl:w-6 lg:w-6 md:w-8 w-7"
+                        className=" 2xl:w-12 xl:w-8 lg:w-7 md:w-7 w-6"
                       />
                     </Link>
                   </div>
@@ -645,7 +645,7 @@ const page = () => {
               </div>
             </div>
             <hr className="mx-auto 2xl:w-[80%] xl:w-[90%] lg:w-[90%]  md:w-[70%] border  sm:w-[70%]   border-[#315031]" />
-            <h1 className=" 2xl:text-[25px]  2xl:leading-[24px] xl:text-[16px]  xl:leading-[20px] xl:pb-4 lg:text-[16px]  lg:leading-[20px] lg:pb-4 text-[#666666] text-center  2xl:pb-5 md:text-[16px]  md:leading-[30px] md:pb-4  sm:text-[16px]  sm:leading-[20px] sm:pb-4 text-[16px] my-1 pb-3">
+            <h1 className=" 2xl:text-[25px] 2xl:mt-8 2xl:leading-[24px] xl:text-[16px] xl:mt-5 xl:leading-[20px] xl:pb-4 lg:text-[16px]  lg:leading-[20px] lg:pb-4 text-[#666666] text-center lg:mt-4 2xl:pb-5 md:text-[16px]  md:leading-[30px] md:pb-4  sm:text-[16px]  sm:leading-[20px] sm:pb-4 text-[16px] my-3 pb-3">
               © 2023 Teas. All Rights Reserved.
             </h1>
           </footer>

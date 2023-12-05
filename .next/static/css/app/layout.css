@@ -663,6 +663,9 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.mt-20 {
+  margin-top: 5rem;
+}
 .flex {
   display: flex;
 }
@@ -863,6 +866,9 @@ video {
 .pt-5 {
   padding-top: 1.25rem;
 }
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
 .text-center {
   text-align: center;
 }
@@ -954,6 +960,9 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-\[\] {
+  color: ;
 }
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -1293,6 +1302,14 @@ li:hover::before {
     margin-top: 2rem;
   }
 
+  .sm\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .sm\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -1587,6 +1604,10 @@ li:hover::before {
     margin-top: 1rem;
   }
 
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1721,10 +1742,6 @@ li:hover::before {
     padding-top: 1.25rem;
   }
 
-  .md\:text-\[12px\] {
-    font-size: 12px;
-  }
-
   .md\:text-\[14px\] {
     font-size: 14px;
   }
@@ -1800,6 +1817,11 @@ li:hover::before {
     margin: 0px;
   }
 
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .lg\:my-1 {
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
@@ -1820,9 +1842,9 @@ li:hover::before {
     margin-bottom: 1rem;
   }
 
-  .lg\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
+  .lg\:my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .lg\:mb-1 {
@@ -1841,8 +1863,8 @@ li:hover::before {
     margin-bottom: 1.25rem;
   }
 
-  .lg\:ml-28 {
-    margin-left: 7rem;
+  .lg\:ml-0 {
+    margin-left: 0px;
   }
 
   .lg\:ml-32 {
@@ -1853,8 +1875,8 @@ li:hover::before {
     margin-left: 15rem;
   }
 
-  .lg\:mr-28 {
-    margin-right: 7rem;
+  .lg\:mr-0 {
+    margin-right: 0px;
   }
 
   .lg\:mt-0 {
@@ -1877,8 +1899,8 @@ li:hover::before {
     margin-top: 4rem;
   }
 
-  .lg\:mt-28 {
-    margin-top: 7rem;
+  .lg\:mt-20 {
+    margin-top: 5rem;
   }
 
   .lg\:mt-3 {
@@ -1897,16 +1919,8 @@ li:hover::before {
     margin-top: 1.5rem;
   }
 
-  .lg\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .lg\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .lg\:mt-20 {
-    margin-top: 5rem;
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .lg\:flex {
@@ -1965,12 +1979,8 @@ li:hover::before {
     width: 50%;
   }
 
-  .lg\:w-7 {
-    width: 1.75rem;
-  }
-
-  .lg\:w-7\/12 {
-    width: 58.333333%;
+  .lg\:w-8\/12 {
+    width: 66.666667%;
   }
 
   .lg\:w-\[90\%\] {
@@ -1981,8 +1991,8 @@ li:hover::before {
     width: 100%;
   }
 
-  .lg\:w-8\/12 {
-    width: 66.666667%;
+  .lg\:w-7 {
+    width: 1.75rem;
   }
 
   .lg\:flex-none {
@@ -2036,14 +2046,14 @@ li:hover::before {
     padding-right: 1.5rem;
   }
 
-  .lg\:px-\[22px\] {
-    padding-left: 22px;
-    padding-right: 22px;
+  .lg\:px-\[24px\] {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
-  .lg\:px-\[5px\] {
-    padding-left: 5px;
-    padding-right: 5px;
+  .lg\:px-\[7px\] {
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .lg\:py-0 {
@@ -2061,54 +2071,14 @@ li:hover::before {
     padding-bottom: 1rem;
   }
 
-  .lg\:py-\[6px\] {
-    padding-top: 6px;
-    padding-bottom: 6px;
-  }
-
-  .lg\:py-\[7px\] {
-    padding-top: 7px;
-    padding-bottom: 7px;
-  }
-
-  .lg\:py-\[10px\] {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .lg\:px-\[7px\] {
-    padding-left: 7px;
-    padding-right: 7px;
-  }
-
   .lg\:py-\[12px\] {
     padding-top: 12px;
     padding-bottom: 12px;
   }
 
-  .lg\:px-\[30px\] {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .lg\:py-\[px\] {
-    padding-top: px;
-    padding-bottom: px;
-  }
-
-  .lg\:py-\[3px\] {
-    padding-top: 3px;
-    padding-bottom: 3px;
-  }
-
   .lg\:py-\[2px\] {
     padding-top: 2px;
     padding-bottom: 2px;
-  }
-
-  .lg\:px-\[24px\] {
-    padding-left: 24px;
-    padding-right: 24px;
   }
 
   .lg\:pb-0 {
@@ -2127,10 +2097,6 @@ li:hover::before {
     padding-top: 2rem;
   }
 
-  .lg\:text-\[12px\] {
-    font-size: 12px;
-  }
-
   .lg\:text-\[14px\] {
     font-size: 14px;
   }
@@ -2141,10 +2107,6 @@ li:hover::before {
 
   .lg\:text-\[18px\] {
     font-size: 18px;
-  }
-
-  .lg\:text-\[20px\] {
-    font-size: 20px;
   }
 
   .lg\:text-\[22px\] {
@@ -2159,6 +2121,10 @@ li:hover::before {
     font-size: 30px;
   }
 
+  .lg\:text-\[35px\] {
+    font-size: 35px;
+  }
+
   .lg\:text-\[40px\] {
     font-size: 40px;
   }
@@ -2167,12 +2133,8 @@ li:hover::before {
     font-size: 50px;
   }
 
-  .lg\:text-\[35px\] {
-    font-size: 35px;
-  }
-
-  .lg\:leading-3 {
-    line-height: .75rem;
+  .lg\:leading-4 {
+    line-height: 1rem;
   }
 
   .lg\:leading-\[14px\] {
@@ -2206,10 +2168,6 @@ li:hover::before {
   .lg\:leading-\[70px\] {
     line-height: 70px;
   }
-
-  .lg\:leading-4 {
-    line-height: 1rem;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -2233,6 +2191,16 @@ li:hover::before {
     margin-bottom: 0.75rem;
   }
 
+  .xl\:my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .xl\:my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
   .xl\:mb-2 {
     margin-bottom: 0.5rem;
   }
@@ -2245,6 +2213,14 @@ li:hover::before {
     margin-bottom: 1.25rem;
   }
 
+  .xl\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .xl\:ml-20 {
+    margin-left: 5rem;
+  }
+
   .xl\:ml-36 {
     margin-left: 9rem;
   }
@@ -2253,12 +2229,16 @@ li:hover::before {
     margin-left: 10rem;
   }
 
-  .xl\:ml-48 {
-    margin-left: 12rem;
+  .xl\:ml-\[245px\] {
+    margin-left: 245px;
   }
 
-  .xl\:mr-36 {
-    margin-right: 9rem;
+  .xl\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .xl\:mr-20 {
+    margin-right: 5rem;
   }
 
   .xl\:mt-1 {
@@ -2281,6 +2261,10 @@ li:hover::before {
     margin-top: 5rem;
   }
 
+  .xl\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .xl\:mt-4 {
     margin-top: 1rem;
   }
@@ -2297,52 +2281,16 @@ li:hover::before {
     margin-top: 2rem;
   }
 
-  .xl\:ml-\[365px\] {
-    margin-left: 365px;
+  .xl\:mb-12 {
+    margin-bottom: 3rem;
   }
 
-  .xl\:ml-\[300px\] {
-    margin-left: 300px;
+  .xl\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
-  .xl\:ml-\[200px\] {
-    margin-left: 200px;
-  }
-
-  .xl\:ml-\[280px\] {
-    margin-left: 280px;
-  }
-
-  .xl\:ml-\[260px\] {
-    margin-left: 260px;
-  }
-
-  .xl\:ml-\[255px\] {
-    margin-left: 255px;
-  }
-
-  .xl\:ml-\[245px\] {
-    margin-left: 245px;
-  }
-
-  .xl\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .xl\:mr-20 {
-    margin-right: 5rem;
-  }
-
-  .xl\:mt-24 {
-    margin-top: 6rem;
-  }
-
-  .xl\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .xl\:ml-20 {
-    margin-left: 5rem;
+  .xl\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .xl\:flex {
@@ -2397,12 +2345,12 @@ li:hover::before {
     width: 58.333333%;
   }
 
-  .xl\:w-8\/12 {
-    width: 66.666667%;
-  }
-
   .xl\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .xl\:w-\[80\%\] {
+    width: 80%;
   }
 
   .xl\:w-\[90\%\] {
@@ -2413,20 +2361,20 @@ li:hover::before {
     width: 100%;
   }
 
-  .xl\:w-\[\] {
-    width: ;
+  .xl\:w-8\/12 {
+    width: 66.666667%;
   }
 
-  .xl\:w-\[80\] {
-    width: 80;
+  .xl\:w-8 {
+    width: 2rem;
   }
 
-  .xl\:w-\[80\%\%\] {
-    width: 80%%;
+  .xl\:w-10 {
+    width: 2.5rem;
   }
 
-  .xl\:w-\[80\%\] {
-    width: 80%;
+  .xl\:w-9 {
+    width: 2.25rem;
   }
 
   .xl\:flex-none {
@@ -2471,11 +2419,6 @@ li:hover::before {
     padding-right: 2.5rem;
   }
 
-  .xl\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
   .xl\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -2506,41 +2449,6 @@ li:hover::before {
     padding-bottom: 12px;
   }
 
-  .xl\:py-\[8px\] {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-
-  .xl\:py-\[6px\] {
-    padding-top: 6px;
-    padding-bottom: 6px;
-  }
-
-  .xl\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  .xl\:px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-  }
-
-  .xl\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
-  .xl\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  .xl\:py-\[4px\] {
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
   .xl\:py-\[3px\] {
     padding-top: 3px;
     padding-bottom: 3px;
@@ -2560,6 +2468,18 @@ li:hover::before {
 
   .xl\:pt-20 {
     padding-top: 5rem;
+  }
+
+  .xl\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .xl\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .xl\:pb-1 {
+    padding-bottom: 0.25rem;
   }
 
   .xl\:text-\[14px\] {
@@ -2598,6 +2518,10 @@ li:hover::before {
     font-size: 32px;
   }
 
+  .xl\:text-\[35px\] {
+    font-size: 35px;
+  }
+
   .xl\:text-\[40px\] {
     font-size: 40px;
   }
@@ -2608,10 +2532,6 @@ li:hover::before {
 
   .xl\:text-\[64px\] {
     font-size: 64px;
-  }
-
-  .xl\:text-\[35px\] {
-    font-size: 35px;
   }
 
   .xl\:leading-6 {
@@ -2653,13 +2573,21 @@ li:hover::before {
   .xl\:leading-\[55px\] {
     line-height: 55px;
   }
-
-  .xl\:leading-\[70px\] {
-    line-height: 70px;
-  }
 }
 
 @media (min-width: 1536px) {
+
+  .\32xl\:m-\[30px\] {
+    margin: 30px;
+  }
+
+  .\32xl\:m-6 {
+    margin: 1.5rem;
+  }
+
+  .\32xl\:m-8 {
+    margin: 2rem;
+  }
 
   .\32xl\:my-2 {
     margin-top: 0.5rem;
@@ -2679,6 +2607,36 @@ li:hover::before {
   .\32xl\:my-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+  }
+
+  .\32xl\:my-\[30px\] {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .\32xl\:my-\[40px\] {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .\32xl\:my-\[0px\] {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .\32xl\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .\32xl\:my-3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .\32xl\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .\32xl\:mb-2 {
@@ -2705,20 +2663,28 @@ li:hover::before {
     margin-bottom: 2rem;
   }
 
-  .\32xl\:ml-48 {
-    margin-left: 12rem;
+  .\32xl\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .\32xl\:ml-24 {
+    margin-left: 6rem;
+  }
+
+  .\32xl\:ml-28 {
+    margin-left: 7rem;
   }
 
   .\32xl\:ml-56 {
     margin-left: 14rem;
   }
 
-  .\32xl\:ml-6 {
-    margin-left: 1.5rem;
+  .\32xl\:ml-\[365px\] {
+    margin-left: 365px;
   }
 
-  .\32xl\:ml-96 {
-    margin-left: 24rem;
+  .\32xl\:mr-0 {
+    margin-right: 0px;
   }
 
   .\32xl\:mt-1 {
@@ -2761,56 +2727,24 @@ li:hover::before {
     margin-top: 24rem;
   }
 
-  .\32xl\:mr-0 {
-    margin-right: 0px;
+  .\32xl\:mt-\[30px\] {
+    margin-top: 30px;
   }
 
-  .\32xl\:ml-0 {
-    margin-left: 0px;
+  .\32xl\:mt-8 {
+    margin-top: 2rem;
   }
 
-  .\32xl\:ml-32 {
-    margin-left: 8rem;
+  .\32xl\:mb-5 {
+    margin-bottom: 1.25rem;
   }
 
-  .\32xl\:ml-28 {
-    margin-left: 7rem;
+  .\32xl\:mb-16 {
+    margin-bottom: 4rem;
   }
 
-  .\32xl\:ml-24 {
-    margin-left: 6rem;
-  }
-
-  .\32xl\:ml-12 {
-    margin-left: 3rem;
-  }
-
-  .\32xl\:ml-20 {
-    margin-left: 5rem;
-  }
-
-  .\32xl\:ml-\[\] {
-    margin-left: ;
-  }
-
-  .\32xl\:ml-\[100px\] {
-    margin-left: 100px;
-  }
-
-  .\32xl\:ml-\[400px\] {
-    margin-left: 400px;
-  }
-
-  .\32xl\:ml-\[380px\] {
-    margin-left: 380px;
-  }
-
-  .\32xl\:ml-\[370px\] {
-    margin-left: 370px;
-  }
-
-  .\32xl\:ml-\[365px\] {
-    margin-left: 365px;
+  .\32xl\:mb-12 {
+    margin-bottom: 3rem;
   }
 
   .\32xl\:flex {
@@ -2819,6 +2753,10 @@ li:hover::before {
 
   .\32xl\:h-10 {
     height: 2.5rem;
+  }
+
+  .\32xl\:h-8 {
+    height: 2rem;
   }
 
   .\32xl\:w-10 {
@@ -2873,8 +2811,8 @@ li:hover::before {
     width: 100%;
   }
 
-  .\32xl\:w-16 {
-    width: 4rem;
+  .\32xl\:w-8\/12 {
+    width: 66.666667%;
   }
 
   .\32xl\:justify-between {
@@ -2952,12 +2890,20 @@ li:hover::before {
     padding-top: 6rem;
   }
 
-  .\32xl\:text-\[20px\] {
-    font-size: 20px;
+  .\32xl\:pb-24 {
+    padding-bottom: 6rem;
   }
 
-  .\32xl\:text-\[22px\] {
-    font-size: 22px;
+  .\32xl\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .\32xl\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .\32xl\:pb-8 {
+    padding-bottom: 2rem;
   }
 
   .\32xl\:text-\[25px\] {
@@ -2972,12 +2918,12 @@ li:hover::before {
     font-size: 27px;
   }
 
-  .\32xl\:text-\[28px\] {
-    font-size: 28px;
-  }
-
   .\32xl\:text-\[30px\] {
     font-size: 30px;
+  }
+
+  .\32xl\:text-\[32px\] {
+    font-size: 32px;
   }
 
   .\32xl\:text-\[35px\] {
@@ -3008,8 +2954,15 @@ li:hover::before {
     font-size: 90px;
   }
 
-  .\32xl\:text-\[32px\] {
-    font-size: 32px;
+  @media (min-width: 1536px) {
+
+    .\32xl\:2xl\:text-\[50px\] {
+      font-size: 50px;
+    }
+  }
+
+  .\32xl\:text-\[22px\] {
+    font-size: 22px;
   }
 
   .\32xl\:leading-8 {
@@ -3080,8 +3033,20 @@ li:hover::before {
     line-height: 90px;
   }
 
-  .\32xl\:text-\[px\] {
-    color: px;
+  .\32xl\:leading-\[48px\] {
+    line-height: 48px;
+  }
+
+  .\32xl\:leading-\[20px\] {
+    line-height: 20px;
+  }
+
+  .\32xl\:leading-\[15px\] {
+    line-height: 15px;
+  }
+
+  .\32xl\:leading-\[30px\] {
+    line-height: 30px;
   }
 }
 
