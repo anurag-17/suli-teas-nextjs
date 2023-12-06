@@ -1938,6 +1938,16 @@ li:hover::before {
     margin-bottom: 1rem;
   }
 
+  .lg\:my-\[\] {
+    margin-top: ;
+    margin-bottom: ;
+  }
+
+  .lg\:my-\[6px\] {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
   .lg\:mb-1 {
     margin-bottom: 0.25rem;
   }
@@ -2304,6 +2314,10 @@ li:hover::before {
     line-height: 16px;
   }
 
+  .lg\:leading-\[40px\] {
+    line-height: 40px;
+  }
+
   .lg\:text-\[px\] {
     color: px;
   }
@@ -2443,6 +2457,10 @@ li:hover::before {
 
   .xl\:mb-8 {
     margin-bottom: 2rem;
+  }
+
+  .xl\:ml-28 {
+    margin-left: 7rem;
   }
 
   .xl\:flex {
