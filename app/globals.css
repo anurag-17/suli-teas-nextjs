@@ -35,97 +35,75 @@
     background-position:  center;
     }
 
-    @media (min-width: 1536px){
+
         #bg-poster{
-            background-image: url(../public/images/poster.png);
+            background-image: url(../public/images/poster-head.webp);
             background-repeat: no-repeat;
             background-size: cover;
             background-size: 100%;
             background-position:center;
             
             }
-    }
-    @media (min-width: 1280px){
-        #bg-poster{
-            background-image: url(../public/images/poster.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-size: 100%;
-            background-position: top center;
-            
-            }
-    }
-    @media (min-width: 1024px){
-        #bg-poster{
-            background-image: url(../public/images/poster.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-size: 100%;
-            background-position: top center;
-            
-            }
-        }
-
-            @media (min-width: 768px){
-                #bg-poster{
-                    background-image: url(../public/images/poster.png);
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-size: 100%;
-                    background-position: top center;
-                    
-                    }
-    }
-    @media (min-width: 640px){
-        #bg-poster{
-            background-image: url(../public/images/poster.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-size: 100%;
-            background-position: top center;
-            
-            }
-}
-
-@media (max-width: 640px){
-    #bg-poster{
-        background-image: url(../public/images/poster.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-size: 100%;
-        background-position:  center;
     
-        }
-}
-@media (max-width: 640px){
-    #bg-posterS{
-        background-image: url(../public/images/Group.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-size: 100%;
-        background-position: top center;
-      
-        }
-}
-@media(max-width: 640px){
+ 
+@media(max-width: 1024px){
     #nav-drawer{
 display: block;
     }
 }
-@media(min-width: 640px){
+@media(min-width: 1024px){
     #nav-drawer{
 display: none;
     }
 }
-@media(max-width: 640px){
+@media(max-width: 1024px){
     #nav-menu{
 display: none;
     }
 }
-@media(min-width:640px){
+@media(min-width:1024px){
     #nav-menu{
 display: block;
     }
+}
+
+@media(max-width:640px) and (min-width:390px) {
+    .xsm-drawer{
+        width: 25%;
+    }
+.xms-m{
+    padding: 50px 0px;
+}
+
+.contain-div{
+    margin-left: 40px;
+}
+
+
+.text-Mixing{
+    font-size: 10px;
+}
+
+.text-Curated{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.text-Herbal{
+    font-size: 20px;
+    margin: 8px 0px;
+}
+
+.pera-Explore{
+    font-size: 10px;
+    margin: 10px 0px;
+}
+
+.head-bttn{
+    font-size: 8px;
+    line-height: 8px;
+    padding: 6px 10px;
+}
 }
 
 #image2{
