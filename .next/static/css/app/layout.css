@@ -688,12 +688,6 @@ video {
 .w-2 {
   width: 0.5rem;
 }
-.w-2\/3 {
-  width: 66.666667%;
-}
-.w-2\/4 {
-  width: 50%;
-}
 .w-3 {
   width: 0.75rem;
 }
@@ -717,24 +711,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.w-8\/12 {
-  width: 66.666667%;
-}
-.w-9\/12 {
-  width: 75%;
-}
-.w-\[\] {
-  width: ;
-}
-.w-\[90\%\] {
-  width: 90%;
-}
-.w-\[80\%\] {
-  width: 80%;
-}
-.w-\[78\%\] {
-  width: 78%;
 }
 .-translate-x-0 {
   --tw-translate-x: -0px;
@@ -959,6 +935,9 @@ video {
 .leading-\[40px\] {
   line-height: 40px;
 }
+.text-\[\#\#1E1E1E\] {
+  color: ##1E1E1E;
+}
 .text-\[\#1E1E1E\] {
   --tw-text-opacity: 1;
   color: rgb(30 30 30 / var(--tw-text-opacity));
@@ -986,9 +965,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-\[\#\#1E1E1E\] {
-  color: ##1E1E1E;
 }
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -1383,10 +1359,6 @@ li:hover::before {
     justify-content: center;
   }
 
-  .sm\:justify-around {
-    justify-content: space-around;
-  }
-
   .sm\:gap-2 {
     gap: 0.5rem;
   }
@@ -1708,10 +1680,6 @@ li:hover::before {
 
   .md\:w-\[26px\] {
     width: 26px;
-  }
-
-  .md\:w-\[70\%\] {
-    width: 70%;
   }
 
   .md\:w-full {
@@ -2052,10 +2020,6 @@ li:hover::before {
     width: 22px;
   }
 
-  .lg\:w-\[90\%\] {
-    width: 90%;
-  }
-
   .lg\:w-full {
     width: 100%;
   }
@@ -2282,10 +2246,6 @@ li:hover::before {
     margin-bottom: 1.5rem;
   }
 
-  .xl\:mb-12 {
-    margin-bottom: 3rem;
-  }
-
   .xl\:mb-2 {
     margin-bottom: 0.5rem;
   }
@@ -2358,10 +2318,6 @@ li:hover::before {
     margin-top: 2rem;
   }
 
-  .xl\:mt-28 {
-    margin-top: 7rem;
-  }
-
   .xl\:flex {
     display: flex;
   }
@@ -2372,10 +2328,6 @@ li:hover::before {
 
   .xl\:w-1\/4 {
     width: 25%;
-  }
-
-  .xl\:w-10\/12 {
-    width: 83.333333%;
   }
 
   .xl\:w-16 {
@@ -2422,10 +2374,6 @@ li:hover::before {
     width: 80%;
   }
 
-  .xl\:w-\[90\%\] {
-    width: 90%;
-  }
-
   .xl\:w-full {
     width: 100%;
   }
@@ -2436,10 +2384,6 @@ li:hover::before {
 
   .xl\:flex-row {
     flex-direction: row;
-  }
-
-  .xl\:justify-around {
-    justify-content: space-around;
   }
 
   .xl\:gap-4 {
@@ -2610,24 +2554,24 @@ li:hover::before {
 
 @media (min-width: 1536px) {
 
+  .\32xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .\32xl\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
-  .\32xl\:my-2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  .\32xl\:my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
   }
 
   .\32xl\:my-3 {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
-  }
-
-  .\32xl\:my-32 {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
   }
 
   .\32xl\:my-4 {
@@ -2640,211 +2584,175 @@ li:hover::before {
     margin-bottom: 1.5rem;
   }
 
-  .\32xl\:my-auto {
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-
   .\32xl\:my-8 {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
-  .\32xl\:my-1 {
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
+  .\32xl\:my-\[10px\] {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
-  .\32xl\:mb-16 {
-    margin-bottom: 4rem;
+  .\32xl\:my-\[12px\] {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .\32xl\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .\32xl\:my-\[8px\] {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .\32xl\:my-\[6px\] {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+  .\32xl\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
   }
 
   .\32xl\:mb-3 {
     margin-bottom: 0.75rem;
   }
 
+  .\32xl\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
   .\32xl\:mb-8 {
     margin-bottom: 2rem;
-  }
-
-  .\32xl\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .\32xl\:ml-24 {
-    margin-left: 6rem;
-  }
-
-  .\32xl\:ml-28 {
-    margin-left: 7rem;
   }
 
   .\32xl\:ml-56 {
     margin-left: 14rem;
   }
 
+  .\32xl\:ml-\[180px\] {
+    margin-left: 180px;
+  }
+
   .\32xl\:ml-\[365px\] {
     margin-left: 365px;
   }
 
-  .\32xl\:mr-0 {
-    margin-right: 0px;
+  .\32xl\:ml-\[85px\] {
+    margin-left: 85px;
+  }
+
+  .\32xl\:mr-20 {
+    margin-right: 5rem;
+  }
+
+  .\32xl\:mr-\[175px\] {
+    margin-right: 175px;
   }
 
   .\32xl\:mt-1 {
     margin-top: 0.25rem;
   }
 
-  .\32xl\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
-  .\32xl\:mt-12 {
-    margin-top: 3rem;
-  }
-
-  .\32xl\:mt-20 {
-    margin-top: 5rem;
-  }
-
-  .\32xl\:mt-24 {
-    margin-top: 6rem;
-  }
-
-  .\32xl\:mt-3 {
-    margin-top: 0.75rem;
-  }
-
-  .\32xl\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .\32xl\:mt-5 {
-    margin-top: 1.25rem;
-  }
-
-  .\32xl\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
-  .\32xl\:mt-7 {
-    margin-top: 1.75rem;
+  .\32xl\:mt-16 {
+    margin-top: 4rem;
   }
 
   .\32xl\:mt-2 {
     margin-top: 0.5rem;
   }
 
-  .\32xl\:mr-8 {
-    margin-right: 2rem;
+  .\32xl\:mt-24 {
+    margin-top: 6rem;
   }
 
-  .\32xl\:mr-1 {
-    margin-right: 0.25rem;
-  }
-
-  .\32xl\:mt-28 {
-    margin-top: 7rem;
-  }
-
-  .\32xl\:mt-16 {
-    margin-top: 4rem;
-  }
-
-  .\32xl\:mt-\[\] {
-    margin-top: ;
-  }
-
-  .\32xl\:mt-\[74\] {
-    margin-top: 74;
-  }
-
-  .\32xl\:mt-\[74px\] {
-    margin-top: 74px;
-  }
-
-  .\32xl\:mt-\[28px\] {
-    margin-top: 28px;
-  }
-
-  .\32xl\:mt-\[80px\] {
-    margin-top: 80px;
-  }
-
-  .\32xl\:mt-\[76px\] {
-    margin-top: 76px;
+  .\32xl\:mt-4 {
+    margin-top: 1rem;
   }
 
   .\32xl\:mt-48 {
     margin-top: 12rem;
   }
 
-  .\32xl\:mt-\[130px\] {
-    margin-top: 130px;
+  .\32xl\:mt-7 {
+    margin-top: 1.75rem;
   }
 
-  .\32xl\:mt-\[100px\] {
-    margin-top: 100px;
+  .\32xl\:mt-8 {
+    margin-top: 2rem;
   }
 
-  .\32xl\:mt-\[190px\] {
-    margin-top: 190px;
+  .\32xl\:mt-\[15px\] {
+    margin-top: 15px;
   }
 
-  .\32xl\:mt-\[90px\] {
-    margin-top: 90px;
-  }
-
-  .\32xl\:mt-\[85px\] {
-    margin-top: 85px;
-  }
-
-  .\32xl\:mt-\[34\] {
-    margin-top: 34;
-  }
-
-  .\32xl\:mt-\[34px\] {
-    margin-top: 34px;
+  .\32xl\:mt-\[23\%\] {
+    margin-top: 23%;
   }
 
   .\32xl\:mt-\[30px\] {
     margin-top: 30px;
   }
 
-  .\32xl\:mt-36 {
-    margin-top: 9rem;
+  .\32xl\:mt-\[33\%\] {
+    margin-top: 33%;
   }
 
-  .\32xl\:mt-11 {
-    margin-top: 2.75rem;
+  .\32xl\:mt-\[5px\] {
+    margin-top: 5px;
   }
 
-  .\32xl\:mb-1 {
-    margin-bottom: 0.25rem;
+  .\32xl\:mt-\[74px\] {
+    margin-top: 74px;
   }
 
-  .\32xl\:mb-2 {
-    margin-bottom: 0.5rem;
+  .\32xl\:mt-3 {
+    margin-top: 0.75rem;
   }
 
-  .\32xl\:mb-4 {
-    margin-bottom: 1rem;
+  .\32xl\:mt-\[10px\] {
+    margin-top: 10px;
+  }
+
+  .\32xl\:mt-\[0px\] {
+    margin-top: 0px;
+  }
+
+  .\32xl\:mb-\[\] {
+    margin-bottom: ;
+  }
+
+  .\32xl\:mb-\[25\] {
+    margin-bottom: 25;
+  }
+
+  .\32xl\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .\32xl\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .\32xl\:flex {
     display: flex;
   }
 
-  .\32xl\:h-6 {
-    height: 1.5rem;
+  .\32xl\:h-\[23px\] {
+    height: 23px;
   }
 
-  .\32xl\:h-\[\] {
-    height: ;
+  .\32xl\:h-\[292px\] {
+    height: 292px;
   }
 
-  .\32xl\:h-\[51\.91\] {
-    height: 51.91;
+  .\32xl\:h-\[300px\] {
+    height: 300px;
   }
 
   .\32xl\:h-\[51\.91px\] {
@@ -2859,16 +2767,8 @@ li:hover::before {
     width: 4rem;
   }
 
-  .\32xl\:w-20 {
-    width: 5rem;
-  }
-
   .\32xl\:w-3\/12 {
     width: 25%;
-  }
-
-  .\32xl\:w-4\/12 {
-    width: 33.333333%;
   }
 
   .\32xl\:w-5 {
@@ -2879,14 +2779,6 @@ li:hover::before {
     width: 41.666667%;
   }
 
-  .\32xl\:w-6 {
-    width: 1.5rem;
-  }
-
-  .\32xl\:w-72 {
-    width: 18rem;
-  }
-
   .\32xl\:w-8 {
     width: 2rem;
   }
@@ -2895,12 +2787,36 @@ li:hover::before {
     width: 2.25rem;
   }
 
+  .\32xl\:w-\[1607px\] {
+    width: 1607px;
+  }
+
+  .\32xl\:w-\[21px\] {
+    width: 21px;
+  }
+
+  .\32xl\:w-\[291px\] {
+    width: 291px;
+  }
+
   .\32xl\:w-\[300px\] {
     width: 300px;
   }
 
-  .\32xl\:w-\[80\%\] {
-    width: 80%;
+  .\32xl\:w-\[310px\] {
+    width: 310px;
+  }
+
+  .\32xl\:w-\[482px\] {
+    width: 482px;
+  }
+
+  .\32xl\:w-\[550px\] {
+    width: 550px;
+  }
+
+  .\32xl\:w-\[57\.7px\] {
+    width: 57.7px;
   }
 
   .\32xl\:w-\[90\%\] {
@@ -2911,52 +2827,8 @@ li:hover::before {
     width: 100%;
   }
 
-  .\32xl\:w-\[\] {
-    width: ;
-  }
-
-  .\32xl\:w-\[20\%\] {
-    width: 20%;
-  }
-
-  .\32xl\:w-\[25\%\] {
-    width: 25%;
-  }
-
-  .\32xl\:w-\[30\%\] {
-    width: 30%;
-  }
-
-  .\32xl\:w-\[\%\] {
-    width: %;
-  }
-
-  .\32xl\:w-\[100\%\] {
-    width: 100%;
-  }
-
-  .\32xl\:w-\[300\%\] {
-    width: 300%;
-  }
-
-  .\32xl\:w-\[57\.7\] {
-    width: 57.7;
-  }
-
-  .\32xl\:w-\[57\.7px\] {
-    width: 57.7px;
-  }
-
-  .\32xl\:w-\[450px\] {
-    width: 450px;
-  }
-
-  .\32xl\:w-\[550px\] {
-    width: 550px;
-  }
-
-  .\32xl\:w-\[290px\] {
-    width: 290px;
+  .\32xl\:w-7 {
+    width: 1.75rem;
   }
 
   .\32xl\:justify-between {
@@ -2967,8 +2839,12 @@ li:hover::before {
     justify-content: space-around;
   }
 
-  .\32xl\:gap-4 {
-    gap: 1rem;
+  .\32xl\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .\32xl\:gap-20 {
+    gap: 5rem;
   }
 
   .\32xl\:gap-7 {
@@ -2977,34 +2853,6 @@ li:hover::before {
 
   .\32xl\:gap-8 {
     gap: 2rem;
-  }
-
-  .\32xl\:gap-1 {
-    gap: 0.25rem;
-  }
-
-  .\32xl\:gap-0 {
-    gap: 0px;
-  }
-
-  .\32xl\:gap-2 {
-    gap: 0.5rem;
-  }
-
-  .\32xl\:gap-3 {
-    gap: 0.75rem;
-  }
-
-  .\32xl\:gap-\[\] {
-    gap: ;
-  }
-
-  .\32xl\:gap-\[12\] {
-    gap: 12;
-  }
-
-  .\32xl\:gap-\[12px\] {
-    gap: 12px;
   }
 
   .\32xl\:gap-\[10px\] {
@@ -3019,39 +2867,25 @@ li:hover::before {
     padding: 0.75rem;
   }
 
+  .\32xl\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .\32xl\:p-\[\] {
+    padding: ;
+  }
+
+  .\32xl\:p-\[10px\] {
+    padding: 10px;
+  }
+
+  .\32xl\:p-\[11px\] {
+    padding: 11px;
+  }
+
   .\32xl\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-  }
-
-  .\32xl\:px-\[16px\] {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  .\32xl\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
-  .\32xl\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .\32xl\:py-\[10px\] {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .\32xl\:py-\[14px\] {
-    padding-top: 14px;
-    padding-bottom: 14px;
-  }
-
-  .\32xl\:py-\[20px\] {
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
 
   .\32xl\:px-8 {
@@ -3059,9 +2893,19 @@ li:hover::before {
     padding-right: 2rem;
   }
 
-  .\32xl\:py-\[px\] {
-    padding-top: px;
-    padding-bottom: px;
+  .\32xl\:px-\[16px\] {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .\32xl\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .\32xl\:py-\[14px\] {
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 
   .\32xl\:py-\[15px\] {
@@ -3073,32 +2917,8 @@ li:hover::before {
     padding-bottom: 0.75rem;
   }
 
-  .\32xl\:pt-16 {
-    padding-top: 4rem;
-  }
-
   .\32xl\:pt-28 {
     padding-top: 7rem;
-  }
-
-  .\32xl\:pt-20 {
-    padding-top: 5rem;
-  }
-
-  .\32xl\:pt-\[\] {
-    padding-top: ;
-  }
-
-  .\32xl\:pt-\[55px\] {
-    padding-top: 55px;
-  }
-
-  .\32xl\:pt-\[64px\] {
-    padding-top: 64px;
-  }
-
-  .\32xl\:pt-\[66px\] {
-    padding-top: 66px;
   }
 
   .\32xl\:pt-\[70px\] {
@@ -3121,16 +2941,8 @@ li:hover::before {
     font-size: 24px;
   }
 
-  .\32xl\:text-\[25px\] {
-    font-size: 25px;
-  }
-
   .\32xl\:text-\[26px\] {
     font-size: 26px;
-  }
-
-  .\32xl\:text-\[27px\] {
-    font-size: 27px;
   }
 
   .\32xl\:text-\[35px\] {
@@ -3145,14 +2957,6 @@ li:hover::before {
     font-size: 40px;
   }
 
-  .\32xl\:text-\[45px\] {
-    font-size: 45px;
-  }
-
-  .\32xl\:text-\[50px\] {
-    font-size: 50px;
-  }
-
   .\32xl\:text-\[60px\] {
     font-size: 60px;
   }
@@ -3165,20 +2969,8 @@ li:hover::before {
     font-size: 90px;
   }
 
-  .\32xl\:text-\[80px\] {
-    font-size: 80px;
-  }
-
-  .\32xl\:text-\[0px\] {
-    font-size: 0px;
-  }
-
   .\32xl\:leading-6 {
     line-height: 1.5rem;
-  }
-
-  .\32xl\:leading-\[20px\] {
-    line-height: 20px;
   }
 
   .\32xl\:leading-\[22px\] {
@@ -3187,6 +2979,10 @@ li:hover::before {
 
   .\32xl\:leading-\[24px\] {
     line-height: 24px;
+  }
+
+  .\32xl\:leading-\[25px\] {
+    line-height: 25px;
   }
 
   .\32xl\:leading-\[26px\] {
@@ -3221,56 +3017,16 @@ li:hover::before {
     line-height: 50px;
   }
 
-  .\32xl\:leading-\[60px\] {
-    line-height: 60px;
+  .\32xl\:leading-\[56px\] {
+    line-height: 56px;
   }
 
   .\32xl\:leading-\[70px\] {
     line-height: 70px;
   }
 
-  .\32xl\:leading-\[95px\] {
-    line-height: 95px;
-  }
-
-  .\32xl\:leading-\[90px\] {
-    line-height: 90px;
-  }
-
-  .\32xl\:leading-3 {
-    line-height: .75rem;
-  }
-
-  .\32xl\:leading-\[2\] {
-    line-height: 2;
-  }
-
-  .\32xl\:leading-\[85px\] {
-    line-height: 85px;
-  }
-
   .\32xl\:leading-\[80px\] {
     line-height: 80px;
-  }
-
-  .\32xl\:leading-\[56px\] {
-    line-height: 56px;
-  }
-
-  .\32xl\:leading-\[px\] {
-    line-height: px;
-  }
-
-  .\32xl\:leading-\[0px\] {
-    line-height: 0px;
-  }
-
-  .\32xl\:leading-\[10px\] {
-    line-height: 10px;
-  }
-
-  .\32xl\:leading-\[25px\] {
-    line-height: 25px;
   }
 }
 
