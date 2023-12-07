@@ -2831,6 +2831,22 @@ li:hover::before {
     width: 1.75rem;
   }
 
+  .\32xl\:w-2\/12 {
+    width: 16.666667%;
+  }
+
+  .\32xl\:w-7\/12 {
+    width: 58.333333%;
+  }
+
+  .\32xl\:w-6\/12 {
+    width: 50%;
+  }
+
+  .\32xl\:w-8\/12 {
+    width: 66.666667%;
+  }
+
   .\32xl\:justify-between {
     justify-content: space-between;
   }

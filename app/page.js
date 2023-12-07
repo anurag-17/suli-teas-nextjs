@@ -530,7 +530,7 @@ const page = () => {
           </div>
           <footer className="bg-[#E9F5DE] 2xl:pt-[70px] 2xl:mt-24   xl:pt-12 xl:mt-20  lg:pt-8 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10 ">
             <div className="2xl:w-[1607px] mx-auto lg:flex  lg:justify-around lg:flex-row  xl:flex xl:flex-row  2xl:mx-auto 2xl:flex 2xl:justify-around   2xl:mb-10 xl:mb-2 lg:mb-8 md:flex-col md:justify-center md:mb-10 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center">
-              <div className="2xl:w-3/12 lg:w-2/12 xl:w-2/12 md:w-full sm:w-full pt-5 sm:pt-0 md:pt-0 lg:py-0">
+              <div className="2xl:w-2/12 lg:w-2/12 xl:w-2/12 md:w-full sm:w-full pt-5 sm:pt-0 md:pt-0 lg:py-0">
                 {/* <Image
                   src={leaves}
                   className="mx-auto 2xl:w-16 md:w-10 sm:w-7 w-5 my-2"
@@ -544,7 +544,7 @@ const page = () => {
                 </h1>
               </div>
 
-              <div className="2xl:w-5/12 xl:w-6/6 lg:w-3/6 md:w-10/12  sm:w-1/3 w-1/3 mx-auto   md:flex md:justify-center  sm:mx-auto   sm:flex sm:justify-center  flex justify-center ">
+              <div className="2xl:w-7/12 xl:w-6/6 lg:w-3/6 md:w-10/12  sm:w-1/3 w-1/3 mx-auto   md:flex md:justify-center  sm:mx-auto   sm:flex sm:justify-center  flex justify-center ">
                 <div className="flex flex-col sm:flex sm:flex-col md:flex-row 2xl:justify-between mx-auto lg:w-full lg:m-0 xl:w-[70%]  2xl:w-[90%] xl:m-0 md:w-full md:my-5 sm:w-10/12  sm:my-5 ">
                   <div className="sm:mx-auto sm:my-5 mx-auto my-5 ">
                     <h1
