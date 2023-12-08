@@ -165,7 +165,7 @@ const page = () => {
             </div>
           </nav>
           <div
-            className="border border-red flex  2xl:py-80 xl:py-44 lg:py-[132px] md:pt-24 md:pb-24 sm:pt-20 sm:pb-20 pt-6 pb-6 h-auto xms-m"
+            className="border border-red flex  2xl:py-[300px] xl:py-44 lg:py-[132px] md:pt-24 md:pb-24 sm:pt-20 sm:pb-20 pt-6 pb-6 h-auto xms-m"
             id="bg-poster"
           >
             {/* <div className="2xl:my-auto 2xl:ml-56 xl:mt- xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16  ml-8 mt-8 sticky"> */}
@@ -256,17 +256,17 @@ const page = () => {
                   >
                     <Image
                       src={ListingsF}
-                      className="2xl:mb-8 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
+                      className=" 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
                     />
                     <h1
                       id="head"
-                      className="text-[#1E1E1E] text-center 2xl:text-[24px] 2xl:my-4 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[14px]  lg:leading-[25px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
+                      className="text-[#1E1E1E] text-center 2xl:text-[24px] 2xl:mt-[18px] 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[14px]  lg:leading-[25px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
                     >
                       Weight Wonder
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:my-1  2xl:text-[36px] 2xl:leading-[25px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
+                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[25px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -277,17 +277,17 @@ const page = () => {
                   >
                     <Image
                       src={ListingsS}
-                      className="2xl:mb-8 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
+                      className=" 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
                     />
                     <h1
                       id="head"
-                      className="text-[#1E1E1E] text-center 2xl:text-[24px] 2xl:my-3 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[14px]  lg:leading-[25px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
+                      className="text-[#1E1E1E] text-center 2xl:text-[24px] 2xl:mt-[18px] 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[14px]  lg:leading-[25px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
                     >
                       Detox Delite
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
+                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[25px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -298,17 +298,17 @@ const page = () => {
                   >
                     <Image
                       src={ListingsT}
-                      className="2xl:mb-8 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
+                      className=" 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
                     />
-                    <h1
+                  <h1
                       id="head"
-                      className="text-[#1E1E1E] text-center 2xl:text-[24px] 2xl:my-3 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[14px]  lg:leading-[25px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
+                      className="text-[#1E1E1E] text-center 2xl:text-[24px] 2xl:mt-[18px] 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[14px]  lg:leading-[25px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
                     >
                       Anxiety Assist
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
+                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[25px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -319,17 +319,17 @@ const page = () => {
                   >
                     <Image
                       src={ListingsFo}
-                      className="2xl:mb-8 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
+                      className=" 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
                     />
                     <h1
                       id="head"
-                      className="text-[#1E1E1E] text-center 2xl:text-[24px] 2xl:my-3 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[14px]  lg:leading-[25px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
+                      className="text-[#1E1E1E] text-center 2xl:text-[24px] 2xl:mt-[18px] 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[14px]  lg:leading-[25px] md:text-[16px] md:my-1  md:leading-[25px] sm:text-[18px] sm:my-1 sm:leading-[30px]  text-[16px]  leading-[25px ]"
                     >
                       Champion Chai
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
+                      className="text-center 2xl:my-12xl:my-3  2xl:text-[36px] 2xl:leading-[25px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -340,7 +340,7 @@ const page = () => {
                   >
                     <Image
                       src={ListingsFI}
-                      className="2xl:mb-8 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
+                      className=" 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
                     />
                     <h1
                       id="head"
@@ -350,7 +350,7 @@ const page = () => {
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
+                      className="text-center 2xl:my-12xl:my-3  2xl:text-[36px] 2xl:leading-[25px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
@@ -361,17 +361,17 @@ const page = () => {
                   >
                     <Image
                       src={ListingsSI}
-                      className="2xl:mb-8 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
+                      className=" 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
                     />
                     <h1
                       id="head"
-                      className="text-center 2xl:text-[24px] 2xl:my-3 2xl:leading-[50px]  xl:text-[16px]  xl:leading-[35px] lg:text-[14px]  lg:leading-[25px] md:text-[16px]  md:leading-[25px] md:my-1 sm:text-[18px]  sm:leading-[30px] text-[16px]  leading-[25px]"
+                      className="text-center 2xl:text-[24px] 2xl:mt-[18px] 2xl:leading-[50px]  xl:text-[16px]  xl:leading-[35px] lg:text-[14px]  lg:leading-[25px] md:text-[16px]  md:leading-[25px] md:my-1 sm:text-[18px]  sm:leading-[30px] text-[16px]  leading-[25px]"
                     >
                       Immune Boost Beast
                     </h1>
                     <h1
                       id="head"
-                      className="text-center 2xl:my-3  2xl:text-[36px] 2xl:leading-[37.5px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
+                      className="text-center 2xl:my-12xl:my-3  2xl:text-[36px] 2xl:leading-[25px]  xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:my-[6px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[20px] sm:leading-[25px]   text-[18px]  leading-[25px] "
                     >
                       $17.00
                     </h1>
