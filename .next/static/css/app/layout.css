@@ -715,6 +715,24 @@ video {
 .w-full {
   width: 100%;
 }
+.w-\[\] {
+  width: ;
+}
+.w-\[30\%\] {
+  width: 30%;
+}
+.w-\[30\] {
+  width: 30;
+}
+.w-\[10\%\] {
+  width: 10%;
+}
+.w-\[3\] {
+  width: 3;
+}
+.w-44 {
+  width: 11rem;
+}
 .-translate-x-0 {
   --tw-translate-x: -0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -760,12 +778,6 @@ video {
 }
 .rounded-lg {
   border-radius: 0.5rem;
-}
-.rounded-bl-full {
-  border-bottom-left-radius: 9999px;
-}
-.rounded-tr-full {
-  border-top-right-radius: 9999px;
 }
 .border {
   border-width: 1px;
@@ -868,6 +880,9 @@ video {
 .pt-6 {
   padding-top: 1.5rem;
 }
+.pb-\[10px\] {
+  padding-bottom: 10px;
+}
 .text-center {
   text-align: center;
 }
@@ -907,6 +922,15 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+.text-\[10\%\] {
+  font-size: 10%;
+}
+.text-\[40\%\] {
+  font-size: 40%;
+}
+.text-\[100\%\] {
+  font-size: 100%;
 }
 .font-medium {
   font-weight: 500;
@@ -969,6 +993,12 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.text-\[\] {
+  color: ;
+}
+.text-\[10\] {
+  color: 10;
+}
 .opacity-\[50\%\] {
   opacity: 50%;
 }
@@ -1006,6 +1036,11 @@ video {
     font-weight: 300;
 }
 
+.btn-curv{
+    border-radius: 10px 50px 10px 50px;
+    font-family: 'Lexend';
+    font-weight: 500;
+}
 
 
 #bg-posterS{
@@ -1374,8 +1409,28 @@ li:hover::before {
     width: 100%;
   }
 
+  .sm\:w-9\/12 {
+    width: 75%;
+  }
+
+  .sm\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .sm\:w-6\/12 {
+    width: 50%;
+  }
+
+  .sm\:w-5\/12 {
+    width: 41.666667%;
+  }
+
   .sm\:flex-col {
     flex-direction: column;
+  }
+
+  .sm\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .sm\:justify-center {
@@ -1572,6 +1627,10 @@ li:hover::before {
   .sm\:leading-\[40px\] {
     line-height: 40px;
   }
+
+  .sm\:leading-\[8px\] {
+    line-height: 8px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1670,6 +1729,10 @@ li:hover::before {
     margin-top: 1rem;
   }
 
+  .md\:ml-52 {
+    margin-left: 13rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1728,6 +1791,14 @@ li:hover::before {
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-\[16px\] {
+    width: 16px;
+  }
+
+  .md\:w-\[14px\] {
+    width: 14px;
   }
 
   .md\:flex-row {
@@ -1801,6 +1872,21 @@ li:hover::before {
   .md\:py-\[5px\] {
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+
+  .md\:py-\[\] {
+    padding-top: ;
+    padding-bottom: ;
+  }
+
+  .md\:py-\[6px\] {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .md\:py-\[5\] {
+    padding-top: 5;
+    padding-bottom: 5;
   }
 
   .md\:pb-0 {
@@ -1940,6 +2026,16 @@ li:hover::before {
     margin-bottom: 6px;
   }
 
+  .lg\:my-\[4px\] {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .lg\:my-3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
   .lg\:mb-1 {
     margin-bottom: 0.25rem;
   }
@@ -2020,6 +2116,66 @@ li:hover::before {
     margin-top: 1.5rem;
   }
 
+  .lg\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .lg\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .lg\:mt-32 {
+    margin-top: 8rem;
+  }
+
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .lg\:mt-\[22px\] {
+    margin-top: 22px;
+  }
+
+  .lg\:ml-44 {
+    margin-left: 11rem;
+  }
+
+  .lg\:ml-\[\] {
+    margin-left: ;
+  }
+
+  .lg\:ml-\[168px\] {
+    margin-left: 168px;
+  }
+
+  .lg\:ml-\[172px\] {
+    margin-left: 172px;
+  }
+
+  .lg\:ml-\[176px\] {
+    margin-left: 176px;
+  }
+
+  .lg\:ml-\[1px\] {
+    margin-left: 1px;
+  }
+
+  .lg\:ml-\[180px\] {
+    margin-left: 180px;
+  }
+
+  .lg\:mt-\[20px\] {
+    margin-top: 20px;
+  }
+
+  .lg\:mt-\[18px\] {
+    margin-top: 18px;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -2090,6 +2246,46 @@ li:hover::before {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-\[750px\] {
+    width: 750px;
+  }
+
+  .lg\:w-12 {
+    width: 3rem;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[25px\] {
+    width: 25px;
+  }
+
+  .lg\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .lg\:w-24 {
+    width: 6rem;
+  }
+
+  .lg\:w-\[130px\] {
+    width: 130px;
+  }
+
+  .lg\:w-\[140px\] {
+    width: 140px;
+  }
+
+  .lg\:w-\[2px\] {
+    width: 2px;
+  }
+
+  .lg\:w-\[18px\] {
+    width: 18px;
   }
 
   .lg\:flex-none {
@@ -2187,6 +2383,21 @@ li:hover::before {
     padding-bottom: 1px;
   }
 
+  .lg\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .lg\:py-\[\] {
+    padding-top: ;
+    padding-bottom: ;
+  }
+
+  .lg\:py-\[6px\] {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
   .lg\:pb-0 {
     padding-bottom: 0px;
   }
@@ -2197,6 +2408,14 @@ li:hover::before {
 
   .lg\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .lg\:pb-\[10px\] {
+    padding-bottom: 10px;
+  }
+
+  .lg\:pb-\[8px\] {
+    padding-bottom: 8px;
   }
 
   .lg\:text-left {
@@ -2241,6 +2460,10 @@ li:hover::before {
 
   .lg\:text-\[9px\] {
     font-size: 9px;
+  }
+
+  .lg\:text-\[11px\] {
+    font-size: 11px;
   }
 
   .lg\:leading-4 {
@@ -2294,6 +2517,14 @@ li:hover::before {
     margin: 0px;
   }
 
+  .xl\:m-2 {
+    margin: 0.5rem;
+  }
+
+  .xl\:m-1 {
+    margin: 0.25rem;
+  }
+
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -2325,10 +2556,6 @@ li:hover::before {
 
   .xl\:mb-8 {
     margin-bottom: 2rem;
-  }
-
-  .xl\:ml-0 {
-    margin-left: 0px;
   }
 
   .xl\:ml-20 {
@@ -2363,10 +2590,6 @@ li:hover::before {
     margin-top: 4rem;
   }
 
-  .xl\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
   .xl\:mt-20 {
     margin-top: 5rem;
   }
@@ -2391,12 +2614,48 @@ li:hover::before {
     margin-top: 2rem;
   }
 
-  .xl\:mt-\[\] {
-    margin-top: ;
-  }
-
   .xl\:mt-\[52px\] {
     margin-top: 52px;
+  }
+
+  .xl\:ml-\[220px\] {
+    margin-left: 220px;
+  }
+
+  .xl\:ml-\[225px\] {
+    margin-left: 225px;
+  }
+
+  .xl\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .xl\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .xl\:mt-\[18px\] {
+    margin-top: 18px;
+  }
+
+  .xl\:mt-\[1px\] {
+    margin-top: 1px;
+  }
+
+  .xl\:mt-\[16px\] {
+    margin-top: 16px;
+  }
+
+  .xl\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .xl\:mt-\[60px\] {
+    margin-top: 60px;
+  }
+
+  .xl\:mt-32 {
+    margin-top: 8rem;
   }
 
   .xl\:flex {
@@ -2411,6 +2670,10 @@ li:hover::before {
     height: 190px;
   }
 
+  .xl\:w-1\/3 {
+    width: 33.333333%;
+  }
+
   .xl\:w-2\/12 {
     width: 16.666667%;
   }
@@ -2421,10 +2684,6 @@ li:hover::before {
 
   .xl\:w-4 {
     width: 1rem;
-  }
-
-  .xl\:w-4\/12 {
-    width: 33.333333%;
   }
 
   .xl\:w-48 {
@@ -2447,16 +2706,16 @@ li:hover::before {
     width: 58.333333%;
   }
 
-  .xl\:w-8\/12 {
-    width: 66.666667%;
-  }
-
   .xl\:w-\[1050px\] {
     width: 1050px;
   }
 
   .xl\:w-\[190px\] {
     width: 190px;
+  }
+
+  .xl\:w-\[200px\] {
+    width: 200px;
   }
 
   .xl\:w-\[250px\] {
@@ -2473,6 +2732,34 @@ li:hover::before {
 
   .xl\:w-full {
     width: 100%;
+  }
+
+  .xl\:w-\[1000px\] {
+    width: 1000px;
+  }
+
+  .xl\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .xl\:w-\[3280px\] {
+    width: 3280px;
+  }
+
+  .xl\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .xl\:w-5 {
+    width: 1.25rem;
+  }
+
+  .xl\:w-\[\] {
+    width: ;
+  }
+
+  .xl\:w-\[22px\] {
+    width: 22px;
   }
 
   .xl\:flex-none {
@@ -2523,9 +2810,9 @@ li:hover::before {
     padding-right: 16px;
   }
 
-  .xl\:py-3 {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+  .xl\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .xl\:py-4 {
@@ -2548,9 +2835,9 @@ li:hover::before {
     padding-bottom: 14px;
   }
 
-  .xl\:py-\[3px\] {
-    padding-top: 3px;
-    padding-bottom: 3px;
+  .xl\:py-\[2px\] {
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
 
   .xl\:pb-0 {
@@ -2563,6 +2850,14 @@ li:hover::before {
 
   .xl\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .xl\:pb-\[15px\] {
+    padding-bottom: 15px;
+  }
+
+  .xl\:pb-\[10px\] {
+    padding-bottom: 10px;
   }
 
   .xl\:text-\[12px\] {
@@ -2676,11 +2971,6 @@ li:hover::before {
     margin-bottom: 0.75rem;
   }
 
-  .\32xl\:my-4 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
   .\32xl\:my-5 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
@@ -2711,24 +3001,9 @@ li:hover::before {
     margin-bottom: auto;
   }
 
-  .\32xl\:my-2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .\32xl\:my-\[16px\] {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-
-  .\32xl\:my-\[18px\] {
-    margin-top: 18px;
-    margin-bottom: 18px;
-  }
-
-  .\32xl\:my-\[8px\] {
-    margin-top: 8px;
-    margin-bottom: 8px;
+  .\32xl\:my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .\32xl\:mb-10 {
@@ -2759,8 +3034,8 @@ li:hover::before {
     margin-left: 345px;
   }
 
-  .\32xl\:ml-\[85px\] {
-    margin-left: 85px;
+  .\32xl\:ml-\[80px\] {
+    margin-left: 80px;
   }
 
   .\32xl\:mr-20 {
@@ -2771,20 +3046,8 @@ li:hover::before {
     margin-right: 175px;
   }
 
-  .\32xl\:mt-1 {
-    margin-top: 0.25rem;
-  }
-
-  .\32xl\:mt-16 {
-    margin-top: 4rem;
-  }
-
   .\32xl\:mt-2 {
     margin-top: 0.5rem;
-  }
-
-  .\32xl\:mt-24 {
-    margin-top: 6rem;
   }
 
   .\32xl\:mt-3 {
@@ -2811,96 +3074,36 @@ li:hover::before {
     margin-top: 0px;
   }
 
-  .\32xl\:mt-\[23\%\] {
-    margin-top: 23%;
-  }
-
-  .\32xl\:mt-\[30px\] {
-    margin-top: 30px;
-  }
-
-  .\32xl\:mt-\[33\%\] {
-    margin-top: 33%;
-  }
-
-  .\32xl\:mt-\[74px\] {
-    margin-top: 74px;
-  }
-
-  .\32xl\:mt-\[18px\] {
-    margin-top: 18px;
-  }
-
   .\32xl\:mt-\[100px\] {
     margin-top: 100px;
-  }
-
-  .\32xl\:mt-\[34\%\] {
-    margin-top: 34%;
-  }
-
-  .\32xl\:mt-\[35\%\] {
-    margin-top: 35%;
-  }
-
-  .\32xl\:mt-\[36\%\] {
-    margin-top: 36%;
-  }
-
-  .\32xl\:mt-\[25\%\] {
-    margin-top: 25%;
-  }
-
-  .\32xl\:ml-\[84px\] {
-    margin-left: 84px;
-  }
-
-  .\32xl\:ml-\[80px\] {
-    margin-left: 80px;
-  }
-
-  .\32xl\:mt-\[10\] {
-    margin-top: 10;
   }
 
   .\32xl\:mt-\[10px\] {
     margin-top: 10px;
   }
 
-  .\32xl\:mt-12 {
-    margin-top: 3rem;
+  .\32xl\:mt-\[18px\] {
+    margin-top: 18px;
   }
 
-  .\32xl\:mt-\[\] {
-    margin-top: ;
+  .\32xl\:mt-\[25\%\] {
+    margin-top: 25%;
   }
 
-  .\32xl\:mt-\[70px\] {
-    margin-top: 70px;
+  .\32xl\:mt-\[30px\] {
+    margin-top: 30px;
   }
 
-  .\32xl\:mt-\[50px\] {
-    margin-top: 50px;
-  }
-
-  .\32xl\:mt-\[45px\] {
-    margin-top: 45px;
-  }
-
-  .\32xl\:mt-\[35px\] {
-    margin-top: 35px;
+  .\32xl\:mt-\[36\%\] {
+    margin-top: 36%;
   }
 
   .\32xl\:mt-\[40px\] {
     margin-top: 40px;
   }
 
-  .\32xl\:mt-\[100p\] {
-    margin-top: 100p;
-  }
-
-  .\32xl\:mr-0 {
-    margin-right: 0px;
+  .\32xl\:mt-\[74px\] {
+    margin-top: 74px;
   }
 
   .\32xl\:flex {
@@ -3043,11 +3246,6 @@ li:hover::before {
     padding-bottom: 2rem;
   }
 
-  .\32xl\:py-80 {
-    padding-top: 20rem;
-    padding-bottom: 20rem;
-  }
-
   .\32xl\:py-\[14px\] {
     padding-top: 14px;
     padding-bottom: 14px;
@@ -3056,26 +3254,6 @@ li:hover::before {
   .\32xl\:py-\[15px\] {
     padding-top: 15px;
     padding-bottom: 15px;
-  }
-
-  .\32xl\:py-72 {
-    padding-top: 18rem;
-    padding-bottom: 18rem;
-  }
-
-  .\32xl\:py-\[\] {
-    padding-top: ;
-    padding-bottom: ;
-  }
-
-  .\32xl\:py-\[300px\] {
-    padding-top: 300px;
-    padding-bottom: 300px;
-  }
-
-  .\32xl\:py-\[82px\] {
-    padding-top: 82px;
-    padding-bottom: 82px;
   }
 
   .\32xl\:py-\[280px\] {
@@ -3171,10 +3349,6 @@ li:hover::before {
     line-height: 28px;
   }
 
-  .\32xl\:leading-\[37\.5px\] {
-    line-height: 37.5px;
-  }
-
   .\32xl\:leading-\[37px\] {
     line-height: 37px;
   }
@@ -3201,10 +3375,6 @@ li:hover::before {
 
   .\32xl\:leading-\[80px\] {
     line-height: 80px;
-  }
-
-  .\32xl\:leading-\[30px\] {
-    line-height: 30px;
   }
 }
 

@@ -25,6 +25,11 @@
     font-weight: 300;
 }
 
+.btn-curv{
+    border-radius: 10px 50px 10px 50px;
+    font-family: 'Lexend';
+    font-weight: 500;
+}
 
 
 #bg-posterS{
