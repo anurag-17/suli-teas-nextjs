@@ -165,7 +165,7 @@ const page = () => {
             </div>
           </nav>
           <div
-            className="border border-red flex  2xl:py-[300px] xl:py-44 lg:py-[132px] md:pt-24 md:pb-24 sm:pt-20 sm:pb-20 pt-6 pb-6 h-auto xms-m"
+            className="border border-red flex  2xl:py-[280px] xl:py-44 lg:py-[132px] md:pt-24 md:pb-24 sm:pt-20 sm:pb-20 pt-6 pb-6 h-auto xms-m"
             id="bg-poster"
           >
             {/* <div className="2xl:my-auto 2xl:ml-56 xl:mt- xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16  ml-8 mt-8 sticky"> */}
