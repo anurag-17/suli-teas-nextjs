@@ -87,22 +87,24 @@ display: block;
 
 
 .text-Mixing{
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .text-Curated{
     font-size: 18px;
-    margin: 5px 0px;
+    line-height: 20px;
+   
 }
 
 .text-Herbal{
-    font-size: 20px;
-    margin: 8px 0px;
+    font-size: 22px;
+    line-height: 16px;
+    margin: 2px 0px;
 }
 
 .pera-Explore{
-    font-size: 10px;
-    margin: 10px 0px;
+    font-size: 5px;
+    margin: 2px 0px;
 }
 
 .head-bttn{
