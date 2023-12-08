@@ -74,6 +74,9 @@ display: block;
 }
 
 @media(min-width:1536px) and (max-width:1800px)   {
+    .navv{
+        padding: 20px 0px !important;
+    }
 .nav{
 width: 1250px !important;
 }
@@ -95,6 +98,17 @@ width: 1250px !important;
 .last-img{
     width: 240px !important;
     height: 240px !important;
+}
+.text-Mixing{
+   
+    line-height: 30px !important;
+}
+
+.text-Curated{
+    line-height: 60px !important;
+}
+.pera-Explore{
+   margin: 25px 0px !important;
 }
 }
 

@@ -50,7 +50,7 @@ const page = () => {
     <>
       <section>
         <div className="">
-          <nav className="border 2xl:py-8 xl:py-4 lg:py-4 md:py-2 sm:py-2  bg-white">
+          <nav className="border 2xl:py-8 xl:py-4 lg:py-4 md:py-2 sm:py-2  bg-white navv">
             <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px] flex justify-between m-auto nav">
               <div id="nav-menu" className=" my-auto  ">
                 <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 py-auto ">
