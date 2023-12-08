@@ -2391,6 +2391,14 @@ li:hover::before {
     margin-top: 2rem;
   }
 
+  .xl\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .xl\:mt-\[52px\] {
+    margin-top: 52px;
+  }
+
   .xl\:flex {
     display: flex;
   }
@@ -2821,6 +2829,78 @@ li:hover::before {
 
   .\32xl\:mt-\[18px\] {
     margin-top: 18px;
+  }
+
+  .\32xl\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .\32xl\:mt-\[34\%\] {
+    margin-top: 34%;
+  }
+
+  .\32xl\:mt-\[35\%\] {
+    margin-top: 35%;
+  }
+
+  .\32xl\:mt-\[36\%\] {
+    margin-top: 36%;
+  }
+
+  .\32xl\:mt-\[25\%\] {
+    margin-top: 25%;
+  }
+
+  .\32xl\:ml-\[84px\] {
+    margin-left: 84px;
+  }
+
+  .\32xl\:ml-\[80px\] {
+    margin-left: 80px;
+  }
+
+  .\32xl\:mt-\[10\] {
+    margin-top: 10;
+  }
+
+  .\32xl\:mt-\[10px\] {
+    margin-top: 10px;
+  }
+
+  .\32xl\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .\32xl\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .\32xl\:mt-\[70px\] {
+    margin-top: 70px;
+  }
+
+  .\32xl\:mt-\[50px\] {
+    margin-top: 50px;
+  }
+
+  .\32xl\:mt-\[45px\] {
+    margin-top: 45px;
+  }
+
+  .\32xl\:mt-\[35px\] {
+    margin-top: 35px;
+  }
+
+  .\32xl\:mt-\[40px\] {
+    margin-top: 40px;
+  }
+
+  .\32xl\:mt-\[100p\] {
+    margin-top: 100p;
+  }
+
+  .\32xl\:mr-0 {
+    margin-right: 0px;
   }
 
   .\32xl\:flex {
