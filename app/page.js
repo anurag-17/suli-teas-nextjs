@@ -51,7 +51,7 @@ const page = () => {
       <section>
         <div className="">
           <nav className="border 2xl:py-8 xl:py-4 lg:py-4 md:py-2 sm:py-2  bg-white">
-            <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   flex justify-between m-auto">
+            <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px] flex justify-between m-auto nav">
               <div id="nav-menu" className=" my-auto  ">
                 <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 py-auto ">
                   <div className="my-auto ">
@@ -165,13 +165,13 @@ const page = () => {
             </div>
           </nav>
           <div
-            className="border border-red flex  2xl:py-[280px] xl:py-44 lg:py-[132px] md:pt-24 md:pb-24 sm:pt-20 sm:pb-20 pt-6 pb-6 h-auto xms-m"
+            className="border border-red flex  2xl:py-[0px] 2xl:h-screen xl:py-44 lg:py-[132px] md:pt-24 md:pb-24 sm:pt-20 sm:pb-20 pt-6 pb-6 h-auto xms-m"
             id="bg-poster"
           >
             {/* <div className="2xl:my-auto 2xl:ml-56 xl:mt- xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16  ml-8 mt-8 sticky"> */}
             <div
               className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]  lg:mx-auto   md:ml-24 sm:ml-20 my-auto ml-[12%]
-               "
+              nav "
             >
               {/* 2xl:ml-56
               xl:ml-40
@@ -209,7 +209,7 @@ const page = () => {
               </p>
               <button className="bg-[#1E1E1E] 2xl:mt-4 2xl:px-8  2xl:my-0 xl:mt-3 xl:px-6 lg:mt-3 lg:px-5 md:my-2 md:px-5 sm:my-2 sm:px-3 btn-curv">
                 <p
-                  className="text-white 2xl:text-[20px] 2xl:leading-[26px] 2xl:py-[15px] 2xl:px-[16px] xl:text-[16px] xl:leading-[18px] xl:py-[14px] xl:px-[16px]
+                  className="text-white 2xl:text-[20px] 2xl:leading-[26px] 2xl:py-[17px] 2xl:px-[16px] xl:text-[16px] xl:leading-[18px] xl:py-[14px] xl:px-[16px]
                   lg:text-[12px] lg:leading-[14px] lg:py-[12px] lg:px-[7px]  md:py-[5px] md:px-[3px] md:text:[8px] sm:text-[6px] sm:leading-[14px] sm:py-[3px] sm:px-[3px] text-[4px] leading-[10px] py-[1px] px-[10px] head-bttn "
                 >
                   Shop Now
@@ -218,7 +218,7 @@ const page = () => {
             </div>
           </div>
           <div className="flex justify-center  2xl:mt-[100px] xl:mt-16 lg:mt-16 md:mt-10 sm:mt-6 my-10">
-            <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto  ">
+            <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto nav ">
               <Image
                 src={leaves}
                 className="mx-auto 2xl:w-[57.7px] 2xl:h-[51.91px] xl:w-[35px] lg:w-[25px] sm:w-8 w-5"
@@ -248,10 +248,10 @@ const page = () => {
                 required.
               </p>
               <div className=" mx-auto 2xl:mt-[74px] xl:mt-10 lg:mt-8 md:mt-4 sm:mt-4 mt-3">
-                <div className="flex  flex-wrap 2xl:gap-20 justify-center lg:justify-between md:flex-row md:gap-8 flex-col sm:gap-6 gap-6">
+                <div className="flex  flex-wrap 2xl:gap-20 justify-center lg:justify-between md:flex-row md:gap-8 flex-col sm:gap-6 gap-6 ">
                   <div
                     data-aos="zoom-out-up"
-                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px]  lg:w-[200px] md:w-4/12 md:mx-0 sm:w-3/6 w-4/6 cursor-pointer mx-auto"
+                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px]  lg:w-[200px] md:w-4/12 md:mx-0 sm:w-3/6 w-4/6 cursor-pointer mx-auto img-div"
                   >
                     <Image
                       src={ListingsF}
@@ -272,7 +272,7 @@ const page = () => {
                   </div>
                   <div
                     data-aos="zoom-out-up"
-                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px]  lg:w-[200px] md:w-4/12 md:mx-0  sm:w-3/6  w-4/6 cursor-pointer mx-auto"
+                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px]  lg:w-[200px] md:w-4/12 md:mx-0  sm:w-3/6  w-4/6 cursor-pointer mx-auto img-div"
                   >
                     <Image
                       src={ListingsS}
@@ -293,7 +293,7 @@ const page = () => {
                   </div>
                   <div
                     data-aos="zoom-out-up"
-                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px]  lg:w-[200px] md:w-4/12 md:mx-0  sm:w-3/6  w-4/6 cursor-pointer mx-auto"
+                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px]  lg:w-[200px] md:w-4/12 md:mx-0  sm:w-3/6  w-4/6 cursor-pointer mx-auto img-div"
                   >
                     <Image
                       src={ListingsT}
@@ -314,7 +314,7 @@ const page = () => {
                   </div>
                   <div
                     data-aos="zoom-out-up"
-                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px] 2xl:mt-3  xl:mt-2  lg:w-[200px] md:w-4/12 md:mx-0  sm:w-3/6  w-4/6 cursor-pointer mx-auto"
+                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px] 2xl:mt-3  xl:mt-2  lg:w-[200px] md:w-4/12 md:mx-0  sm:w-3/6  w-4/6 cursor-pointer mx-auto img-div"
                   >
                     <Image
                       src={ListingsFo}
@@ -335,7 +335,7 @@ const page = () => {
                   </div>
                   <div
                     data-aos="zoom-out-up"
-                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px] 2xl:mt-3  xl:mt-2 lg:w-[200px] md:w-4/12 md:mx-0  sm:w-3/6  w-4/6 cursor-pointer mx-auto"
+                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px] 2xl:mt-3  xl:mt-2 lg:w-[200px] md:w-4/12 md:mx-0  sm:w-3/6  w-4/6 cursor-pointer mx-auto img-div"
                   >
                     <Image
                       src={ListingsFI}
@@ -356,7 +356,7 @@ const page = () => {
                   </div>
                   <div
                     data-aos="zoom-out-up"
-                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px] 2xl:mt-3 xl:mt-2  lg:w-[200px] md:w-4/12 md:mx-0  sm:w-3/6  w-4/6 cursor-pointer mx-auto"
+                    className="2xl:mb-8 2xl:w-[446px] xl:w-[280px] 2xl:mt-3 xl:mt-2  lg:w-[200px] md:w-4/12 md:mx-0  sm:w-3/6  w-4/6 cursor-pointer mx-auto img-div"
                   >
                     <Image
                       src={ListingsSI}
@@ -384,7 +384,7 @@ const page = () => {
               className=" w-full xl:mt-[60px] lg:mt-12 md:mt-10 sm:mt-10 mt-5 "
               id="bg-posterS"
             >
-              <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto ">
+              <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto nav">
                 <h1
                   id="head"
                   className="2xl:w-full 2xl:mb-8 2xl:text-[60px] text-center 2xl:pt-28 2xl:leading-[70px] xl:mb-8 xl:text-[32px] xl:pt-10 xl:leading-[30px] lg:mb-4 lg:text-[30px] lg:pt-10 lg:leading-[70px] md:mb-6 md:text-[22px] md:pt-5 md:leading-[40px] sm:mb-4 sm:text-[20px] sm:pt-5 sm:leading-[40px] text-[22px] pt-5 leading-[40px]"
@@ -415,7 +415,7 @@ const page = () => {
                   <div
                     data-aos="zoom-out-up"
                     className="border  w-2/4 mx-auto mt-10 rounded-[14px] 2xl:w-[550px] 2xl:mt-4
-                     shadow-2xl 2xl:p-10 2xl:pb-3 xl:w-1/3 xl:px-10 xl:py-6 xl:pb-0 lg:px-6 lg:mt-0 lg:w-1/3 lg:py-4 lg:pb-0 md:px-5 md:py-3 md:mt-10 sm:mt-10 md:pb-0 sm:px-5 sm:py-3 sm:pb-0 sm:w-full sm:my-2 px-3 p-5  "
+                     shadow-2xl 2xl:p-10 2xl:pb-3 xl:w-1/3 xl:px-10 xl:py-6 xl:pb-0 lg:px-6 lg:mt-0 lg:w-1/3 lg:py-4 lg:pb-0 md:px-5 md:py-3 md:mt-10 sm:mt-10 md:pb-0 sm:px-5 sm:py-3 sm:pb-0 sm:w-full sm:my-2 px-3 p-5  find-div"
                   >
                     <h1
                       id="head"
@@ -435,7 +435,7 @@ const page = () => {
                     <div className="flex justify-center">
                       <button className="bg-black  2xl:my-6   2xl:px-10  xl:mt-4 xl:px-0  lg:my-4 lg:px-0  md:my-4 md:px-0  sm:my-2 sm:px-0 my-2 sm:mb-2 btn-curv">
                         <p
-                          className="text-white 2xl:text-[20px] 2xl:leading-[22px] 2xl:py-[14px] 2xl:px-[16px]  xl:text-[14px] xl:leading-[20px] xl:py-[12px] xl:px-10 lg:text-[12px] lg:leading-[16px]  lg:px-[24px]  md:text-[10px] md:leading-[12px] md:py-[10px] md:px-[16px] sm:text-[10px] sm:leading-[8px] sm:py-[8px]  sm:px-[14px] text-[8px] leading-[10px] py-[10px] px-[20px]  "
+                          className="text-white 2xl:text-[20px] 2xl:leading-[22px] 2xl:py-[18px] 2xl:px-[16px]  xl:text-[14px] xl:leading-[20px] xl:py-[12px] xl:px-10 lg:text-[12px] lg:leading-[16px]  lg:px-[24px]  md:text-[10px] md:leading-[12px] md:py-[10px] md:px-[16px] sm:text-[10px] sm:leading-[8px] sm:py-[8px]  sm:px-[14px] text-[8px] leading-[10px] py-[10px] px-[20px]  "
                           id="head"
                         >
                           Buy Now
@@ -451,7 +451,7 @@ const page = () => {
                       Anxiety Assist
                     </h1>
                     <h1
-                      className="   text-white rounded-[8px]  w-11/12 text-center bg-[#482E69] 2xl:py-[15px] 2xl:w-[300px] 2xl:text-[18px] 2xl:mt-[25%] 2xl:leading-[28px] 2xl:ml-[180px]  xl:py-2  xl:text-[14px] xl:leading-[20px ] xl:w-[200px] xl:mr-0 xl:mt-20 lg:mr-0  lg:w-8/12    lg:mt-14 lg:py-[6px] lg:text-[12px] lg:leading-[20px] md:w-9/12 md:py-[5px]  md:mx-auto md:text-[14px] md:leading-[22px] md:mt-12   sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-8 mx-auto py-[1px]  text-[10px] leading-[30px] mt-8"
+                      className="   text-white rounded-[8px]  w-11/12 text-center bg-[#482E69] 2xl:py-[15px] 2xl:w-[300px] 2xl:text-[18px] 2xl:mt-[25%] 2xl:leading-[28px] 2xl:ml-[180px]  xl:py-2  xl:text-[14px] xl:leading-[20px ] xl:w-[200px] xl:mr-0 xl:mt-20 lg:mr-0  lg:w-8/12    lg:mt-14 lg:py-[6px] lg:text-[12px] lg:leading-[20px] md:w-9/12 md:py-[5px]  md:mx-auto md:text-[14px] md:leading-[22px] md:mt-12   sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-8 mx-auto py-[1px]  text-[10px] leading-[30px] mt-8 div-Champion"
                       id="head"
                     >
                       Flair Fighter
@@ -468,7 +468,7 @@ const page = () => {
             </div>
           </div>
           <div className=" sm:w-full mx-auto2xl:mt-36 2xl:mt-48 xl:mt-32 lg:mt-20 sm:mt mb-10 ">
-            <div className=" 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto">
+            <div className=" 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]  mx-auto  nav">
               <div className="mt-12 ">
                 <h1
                   className="2xl:text-[26px] xl:text-[22px] lg:text-[20px] md:text-[18px] sm:text-[16px] text-[14px] text-[#315031] text-center"
@@ -489,18 +489,18 @@ const page = () => {
                 className=" flex flex-col lg:flex-row justify-between 2xl:mt-[40px]  xl:mt-2 lg:mt-4"
               >
                 {/* className="flex  xl:mx-auto  sm:flex-col gap-4 2xl:gap-[10px] xl:gap-4  xl:mt-6 lg:mt-4 md:mt-2 sm:mt-1 mt-1 flex-col relative md:flex-col lg:flex-row 2xl:justify-between" */}
-                <div id="image2" className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] ">
+                <div id="image2" className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] last-img">
                   <Image
                     id="img1"
                     src={aa}
-                    className=" 2xl:w-[291px] 2xl:h-[292px] xl:w-48  lg:w-24   md:w-32 sm:w-28  mx-auto"
+                    className=" 2xl:w-[291px] 2xl:h-[292px] xl:w-48  lg:w-24   md:w-32 sm:w-28  mx-auto last-img"
                   />
                   <div className="img3">
-                    <Image id="img4" src={instagram} />
+                    <Image id="img4" src={instagram}  />
                   </div>
                 </div>
 
-                <div id="image2" className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] ">
+                <div id="image2" className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] last-img ">
                   <Image
                     id="img1"
                     src={bb}
@@ -511,7 +511,7 @@ const page = () => {
                   </div>
                 </div>
 
-                <div id="image2" className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px]">
+                <div id="image2" className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] last-img">
                   <Image
                     id="img1"
                     src={cc}
@@ -522,7 +522,7 @@ const page = () => {
                   </div>
                 </div>
 
-                <div id="image2" className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] ">
+                <div id="image2" className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] last-img ">
                   <Image
                     id="img1"
                     src={dd}
@@ -532,7 +532,7 @@ const page = () => {
                     <Image id="img4" src={instagram} />
                   </div>
                 </div>
-                <div id="image2" className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] ">
+                <div id="image2" className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] last-img">
                   <Image
                     id="img1"
                     src={ee}
@@ -546,7 +546,7 @@ const page = () => {
             </div>
           </div>
           <footer className="bg-[#E9F5DE] 2xl:pt-[70px] 2xl:mt-[100px]   xl:pt-12 xl:mt-20  lg:pt-8 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10 ">
-            <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto lg:flex  lg:justify-around lg:flex-row  xl:flex xl:flex-row  2xl:mx-auto 2xl:flex 2xl:justify-around   2xl:mb-10 xl:mb-2 lg:mb-8 md:flex-col md:justify-center md:mb-10 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center">
+            <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto lg:flex  lg:justify-around lg:flex-row  xl:flex xl:flex-row  2xl:mx-auto 2xl:flex 2xl:justify-around   2xl:mb-10 xl:mb-2 lg:mb-8 md:flex-col md:justify-center md:mb-10 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center nav">
               <div className="2xl:w-2/12 lg:w-2/12 xl:w-2/12 md:w-full sm:w-full pt-5 sm:pt-0 md:pt-0 lg:py-0">
                 {/* <Image
                   src={leaves}
@@ -686,7 +686,7 @@ const page = () => {
                   </h1>
                   <Image
                     src={arrow}
-                    className="absolute z-20 ml-48 mt-2 2xl:w-5  2xl:ml-[345px]  2xl:mt-[18px] 2xl:mb-4 xl:w-4  xl:ml-[225px]  xl:mt-3 lg:ml-[185px] lg:mt-[11px] md:mt-3 md:ml-56 sm:mt-2 sm:ml-48 "
+                    className="absolute z-20 ml-48 mt-2 2xl:w-5  2xl:ml-[345px]  2xl:mt-[18px] 2xl:mb-4 xl:w-4  xl:ml-[225px]  xl:mt-3 lg:ml-[185px] lg:mt-[11px] md:mt-3 md:ml-56 sm:mt-2 sm:ml-48 arrow "
                   />
                   <input
                     type="text"
@@ -697,7 +697,7 @@ const page = () => {
                     <Link href="https://twitter.com/" target="_blank">
                       <Image
                         src={twitter}
-                        className=" 2xl:w-5 xl:w-6 lg:w-4 md:w-4 w-4"
+                        className=" 2xl:w-5 xl:w-6 lg:w-4 md:w-4 w-4 "
                       />
                     </Link>
                     <Link
@@ -737,7 +737,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <hr className="mx-auto 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   opacity-[50%] sm:w-[70%]   border-[#315031]" />
+            <hr className="mx-auto 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]  opacity-[50%] sm:w-[70%]   border-[#315031] nav " />
             <h1 className=" 2xl:text-[16px] 2xl:my-1 2xl:leading-[24px] xl:text-[12px]  xl:leading-[20px] lg:text-[12px]  lg:leading-[20px]  text-[#666666] text-center  md:text-[12px]  md:leading-[20px] sm:text-[12px]  sm:leading-[20px] text-[12px] py-3 ">
               © 2023 Teas. All Rights Reserved.
             </h1>

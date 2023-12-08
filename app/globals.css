@@ -73,6 +73,31 @@ display: block;
     }
 }
 
+@media(min-width:1536px) and (max-width:1800px)   {
+.nav{
+width: 1250px !important;
+}
+
+.img-div{
+    width: 360px !important;
+    gap: 0px;
+}
+
+.arrow{
+    margin-left: 275px !important;
+}
+.find-div{
+    width: 415px !important;
+}
+.div-Champion{
+    margin-left:auto !important;
+}
+.last-img{
+    width: 240px !important;
+    height: 240px !important;
+}
+}
+
 @media(max-width:640px) and (min-width:390px) {
     .xsm-drawer{
         width: 25%;
