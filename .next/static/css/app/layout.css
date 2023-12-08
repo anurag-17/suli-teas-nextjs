@@ -1083,13 +1083,23 @@ width: 1250px !important;
 .text-Mixing{
    
     line-height: 30px !important;
+
 }
 
 .text-Curated{
     line-height: 60px !important;
+    font-size: 60px !important;
+}
+
+.text-Herbal{
+    line-height: 70px !important;
+    font-size: 75px !important;
 }
 .pera-Explore{
    margin: 25px 0px !important;
+}
+.btn-curv{
+    margin-top: 0px !important;
 }
 }
 
@@ -2696,11 +2706,6 @@ li:hover::before {
     margin-bottom: 0px;
   }
 
-  .\32xl\:my-1 {
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-  }
-
   .\32xl\:my-3 {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
@@ -2978,6 +2983,11 @@ li:hover::before {
   .\32xl\:px-\[16px\] {
     padding-left: 16px;
     padding-right: 16px;
+  }
+
+  .\32xl\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .\32xl\:py-8 {
