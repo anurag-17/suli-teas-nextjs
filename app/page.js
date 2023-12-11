@@ -22,7 +22,7 @@ import fbb from "../public/images/facebook.svg";
 import insta from "../public/images/instagram.svg";
 import music from "../public/images/tiktok.svg";
 import YTt from "../public/images/youtube.svg";
-import arrow from "../public/images/arrow.webp";
+import arrow from "../public/images/arrow.svg";
 import Link from "next/link";
 import instagram from "../public/images/instagram 1.svg";
 import cut from "../public/images/wrong.svg";
@@ -686,7 +686,7 @@ const page = () => {
                   </h1>
                   <Image
                     src={arrow}
-                    className="absolute z-20 ml-48 mt-2 2xl:w-5  2xl:ml-[345px]  2xl:mt-[18px] 2xl:mb-4 xl:w-4  xl:ml-[225px]  xl:mt-3 lg:ml-[185px] lg:mt-[11px] md:mt-3 md:ml-56 sm:mt-2 sm:ml-48 arrow "
+                    className="absolute z-20 ml-48 mt-2 2xl:w-7  2xl:ml-[340px]  2xl:mt-[10px] 2xl:mb-4 xl:w-4  xl:ml-[225px]  xl:mt-[10px] lg:ml-[185px] lg:w-4 lg:mt-[6px]  md:w-3 md:mt-[10px] md:ml-56 sm:w-3 sm:mt-2 sm:ml-48 arrow w-3"
                   />
                   <input
                     type="text"
@@ -697,7 +697,7 @@ const page = () => {
                     <Link href="https://twitter.com/" target="_blank">
                       <Image
                         src={twitter}
-                        className=" 2xl:w-5 xl:w-6 lg:w-4 md:w-4 w-4 "
+                        className=" 2xl:w-[18px] xl:w-[22px] lg:w-[14px] md:w-[14px] w-[14px] "
                       />
                     </Link>
                     <Link
