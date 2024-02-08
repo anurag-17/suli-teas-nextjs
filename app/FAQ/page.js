@@ -6,7 +6,9 @@ const page = () => {
   return (
     <>
       <Navbar />
-      ext-center>FAQs</h1>
+      <div>
+      <div>
+      <h1>FAQs</h1>
           <div>
             <h2 className="text-[#4D4D4D] font-bold my-5">Return policy</h2>
             <p className="text-[#4D4D4D] leading-7 2xl:text-[18px] 2xl:leading-8">
