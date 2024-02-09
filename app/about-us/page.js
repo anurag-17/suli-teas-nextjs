@@ -19,16 +19,16 @@ const page = () => {
       <Navbar />
       <div className="2xl:mt-[150px] xl:mt-32 lg:mt-28 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px] md:w-[620px] sm:w-[600px] w-[420px] flex justify-between m-auto nav">
         <div>
-          <div className="container mx-auto  mt-8">
+          <div className="container mx-auto  mt-16">
             <div className="flex bg-[#f4eeee] w-[100%]">
               <div className="w-[50%]">
                 <Image src={lady} className="h-[100%] w-[100%]" />
               </div>
               <div className="w-[50%]">
-                <div className="p-20">
+                <div className="p-8">
                   <p
                     id="p-font"
-                    className="text-[#666666] text-left  Bringing-pera mb-3"
+                    className="text-[#666666] text-left  Bringing-pera my-6 2xl:my-10 mb-3"
                   >
                     About me
                   </p>
@@ -40,7 +40,7 @@ const page = () => {
                   </h1>
                   <p
                     id="p-font"
-                    className="text-[#666666] text-left  Bringing-pera
+                    className="text-[#666666] text-left  Bringing-pera my-6 2xl:my-10
               "
                   >
                     My name is Teri, I created Suli teas based on what I loved
@@ -49,11 +49,10 @@ const page = () => {
                     they are supportive and have gotten me through some of my
                     toughest days.
                   </p>
-                  <br />
-                  <br /> <br />
+
                   <p
                     id="p-font"
-                    className="text-[#666666] text-left  Bringing-pera
+                    className="text-[#666666] text-left  Bringing-pera my-6 2xl:my-10
               "
                   >
                     I have fought epilepsy, autoimmune, and anxiety since I was
@@ -64,8 +63,7 @@ const page = () => {
                     family with particular herbs. I could create great flavors
                     that were enjoyable for us and guests.
                   </p>
-                  <br />
-                  <br /> <br />
+
                   <p
                     id="p-font"
                     className="text-[#666666] text-left  mt-1  Bringing-pera
@@ -80,7 +78,7 @@ const page = () => {
                     manage my other illnesses, experience true health freedom
                     and truly enjoy the little things in life.
                   </p>
-                  <br /> <br /> <br />
+                  <br />
                   <p
                     id="p-font"
                     className="text-[#666666] text-left Bringing-pera
@@ -99,10 +97,16 @@ const page = () => {
                 {" "}
                 Subscribe to our emails & save 15%
               </h1>
-             <div className="flex gap-5">
-             <input type="email" placeholder="Email" className=" border-black border rounded-[5px] p-[15px]" />
-              <button className="p-2 bg-[#315031] text-white text-[17px] rounded-[5px]">Subscribe</button>
-             </div>
+              <div className="flex gap-5">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className=" border-black border rounded-[5px] p-[15px]"
+                />
+                <button className="p-2 bg-[#315031] text-white text-[17px] rounded-[5px]">
+                  Subscribe
+                </button>
+              </div>
             </div>
           </div>
         </div>

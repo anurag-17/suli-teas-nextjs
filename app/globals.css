@@ -36,7 +36,7 @@
 }
 
 .productD-text{
-  @apply  sm:text-[10px] md:text-[10px] lg:text-[10px] xl:text-[16px] 2xl:text-[20px]
+  @apply  sm:text-[10px] md:text-[10px] lg:text-[10px] xl:text-[14px] 2xl:text-[18px]
 }
 .custom_input {
     @apply rounded border border-gray-300 bg-gray-50 text-gray-500 focus:bg-white dark:border dark:border-gray-600  focus:outline-none relative  2xl:text-sm 2xl:my-3 2xl:px-3 2xl:py-2 2xl:h-[45px]

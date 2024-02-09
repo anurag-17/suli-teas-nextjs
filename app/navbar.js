@@ -146,14 +146,19 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <div className="flex w-1/4 ">
+          <div className="flex justify-center w-1/4 ">
             {/* <h1
               className="my-auto 2xl:text-[35px] xl:text-[25px] lg:text-[20px] md:text-[18px]  sm:text-[16px] text-[14px]"
               id="nav-head"
             >
               TEAS
             </h1> */}
-            <img src="/images/logo.png" className="w-36 xl:w-40 2xl:w-52 mx-auto"/>
+            <Link href="/">
+              <img
+                src="/images/logo.png"
+                className="w-36 xl:w-40 2xl:w-52 mx-auto"
+              />
+            </Link>
           </div>
           <div className=" mr-3 xl:mr-0 lg:mr-10 flex justify-end 2xl:gap-10 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto w-1/4">
             <button onClick={() => setDialogMatch(true)}>
@@ -162,16 +167,22 @@ const Navbar = () => {
                 className="cursor-pointer 2xl:w-[21px] 2xl:h-[23px] xl:w-4 xl:h-4 lg:w-4 lg:h-4 md:w-4  sm:w-3 w-2"
               />
             </button>
-            <Image
-              src={shopbag}
-              className="cursor-pointer 2xl:w-[21px] 2xl:h-[23px]  xl:w-4 xl:h-4 lg:w-4 lg:h-4 md:w-4  sm:w-3 w-2"
-            />
+            <Link href="/shop-teas">
+              <Image
+                src={shopbag}
+                className="cursor-pointer 2xl:w-[21px] 2xl:h-[23px]  xl:w-4 xl:h-4 lg:w-4 lg:h-4 md:w-4  sm:w-3 w-2"
+              />
+            </Link>
           </div>
         </div>
       </nav>
       {/* ----------popup----------- */}
       <Transition appear show={dialogMatch} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={() => {}}>
+        <Dialog
+          as="div"
+          className="relative z-10"
+          onClose={() => setDialogMatch(false)}
+        >
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -240,7 +251,7 @@ const Navbar = () => {
                       <br />
                       <div className="flex justify-center">
                         <button
-                          className="xl:text-[16px] 2xl:text-[18px] 2xl:my-5  font-bold border px-6 py-1 rounded-md mt-3"
+                          className="xl:text-[16px] 2xl:text-[18px] 2xl:my-5  font-bold border px-6 py-1 rounded-md mt-3 bg-[#315031] text-white hover:border hover:border-[#315031] hover:text-[#315031] hover:bg-transparent"
                           type="submit"
                         >
                           Submit

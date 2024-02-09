@@ -32,10 +32,12 @@ const Footer = () => {
                 TEAS
                 
               </h1> */}
-              <img
+            <Link href="/">
+            <img
                 src="/images/logo.png"
                 className="w-48 xl:w-40  2xl:w-52 xl:mt-20 lg:mt-16"
               />
+            </Link>
             </div>
               <div className="sm:mx-auto sm:my-5 mx-auto my-5 ">
                 <h1
@@ -224,7 +226,7 @@ const Footer = () => {
           </div>
           <hr className="mx-auto 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]  opacity-[50%] sm:w-[70%]   border-[#315031] nav " />
           <h1 className=" 2xl:text-[16px] 2xl:py-4 2xl:leading-[24px] xl:text-[12px]  xl:leading-[20px] lg:text-[12px]  lg:leading-[20px]  text-[#666666] text-center  md:text-[12px]  md:leading-[20px] sm:text-[12px]  sm:leading-[20px] text-[12px] py-3 footer-0ptions">
-            © 2023 Teas. All Rights Reserved.
+            © 2024 Teas. All Rights Reserved.
           </h1>
         </footer>
       </div>

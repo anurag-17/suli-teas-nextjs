@@ -26,6 +26,7 @@ import { useEffect } from "react";
 import Footer from "./footer";
 import Navbar from "./navbar";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export const products = [
   {
@@ -33,48 +34,66 @@ export const products = [
     price: "$17.00",
     image: ListingsF,
     id: 1,
-    description: "The herbs in this blend work together to support the lymphatic system and swelling through their natural diuretic properties without losing electrolytes. It also works to support the liver and metabolism. We are proud to offer a blend that is senna and stimulant free. ",
+    description:
+      "The herbs in this blend work together to support the lymphatic system and swelling through their natural diuretic properties without losing electrolytes. It also works to support the liver and metabolism. We are proud to offer a blend that is senna and stimulant free. ",
   },
   {
     name: "Detox Delite",
     price: "$17.00",
     image: ListingsS,
     id: 2,
-    description:"Indulge in a thoughtfully curated blend of herbs designed to help cleanse your body and rejuvenate your mind. This expertly crafted fusion of five time-honored and newly explored herbs results in a deliciously fruity and tangy beverage that appeals to both adults and children alike. Enjoy it hot for a soothing experience, or savor its refreshing taste when served over ice. Cleavers actively stimulate the lymphatic system, while Burdock has a long-standing reputation as a blood purifier. Dandelion is renowned for its traditional use in liver treatments and beyond. Nettle, with its ancient roots in Greek medicine, is now recognized for its anti-inflammatory and allergy-reducing properties. Furthermore, Hibiscus, brimming with vitamins, minerals, and antioxidants, has shown its effectiveness in addressing various concerns such as skin, heart, and liver issues. Better focus, better mood - you’ll feel so much better overall. ",
+    description:
+      "Indulge in a thoughtfully curated blend of herbs designed to help cleanse your body and rejuvenate your mind. This expertly crafted fusion of five time-honored and newly explored herbs results in a deliciously fruity and tangy beverage that appeals to both adults and children alike. Enjoy it hot for a soothing experience, or savor its refreshing taste when served over ice. Cleavers actively stimulate the lymphatic system, while Burdock has a long-standing reputation as a blood purifier. Dandelion is renowned for its traditional use in liver treatments and beyond. Nettle, with its ancient roots in Greek medicine, is now recognized for its anti-inflammatory and allergy-reducing properties. Furthermore, Hibiscus, brimming with vitamins, minerals, and antioxidants, has shown its effectiveness in addressing various concerns such as skin, heart, and liver issues. Better focus, better mood - you’ll feel so much better overall. ",
   },
   {
     name: "Anxiety Assist",
     price: "$17.00",
     image: ListingsT,
     id: 3,
-    description: "Yarrow, lemon balm, and ginger can calm the nervous system and body while Chaga acts as a master adaptogenic able to restore balance after stress. This tea is a great way to calm your system down at the end of the day. ",
+    description:
+      "Yarrow, lemon balm, and ginger can calm the nervous system and body while Chaga acts as a master adaptogenic able to restore balance after stress. This tea is a great way to calm your system down at the end of the day. ",
   },
   {
     name: "Champion Chai",
     price: "$17.00",
     image: ListingsFo,
     id: 4,
-    description:"Champion Chai, a beloved choice among customers for its delicious and comforting flavor, sets itself apart by using caffeine-free Rooibos instead of black tea as the base. This unique blend incorporates brain-supporting herbs that can enhance cognitive function, reaction time, and encourage alpha brain waves. Enjoy Champion Chai at any time of day; relish its delightful warmth with a touch of honey, pour it over some ice, or savor its addictive creaminess by adding a dollop of light coconut cream and a drizzle of maple syrup.",
+    description:
+      "Champion Chai, a beloved choice among customers for its delicious and comforting flavor, sets itself apart by using caffeine-free Rooibos instead of black tea as the base. This unique blend incorporates brain-supporting herbs that can enhance cognitive function, reaction time, and encourage alpha brain waves. Enjoy Champion Chai at any time of day; relish its delightful warmth with a touch of honey, pour it over some ice, or savor its addictive creaminess by adding a dollop of light coconut cream and a drizzle of maple syrup.",
   },
   {
     name: "Anxiety Assist",
     price: "$17.00",
     image: ListingsFI,
     id: 5,
-    description:"This blend gives you an army of supportive herbs when you are up against the worst. Flare Fighter is loaded with anti pathogenic, anti-inflammatory and adaptogenic herbs.",
+    description:
+      "This blend gives you an army of supportive herbs when you are up against the worst. Flare Fighter is loaded with anti pathogenic, anti-inflammatory and adaptogenic herbs.",
   },
   {
     name: "Immune Boost Beast",
     price: "$17.00",
     image: ListingsSI,
     id: 6,
-    description:"This product combines the power of eight renowned herbs known for their immune-boosting and pathogen-fighting capabilities. These herbs have a rich historical background, from Hippocrates considering elderberry as a versatile medicinal aid to the Washoe tribe of Nevada relying on lomatium for survival during a tough time.",
+    description:
+      "This product combines the power of eight renowned herbs known for their immune-boosting and pathogen-fighting capabilities. These herbs have a rich historical background, from Hippocrates considering elderberry as a versatile medicinal aid to the Washoe tribe of Nevada relying on lomatium for survival during a tough time.",
   },
 ];
 
 const page = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
+
+  const handleClick = () => {
+    setLoading(true);
+    // Simulate asynchronous action (e.g., API request)
+    setTimeout(() => {
+      setLoading(false);
+      // Redirect to the desired page
+      router.push("/shop-teas");
+    }, 2000); // Adjust the delay as needed
+  };
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -135,14 +154,29 @@ const page = () => {
               >
                 Explore the best herbal tea collections at Suli teas.
               </p>
-              <button className="bg-[#1E1E1E] 2xl:mt-4 2xl:px-8  2xl:my-0 xl:mt-3 xl:px-6 lg:mt-3 lg:px-5 md:my-2 md:px-5 sm:my-2 sm:px-3 btn-curv">
-                <p
-                  className="text-white 2xl:text-[20px] 2xl:leading-[26px] 2xl:py-[17px] 2xl:px-[16px] xl:text-[16px] xl:leading-[18px] xl:py-[14px] xl:px-[16px]
-                  lg:text-[12px] lg:leading-[14px] lg:py-[12px] lg:px-[7px]  md:py-[5px] md:px-[3px] md:text:[8px] sm:text-[6px] sm:leading-[14px] sm:py-[3px] sm:px-[3px] text-[4px] leading-[10px] py-[1px] px-[10px] head-bttn "
-                >
-                  Shop Now
-                </p>
-              </button>
+              <div className="relative">
+                {loading && (
+                  <div className="fixed inset-0 flex justify-center items-center bg-gray-900 bg-opacity-50 z-50">
+                    <div className="animate-spin rounded-full h-20 w-20 border-t-4 border-b-4 border-white"></div>
+                  </div>
+                )}
+                <Link href="/shop-teas">
+                  <button
+                    onClick={handleClick}
+                    disabled={loading}
+                    className={`bg-[#1E1E1E] 2xl:mt-4 2xl:px-8 2xl:my-0 xl:mt-3 xl:px-6 lg:mt-3 lg:px-5 md:my-2 md:px-5 sm:my-2 sm:px-3 btn-curv ${
+                      loading ? "opacity-50 cursor-not-allowed" : ""
+                    }`}
+                  >
+                    <p
+                      className="text-white 2xl:text-[20px] 2xl:leading-[26px] 2xl:py-[17px] 2xl:px-[16px] xl:text-[16px] xl:leading-[18px] xl:py-[14px] xl:px-[16px]
+          lg:text-[12px] lg:leading-[14px] lg:py-[12px] lg:px-[7px]  md:py-[5px] md:px-[3px] md:text:[8px] sm:text-[6px] sm:leading-[14px] sm:py-[3px] sm:px-[3px] text-[4px] leading-[10px] py-[1px] px-[10px] head-bttn "
+                    >
+                      Shop Now
+                    </p>
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
           <div className="flex justify-center  2xl:mt-[100px] xl:mt-16 lg:mt-16 md:mt-10 sm:mt-6 my-10">
@@ -191,10 +225,10 @@ const page = () => {
                           src={product.image}
                           className=" 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-4/6 w-3/6 cursor-pointer mx-auto md:mx-0"
                         />
-                        <h1 className="text-[#1E1E1E] text-center 2xl:text-[24px] 2xl:mt-[18px] 2xl:leading-[50px] xl:text-[16px] xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[14px] lg:leading-[25px] md:text-[16px] md:my-1 md:leading-[25px] sm:text-[14px] sm:mt-1 sm:leading-[30px] text-[10px] mt-1 leading-[20px] product-name">
+                        <h1 className="text-[#1E1E1E] text-center xl:text-[20px] 2xl:text-[30px] 2xl:mt-[18px] 2xl:leading-[50px]  xl:my-2 xl:leading-[35px] lg:my-2 lg:text-[14px] lg:leading-[25px] md:text-[16px] md:my-1 md:leading-[25px] sm:text-[14px] sm:mt-1 sm:leading-[30px] text-[10px] mt-1 leading-[20px] product-name font-semibold">
                           {product.name}
                         </h1>
-                        <h1 className="text-center 2xl:my-3 2xl:text-[36px] 2xl:leading-[25px] xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[18px] sm:leading-[25px] text-[14px] product-price">
+                        <h1 className="text-center 2xl:my-3 2xl:text-[30px] 2xl:leading-[25px] xl:text-[20px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[18px] sm:leading-[25px] text-[14px] product-price">
                           {product.price}
                         </h1>
                       </div>
@@ -219,19 +253,22 @@ const page = () => {
                 <div className="flex flex-col  justify-between  mx-auto  sm:flex-col sm:w-1/3 sm:mx-auto 2xl:mt-4 xl:mt-1  lg:w-full  lg:flex-row">
                   <div className="  w-1/3 mx-auto sm:w-full lg:w-1/3  ">
                     <h1
-                      className="text-center  bg-[#5C161D]  2xl:mt-[36%]  text-white rounded-[8px]  2xl:w-[300px] 2xl:py-[15px]  2xl:text-[18px] 2xl:mr-20 2xl:leading-[28px]  mx-auto  xl:w-[200px] xl:mr-20  lg:mr-10  xl:py-2  xl:text-[14px] xl:leading-[20px] xl:mt-24   lg:w-8/12 lg:py-[6px]  lg:text-[12px] lg:leading-[20px] lg:mt-20  md:w-9/12 md:py-[5px]  md:text-[14px] md:leading-[22px] md:mt-1  sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-1  w-11/12 py-[1px]  text-[10px] leading-[30px] mt-10 find-titles "
+                      data-aos="fade-right"
+                      className="text-center  bg-[#5C161D]  2xl:mt-[36%]  text-white rounded-[8px]  2xl:w-[300px] 2xl:py-[15px]  2xl:text-[18px] 2xl:mr-20 2xl:leading-[28px]  mx-auto  xl:w-[200px] xl:mr-20  lg:mr-10  xl:py-2  xl:text-[14px] xl:leading-[20px] xl:mt-24   lg:w-8/12 lg:py-[6px]  lg:text-[12px] lg:leading-[20px] lg:mt-20  md:w-9/12 md:py-[5px]  md:text-[14px] md:leading-[22px] md:mt-1  sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-1  w-11/12 py-[1px]  text-[10px] leading-[30px] mt-10 find-titles hover:bg-transparent hover:text-[#5C161D] border hover:border-[#5C161D]"
                       id="head"
                     >
                       Immune Boost Beast
                     </h1>
                     <h1
-                      className=" text-white  rounded-[8px] 2xl:w-[300px] 2xl:py-[15px]  2xl:mt-[25%]  text-center  bg-[#A47750] 2xl:text-[18px] 2xl:mr-[175px]  2xl:leading-[28px] xl:py-2 xl:mr-20 xl:text-[14px] xl:leading-[20px] xl:mt-20 xl:w-[200px] lg:py-[6px] lg:w-8/12  lg:text-[12px] lg:leading-[20px] lg:mt-14 lg:ml-0  md:w-9/12 md:py-[5px]  md:text-[14px] md:leading-[22px] md:mt-12 mx-auto sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-8 py-[1px]  text-[10px] leading-[30px] mt-8 w-11/12 find-titles"
+                      data-aos="fade-right"
+                      className=" text-white  rounded-[8px] 2xl:w-[300px] 2xl:py-[15px]  2xl:mt-[25%]  text-center  bg-[#A47750] 2xl:text-[18px] 2xl:mr-[175px]  2xl:leading-[28px] xl:py-2 xl:mr-20 xl:text-[14px] xl:leading-[20px] xl:mt-20 xl:w-[200px] lg:py-[6px] lg:w-8/12  lg:text-[12px] lg:leading-[20px] lg:mt-14 lg:ml-0  md:w-9/12 md:py-[5px]  md:text-[14px] md:leading-[22px] md:mt-12 mx-auto sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-8 py-[1px]  text-[10px] leading-[30px] mt-8 w-11/12 find-titles hover:bg-transparent hover:text-[#A47750] border hover:border-[#A47750]"
                       id="head"
                     >
                       Champion Chai
                     </h1>
                     <h1
-                      className=" text-white rounded-[8px]  w-11/12 2xl:py-[15px]  2xl:mt-[25%]  text-center  bg-[#7A8654] 2xl:w-[300px] 2xl:text-[18px] 2xl:mr-20 2xl:leading-[28px]  mx-auto  xl:mr-20  lg:mr-10  xl:py-2  xl:text-[14px] xl:leading-[20px] xl:mt-20 xl:w-[200px] lg:py-[6px] lg:w-8/12  lg:text-[12px] lg:leading-[20px] lg:mt-14  md:w-9/12 md:py-[5px]  md:text-[14px] md:leading-[22px] md:mt-12   sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mb-0 py-[1px] sm:mt-8  text-[10px] leading-[30px] mt-8 find-titles"
+                      data-aos="fade-right"
+                      className=" text-white rounded-[8px]  w-11/12 2xl:py-[15px]  2xl:mt-[25%]  text-center  bg-[#7A8654] 2xl:w-[300px] 2xl:text-[18px] 2xl:mr-20 2xl:leading-[28px]  mx-auto  xl:mr-20  lg:mr-10  xl:py-2  xl:text-[14px] xl:leading-[20px] xl:mt-20 xl:w-[200px] lg:py-[6px] lg:w-8/12  lg:text-[12px] lg:leading-[20px] lg:mt-14  md:w-9/12 md:py-[5px]  md:text-[14px] md:leading-[22px] md:mt-12   sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mb-0 py-[1px] sm:mt-8  text-[10px] leading-[30px] mt-8 find-titles hover:bg-transparent hover:text-[#7A8654] border hover:border-[#7A8654]"
                       id="head"
                     >
                       Weight Wonder
@@ -258,31 +295,36 @@ const page = () => {
                     </h1>
 
                     <div className="flex justify-center">
-                      <button className="bg-black  2xl:my-6   2xl:px-10  xl:mt-4 xl:px-0  lg:my-4 lg:px-0  md:my-4 md:px-0  sm:my-2 sm:px-0 my-2 sm:mb-2 btn-curv find-btn-curv">
-                        <p
-                          className="text-white 2xl:text-[20px] 2xl:leading-[22px] 2xl:py-[18px] 2xl:px-[16px]  xl:text-[14px] xl:leading-[20px] xl:py-[12px] xl:px-10 lg:text-[12px] lg:leading-[16px]  lg:px-[24px]  md:text-[10px] md:leading-[12px] md:py-[10px] md:px-[16px] sm:text-[10px] sm:leading-[8px] sm:py-[8px]  sm:px-[14px] text-[8px] leading-[10px] py-[10px] px-[20px]  find-btn"
-                          id="head"
-                        >
-                          Buy Now
-                        </p>
-                      </button>
+                      <Link href="/shop-teas">
+                        <button className="bg-black  2xl:my-6   2xl:px-10  xl:mt-4 xl:px-0  lg:my-4 lg:px-0  md:my-4 md:px-0  sm:my-2 sm:px-0 my-2 sm:mb-2 btn-curv find-btn-curv">
+                          <p
+                            className="text-white 2xl:text-[20px] 2xl:leading-[22px] 2xl:py-[18px] 2xl:px-[16px]  xl:text-[14px] xl:leading-[20px] xl:py-[12px] xl:px-10 lg:text-[12px] lg:leading-[16px]  lg:px-[24px]  md:text-[10px] md:leading-[12px] md:py-[10px] md:px-[16px] sm:text-[10px] sm:leading-[8px] sm:py-[8px]  sm:px-[14px] text-[8px] leading-[10px] py-[10px] px-[20px]  find-btn "
+                            id="head"
+                          >
+                            Buy Now
+                          </p>
+                        </button>
+                      </Link>
                     </div>
                   </div>
                   <div className=" w-1/3 mx-auto flex flex-col   sm:w-full lg:w-1/3">
                     <h1
-                      className="  text-white  bg-[#32504D] 2xl:mt-[36%] text-center rounded-[8px] mx-auto w-11/12 2xl:w-[300px] 2xl:py-[15px]   2xl:text-[18px] 2xl:ml-[80px] 2xl:leading-[28px] xl:ml-20 xl:mt-24 xl:py-2 xl:text-[14px] xl:leading-[20px] xl:w-[200px]   lg:ml-10  lg:py-[6px] lg:w-8/12  lg:text-[12px] lg:leading-[20px] lg:mt-20 md:w-9/12 md:py-[5px]  md:text-[14px] md:leading-[22px] md:mt-12  sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-10 py-[1px]  text-[10px] leading-[30px] mt-10 find-titles"
+                      data-aos="fade-left"
+                      className="  text-white  bg-[#32504D] 2xl:mt-[36%] text-center rounded-[8px] mx-auto w-11/12 2xl:w-[300px] 2xl:py-[15px]   2xl:text-[18px] 2xl:ml-[80px] 2xl:leading-[28px] xl:ml-20 xl:mt-24 xl:py-2 xl:text-[14px] xl:leading-[20px] xl:w-[200px]   lg:ml-10  lg:py-[6px] lg:w-8/12  lg:text-[12px] lg:leading-[20px] lg:mt-20 md:w-9/12 md:py-[5px]  md:text-[14px] md:leading-[22px] md:mt-12  sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-10 py-[1px]  text-[10px] leading-[30px] mt-10 find-titles  hover:bg-transparent hover:text-[#32504D] border hover:border-[#32504D]"
                       id="head"
                     >
                       Anxiety Assist
                     </h1>
                     <h1
-                      className="   text-white rounded-[8px]  w-11/12 text-center bg-[#482E69] 2xl:py-[15px] 2xl:w-[300px] 2xl:text-[18px] 2xl:mt-[25%] 2xl:leading-[28px] 2xl:ml-[180px]  xl:py-2  xl:text-[14px] xl:leading-[20px ] xl:w-[200px] xl:mr-0 xl:mt-20 lg:mr-0  lg:w-8/12    lg:mt-14 lg:py-[6px] lg:text-[12px] lg:leading-[20px] md:w-9/12 md:py-[5px]  md:mx-auto md:text-[14px] md:leading-[22px] md:mt-12   sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-8 mx-auto py-[1px]  text-[10px] leading-[30px] mt-8 div-Champion find-titles"
+                      data-aos="fade-left"
+                      className="   text-white rounded-[8px]  w-11/12 text-center bg-[#482E69] 2xl:py-[15px] 2xl:w-[300px] 2xl:text-[18px] 2xl:mt-[25%] 2xl:leading-[28px] 2xl:ml-[180px]  xl:py-2  xl:text-[14px] xl:leading-[20px ] xl:w-[200px] xl:mr-0 xl:mt-20 lg:mr-0  lg:w-8/12    lg:mt-14 lg:py-[6px] lg:text-[12px] lg:leading-[20px] md:w-9/12 md:py-[5px]  md:mx-auto md:text-[14px] md:leading-[22px] md:mt-12   sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-8 mx-auto py-[1px]  text-[10px] leading-[30px] mt-8 div-Champion find-titles  hover:bg-transparent hover:text-[#482E69] border hover:border-[#482E69]"
                       id="head"
                     >
                       Flair Fighter
                     </h1>
                     <h1
-                      className=" text-white rounded-[8px]  mx-auto  w-11/12 text-center  bg-[#7D062A] 2xl:w-[300px] 2xl:py-[15px] 2xl:mt-[25%]  2xl:text-[18px] 2xl:ml-[80px] 2xl:leading-[28px] xl:ml-20 xl:mt-20 xl:py-2  xl:text-[14px] xl:leading-[20px] xl:w-[200px]  lg:ml-10  lg:py-[6px]  lg:w-8/12  lg:text-[12px] lg:leading-[20px] lg:mt-14 md:w-9/12 md:py-[5px]  md:text-[14px] md:mx-auto  md:leading-[22px] md:mt-12  sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-8 py-[1px]  text-[10px] leading-[30px] mt-8 find-titles"
+                      data-aos="fade-left"
+                      className=" text-white rounded-[8px]  mx-auto  w-11/12 text-center  bg-[#7D062A] 2xl:w-[300px] 2xl:py-[15px] 2xl:mt-[25%]  2xl:text-[18px] 2xl:ml-[80px] 2xl:leading-[28px] xl:ml-20 xl:mt-20 xl:py-2  xl:text-[14px] xl:leading-[20px] xl:w-[200px]  lg:ml-10  lg:py-[6px]  lg:w-8/12  lg:text-[12px] lg:leading-[20px] lg:mt-14 md:w-9/12 md:py-[5px]  md:text-[14px] md:mx-auto  md:leading-[22px] md:mt-12  sm:w-9/12 sm:py-1  sm:text-[12px] sm:leading-[15px] sm:mt-8 py-[1px]  text-[10px] leading-[30px] mt-8 find-titles hover:bg-transparent hover:text-[#7D062A] border hover:border-[#7D062A]"
                       id="head"
                     >
                       Detox Delite
@@ -292,7 +334,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className=" sm:w-full mx-auto2xl:mt-36 2xl:mt-48 xl:mt-32 lg:mt-20 sm:mt mb-10 ">
+          <div className=" sm:w-full mx-auto2xl:mt-36 2xl:mt-40 xl:mt-32 lg:mt-20 sm:mt mb-10 ">
             <div className=" 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]  mx-auto  nav">
               <div className="mt-12 ">
                 <h1
@@ -330,14 +372,14 @@ const page = () => {
 
                 <div
                   id="image2"
-                  className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] last-img "
+                  className=" w-[30%] 2xl:w-[291px] 2xl:h-[291px] xl:w-[190px] xl:h-[190px] sm:w-44 mt-5 mx-auto lg:w-[140px] last-img"
                 >
                   <Image
                     id="img1"
                     src={bb}
-                    className=" 2xl:w-full xl:w-48  lg:w-24   md:w-32 sm:w-28 w-full last-img"
+                    className=" 2xl:w-[291px] 2xl:h-[292px] xl:w-48  lg:w-24   md:w-32 sm:w-28  mx-auto last-img"
                   />
-                  <div className="2xl:w-[291px] 2xl:h-[292px] img3">
+                  <div className="img3">
                     <Image id="img4" src={instagram} />
                   </div>
                 </div>
