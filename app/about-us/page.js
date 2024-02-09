@@ -17,7 +17,7 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <div className="2xl:w-[1600px] xl:w-[1200px]  lg:w-[800px] md:w-[620px] sm:w-[600px] w-[420px] flex justify-between m-auto nav">
+      <div className="2xl:w-[1300px] xl:w-[1000px]  lg:w-[750px] md:w-[620px] sm:w-[600px] w-[420px] flex justify-between m-auto nav">
         <div>
           <div className="container mx-auto  mt-8">
             <div className="flex bg-[#f4eeee] w-[100%]">

@@ -75,11 +75,9 @@ const AboutUS = ({ params }) => {
                     </div>
                     <div>Cash on Delivery available</div>
                   </div>
-                  <h2 className="my-2 text-gray-500 productD-text 2xl:my-10">
-                    Discription : Herbal teas like chamomile, peppermint, and
-                    ginger tea offer several health-promoting properties and
-                    could help improve heart health, digestion, sleep quality,
-                    and more.
+                  <h1 className="lg:text-[14px] xl:text-[20px] 2xl:text-[25px]">Product Description</h1>
+                  <h2 className="my-2 text-gray-500 productD-text 2xl:my-5">
+                    {products.description}
                   </h2>
                   <div className="my-4">
                     <div className="border py-4 px-2">

@@ -1,8 +1,10 @@
 {
-  "/about-us/page": "app/about-us/page.js",
-  "/contact-us/page": "app/contact-us/page.js",
-  "/privacy-policy/page": "app/privacy-policy/page.js",
-  "/page": "app/page.js",
+  "/service/page": "app/service/page.js",
   "/order-track/page": "app/order-track/page.js",
-  "/shop-teas/page": "app/shop-teas/page.js"
+  "/productD/[slug]/page": "app/productD/[slug]/page.js",
+  "/shop-teas/page": "app/shop-teas/page.js",
+  "/page": "app/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/return-policy/page": "app/return-policy/page.js",
+  "/contact-us/page": "app/contact-us/page.js"
 }

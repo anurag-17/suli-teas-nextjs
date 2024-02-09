@@ -33,36 +33,42 @@ export const products = [
     price: "$17.00",
     image: ListingsF,
     id: 1,
+    description: "The herbs in this blend work together to support the lymphatic system and swelling through their natural diuretic properties without losing electrolytes. It also works to support the liver and metabolism. We are proud to offer a blend that is senna and stimulant free. ",
   },
   {
     name: "Detox Delite",
     price: "$17.00",
     image: ListingsS,
     id: 2,
+    description:"Indulge in a thoughtfully curated blend of herbs designed to help cleanse your body and rejuvenate your mind. This expertly crafted fusion of five time-honored and newly explored herbs results in a deliciously fruity and tangy beverage that appeals to both adults and children alike. Enjoy it hot for a soothing experience, or savor its refreshing taste when served over ice. Cleavers actively stimulate the lymphatic system, while Burdock has a long-standing reputation as a blood purifier. Dandelion is renowned for its traditional use in liver treatments and beyond. Nettle, with its ancient roots in Greek medicine, is now recognized for its anti-inflammatory and allergy-reducing properties. Furthermore, Hibiscus, brimming with vitamins, minerals, and antioxidants, has shown its effectiveness in addressing various concerns such as skin, heart, and liver issues. Better focus, better mood - you’ll feel so much better overall. ",
   },
   {
     name: "Anxiety Assist",
     price: "$17.00",
     image: ListingsT,
     id: 3,
+    description: "Yarrow, lemon balm, and ginger can calm the nervous system and body while Chaga acts as a master adaptogenic able to restore balance after stress. This tea is a great way to calm your system down at the end of the day. ",
   },
   {
     name: "Champion Chai",
     price: "$17.00",
     image: ListingsFo,
     id: 4,
+    description:"Champion Chai, a beloved choice among customers for its delicious and comforting flavor, sets itself apart by using caffeine-free Rooibos instead of black tea as the base. This unique blend incorporates brain-supporting herbs that can enhance cognitive function, reaction time, and encourage alpha brain waves. Enjoy Champion Chai at any time of day; relish its delightful warmth with a touch of honey, pour it over some ice, or savor its addictive creaminess by adding a dollop of light coconut cream and a drizzle of maple syrup.",
   },
   {
     name: "Anxiety Assist",
     price: "$17.00",
     image: ListingsFI,
     id: 5,
+    description:"This blend gives you an army of supportive herbs when you are up against the worst. Flare Fighter is loaded with anti pathogenic, anti-inflammatory and adaptogenic herbs.",
   },
   {
     name: "Immune Boost Beast",
     price: "$17.00",
     image: ListingsSI,
     id: 6,
+    description:"This product combines the power of eight renowned herbs known for their immune-boosting and pathogen-fighting capabilities. These herbs have a rich historical background, from Hippocrates considering elderberry as a versatile medicinal aid to the Washoe tribe of Nevada relying on lomatium for survival during a tough time.",
   },
 ];
 

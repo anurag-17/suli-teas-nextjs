@@ -1,19 +1,46 @@
-import React from 'react'
-import Navbar from '../navbar'
-import Footer from '../footer'
+import React from "react";
+import Navbar from "../navbar";
+import Footer from "../footer";
 
 const page = () => {
   return (
     <>
-    <Navbar/>
-    <div className="2xl:w-[1050px] xl:w-[700px]  lg:w-[750px]  md:w-[620px] sm:w-[600px] w-[420px] flex justify-between m-auto nav">
-        <div>
-          <h1 className="font-semibold  text-[45px] my-10">Refund policy</h1>
+      <Navbar />
+      <div className="2xl:w-[1300px] xl:w-[1000px]  lg:w-[750px]  md:w-[620px] sm:w-[600px] w-[420px]  m-auto nav">
+        <div className="">
+          <h1 className="font-semibold w-full text-[35px] my-6 text-center">
+            Refund policy
+          </h1>
+          <p className="text-[#6d6c6c] leading-7 text-[18px] 2xl:text-[20px] 2xl:my-5 my-4  2xl:leading-8">
+            No returns on opened products. We accept returns or exchanges for
+            product damaged in transit or if the incorrect product was shipped.
+            To be eligible for a return or exchange you must first email within
+            15 days of the order date. If a replacement is not available we will
+            refund the full purchase price.
+          </p>
+          <p className="text-[#6d6c6c] leading-7 text-[18px] 2xl:text-[20px] 2xl:my-5 mt-6  2xl:leading-8">
+            Contact
+          </p>
+          <p className="text-[#6d6c6c] leading-7 text-[18px] 2xl:text-[20px] 2xl:my-5 my-0  2xl:leading-8">
+            info@suliteas.com
+          </p>
+          <div className="flex">
+            <div className="mx-auto my-20 text-center">
+              <h1 className="font-semibold my-4 text-[20px]">
+                {" "}
+                Subscribe to our emails & save 15%
+              </h1>
+             <div className="flex gap-5">
+             <input type="email" placeholder="Email" className=" border-black border rounded-[5px] p-[15px]" />
+              <button className="p-2 bg-[#315031] text-white text-[17px] rounded-[5px]">Subscribe</button>
+             </div>
+            </div>
+          </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

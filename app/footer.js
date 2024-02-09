@@ -9,7 +9,6 @@ import Link from "next/link";
 import Image from "next/image";
 import leaves from "../public/images/leaves 1.svg";
 
-
 const Footer = () => {
   return (
     <>
@@ -17,7 +16,7 @@ const Footer = () => {
         <footer className="bg-[#E9F5DE] 2xl:pt-[70px] 2xl:mt-[100px]   xl:pt-12 xl:mt-20  lg:pt-8 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10 ">
           <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto lg:flex  lg:justify-around lg:flex-row  xl:flex xl:flex-row  2xl:mx-auto 2xl:flex 2xl:justify-around   2xl:mb-10 xl:mb-2 lg:mb-8 md:flex-col md:justify-center md:mb-10 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center nav">
             <div className="2xl:w-2/12 lg:w-2/12 xl:w-2/12 md:w-full sm:w-full pt-5 sm:pt-0 md:pt-0 lg:py-0 text-center">
-              <Image
+              {/* <Image
                   src={leaves}
                   className="mx-auto 2xl:w-16 md:w-10 sm:w-7 w-5 my-2"
                 />
@@ -27,7 +26,12 @@ const Footer = () => {
                 id="nav-head"
               >
                 TEAS
-              </h1>
+                
+              </h1> */}
+              <img
+                src="/images/logo.png"
+                className="w-36 xl:w-40 2xl:w-52 mx-auto"
+              />
             </div>
           </div>
           <div className="2xl:w-8/12 xl:w-8/12 lg:w-4/6 md:w-10/12  sm:w-1/3 w-1/3 mx-auto   md:flex md:justify-center  sm:mx-auto   sm:flex sm:justify-center  flex justify-center ">
@@ -39,32 +43,32 @@ const Footer = () => {
                 >
                   Quick links
                 </h1>
-               <Link href="/">
-               <li
-                  id="hover-underline-animation"
-                  className="list-none cursor-pointer  2xl:mt-[0px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
-                >
-                  Home
-                </li>
-               </Link>
+                <Link href="/">
+                  <li
+                    id="hover-underline-animation"
+                    className="list-none cursor-pointer  2xl:mt-[0px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
+                  >
+                    Home
+                  </li>
+                </Link>
                 <br />
 
-               <Link href="/shop-teas">
-               <li
-                  id="hover-underline-animation"
-                  className="list-none cursor-pointer  2xl:my-[10px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
-                >
-                  Shop Teas
-                </li>
-               </Link>
+                <Link href="/shop-teas">
+                  <li
+                    id="hover-underline-animation"
+                    className="list-none cursor-pointer  2xl:my-[10px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
+                  >
+                    Shop Teas
+                  </li>
+                </Link>
                 <br />
                 <Link href="/about-us">
-                <li
-                  id="hover-underline-animation"
-                  className="list-none cursor-pointer  2xl:my-[6px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
-                >
-                  About Me
-                </li>
+                  <li
+                    id="hover-underline-animation"
+                    className="list-none cursor-pointer  2xl:my-[6px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
+                  >
+                    About Me
+                  </li>
                 </Link>
                 <br />
                 <Link href="/contact-us">
@@ -83,41 +87,41 @@ const Footer = () => {
                 >
                   Other Links
                 </h1>
-                {/* <Link href="/privacy-policy"> */}
-                <li
-                  id="hover-underline-animation"
-                  className="list-none cursor-pointer  2xl:mt-[0px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
-                >
-                  Privacy Policy
-                </li>
-                {/* </Link> */}
+                <Link href="/privacy-policy">
+                  <li
+                    id="hover-underline-animation"
+                    className="list-none cursor-pointer  2xl:mt-[0px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
+                  >
+                    Privacy Policy
+                  </li>
+                </Link>
                 <br />
-                {/* <Link href="/return-policy"> */}
-                <li
-                  id="hover-underline-animation"
-                  className="list-none cursor-pointer  2xl:my-[10px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
-                >
-                  Refund & Return Policy
-                </li>
-                {/* </Link> */}
+                <Link href="/return-policy">
+                  <li
+                    id="hover-underline-animation"
+                    className="list-none cursor-pointer  2xl:my-[10px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
+                  >
+                    Refund & Return Policy
+                  </li>
+                </Link>
                 <br />
-                {/* <Link href="/service"> */}
-                <li
-                  id="hover-underline-animation"
-                  className="list-none cursor-pointer  2xl:my-[6px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
-                >
-                 Terms of Service
-                </li>
-                {/* </Link> */}
+                <Link href="/service">
+                  <li
+                    id="hover-underline-animation"
+                    className="list-none cursor-pointer  2xl:my-[6px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
+                  >
+                    Terms of Service
+                  </li>
+                </Link>
                 <br />
-               {/* <Link href="/order-track"> */}
-                <li
-                  id="hover-underline-animation"
-                  className="list-none cursor-pointer  2xl:my-[10px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
-                >
-                  Order Tracking
-                </li>
-                {/* </Link> */}
+                <Link href="/order-track">
+                  <li
+                    id="hover-underline-animation"
+                    className="list-none cursor-pointer  2xl:my-[10px] 2xl:leading-[22px] 2xl:text-[18px] text-[#555555] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-0ptions"
+                  >
+                    Order Tracking
+                  </li>
+                </Link>
               </div>
               {/* <div className="sm:mx-auto sm:my-5 mx-auto my-5 ">
                 <h1

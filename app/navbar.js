@@ -46,9 +46,9 @@ const Navbar = () => {
   return (
     <div>
       <nav className="border 2xl:py-8 xl:py-4 lg:py-4 md:py-2 sm:py-2  bg-white navv">
-        <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px] flex justify-between m-auto nav">
-          <div id="nav-menu" className=" my-auto  ">
-            <div className="flex justify-between 2xl:gap-8 xl:gap-6 lg:gap-6 md:gap-4 sm:gap-2 py-auto ">
+        <div className="2xl:w-[1300px] xl:w-[1000px]  lg:w-[750px] flex justify-between m-auto nav">
+          <div id="nav-menu" className=" my-auto w-1/4 ">
+            <div className="flex 2xl:gap-8 xl:gap-6 lg:gap-4 md:gap-4 sm:gap-2 py-auto ">
               <div>
                 <Link href="/">
                   <li
@@ -146,15 +146,16 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <div className="flex  ">
-            <h1
+          <div className="flex w-1/4 ">
+            {/* <h1
               className="my-auto 2xl:text-[35px] xl:text-[25px] lg:text-[20px] md:text-[18px]  sm:text-[16px] text-[14px]"
               id="nav-head"
             >
               TEAS
-            </h1>
+            </h1> */}
+            <img src="/images/logo.png" className="w-36 xl:w-40 2xl:w-52 mx-auto"/>
           </div>
-          <div className=" mr-3 xl:mr-0 lg:mr-10 flex justify-around 2xl:gap-10 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto">
+          <div className=" mr-3 xl:mr-0 lg:mr-10 flex justify-end 2xl:gap-10 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto w-1/4">
             <button onClick={() => setDialogMatch(true)}>
               <Image
                 src={user}
