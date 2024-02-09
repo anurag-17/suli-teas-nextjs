@@ -6,7 +6,7 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <div className="2xl:w-[1300px] xl:w-[1000px]  lg:w-[750px] md:w-[620px] sm:w-[600px] w-[420px]  m-auto nav">
+      <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px] md:w-[620px] sm:w-[600px] w-[420px]  m-auto nav 2xl:mt-[180px] xl:mt-32 lg:mt-28">
         <div className="">
           <h1 className="font-semibold w-full text-[40px] my-10 text-center">
             Privacy policy

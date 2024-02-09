@@ -2772,6 +2772,14 @@ li:hover::before {
     margin-top: 1.25rem;
   }
 
+  .lg\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .lg\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -3195,6 +3203,10 @@ li:hover::before {
     margin-top: 3.5rem;
   }
 
+  .xl\:mt-36 {
+    margin-top: 9rem;
+  }
+
   .xl\:flex {
     display: flex;
   }
@@ -3466,6 +3478,10 @@ li:hover::before {
     line-height: 1.75rem;
   }
 
+  .xl\:text-\[35px\] {
+    font-size: 35px;
+  }
+
   .xl\:leading-6 {
     line-height: 1.5rem;
   }
@@ -3700,6 +3716,30 @@ li:hover::before {
 
   .\32xl\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .\32xl\:mt-\[140px\] {
+    margin-top: 140px;
+  }
+
+  .\32xl\:mt-\[150px\] {
+    margin-top: 150px;
+  }
+
+  .\32xl\:mt-\[170px\] {
+    margin-top: 170px;
+  }
+
+  .\32xl\:mt-\[180px\] {
+    margin-top: 180px;
+  }
+
+  .\32xl\:mt-\[130px\] {
+    margin-top: 130px;
+  }
+
+  .\32xl\:mt-\[135px\] {
+    margin-top: 135px;
   }
 
   .\32xl\:flex {
@@ -3985,6 +4025,10 @@ li:hover::before {
 
   .\32xl\:text-\[30px\] {
     font-size: 30px;
+  }
+
+  .\32xl\:text-\[50px\] {
+    font-size: 50px;
   }
 
   .\32xl\:leading-6 {

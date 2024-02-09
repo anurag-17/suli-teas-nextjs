@@ -6,9 +6,9 @@ import Footer from "../footer";
 const ContactUs = () => {
   return (
     <>
-      <section className="bg-[#F1F3F6] h-screen">
+      <section className="bg-[#F1F3F6] h-screen ">
         <Navbar />
-        <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[800px] md:w-[620px] sm:w-[600px] w-[420px] flex justify-between m-auto nav">
+        <div className="2xl:mt-[135px] xl:mt-32 lg:mt-28 2xl:w-[1500px] xl:w-[1000px]  lg:w-[800px] md:w-[620px] sm:w-[600px] w-[420px] flex justify-between m-auto nav">
           <div className="w-full">
             <h1 className="font-semibold xl:text-xl my-4 lg:text-[16px] text-[10px] sm:text-[12px] md:text-[14px]">
               Help Center | 24x7 Customer Care Support

@@ -6,9 +6,9 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <div className="2xl:w-[1300px] xl:w-[1000px]  lg:w-[750px]  md:w-[620px] sm:w-[600px] w-[420px] m-auto flex justify-around">
+      <div className=" 2xl:mt-[180px] xl:mt-32 lg:mt-28 2xl:w-[1300px] xl:w-[1000px]  lg:w-[750px]  md:w-[620px] sm:w-[600px] w-[420px] m-auto flex justify-around">
         <div className="">
-          <h1 className="font-semibold  text-[40px] my-10 text-center">
+          <h1 className="font-semibold  text-[40px] text-center">
             Order Tracking Form
           </h1>
           <div className="mx-auto bg-white ">

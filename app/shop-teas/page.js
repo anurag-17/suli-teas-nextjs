@@ -52,17 +52,17 @@ const ShopTea = () => {
   return (
     <>
     <Navbar/>
-      <div className="flex justify-center  2xl:mt-[100px] xl:mt-16 lg:mt-16 md:mt-10 sm:mt-6 my-10">
+      <div className="flex justify-center  2xl:mt-[150px] xl:mt-32 lg:mt-28 md:mt-10 sm:mt-6 my-10">
         <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto nav ">
           <h1
             id="head"
-            className="text-[#1E1E1E] 2xl:text-[60px] text-center 2xl:leading-[70px] 2xl:mt-7 xl:text-[40px] xl:leading-[35px] xl:mt-1 lg:text-[30px] lg:leading-[40px] lg:mt-1 md:text-[30px] md:leading-[30px] md:mt-2 sm:text-[28px] sm:leading-[25px] sm:mt-2 text-[24px] leading-[30px] Unique-head "
+            className="text-[#1E1E1E] 2xl:text-[50px] text-center 2xl:leading-[70px] 2xl:mt-7 xl:text-[35px] xl:leading-[35px] xl:mt-1 lg:text-[30px] lg:leading-[40px] lg:mt-1 md:text-[30px] md:leading-[30px] md:mt-2 sm:text-[28px] sm:leading-[25px] sm:mt-2 text-[24px] leading-[30px] Unique-head "
           >
             Unique Herbs and Spices
           </h1>
           <h2
             id="head"
-            className="text-center 2xl:text-[36px]  2xl:leading-[56px]  xl:text-[24px]  xl:leading-[30px] xl:mt-1 lg:text-[18px]  lg:leading-[20px] lg:my-1 md:text-[18px]  md:leading-[22px] md:my-2 sm:text-[16px]  sm:leading-[20px] sm:my-1  text-[14px]  leading-[20px] my-1 noAdded-head"
+            className="text-center 2xl:text-[30px]  2xl:leading-[56px]  xl:text-[20px]  xl:leading-[30px] xl:mt-1 lg:text-[18px]  lg:leading-[20px] lg:my-1 md:text-[18px]  md:leading-[22px] md:my-2 sm:text-[16px]  sm:leading-[20px] sm:my-1  text-[14px]  leading-[20px] my-1 noAdded-head"
           >
             No Added Flavors
           </h2>
