@@ -13,9 +13,13 @@ const Footer = () => {
   return (
     <>
       <div>
-        <footer className="bg-[#E9F5DE] 2xl:pt-[70px] 2xl:mt-[100px]   xl:pt-12 xl:mt-20  lg:pt-8 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10 ">
+        <footer className="bg-[#E9F5DE] 2xl:pt-[20px] 2xl:mt-[100px]   xl:pt-4 xl:mt-20  lg:pt-0 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10 ">
           <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto lg:flex  lg:justify-around lg:flex-row  xl:flex xl:flex-row  2xl:mx-auto 2xl:flex 2xl:justify-around   2xl:mb-10 xl:mb-2 lg:mb-8 md:flex-col md:justify-center md:mb-10 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center nav">
-            <div className="2xl:w-2/12 lg:w-2/12 xl:w-2/12 md:w-full sm:w-full pt-5 sm:pt-0 md:pt-0 lg:py-0 text-center">
+            
+          </div>
+          <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto lg:flex  lg:justify-around lg:flex-row  xl:flex xl:flex-row  2xl:mx-auto 2xl:flex 2xl:justify-around   2xl:mb-10 xl:mb-2 lg:mb-8 md:flex-col md:justify-center md:mb-10 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center nav">
+            <div className="flex flex-col sm:flex sm:flex-col md:flex-row 2xl:justify-between mx-auto lg:w-full lg:m-0 xl:w-[70%]  2xl:w-[90%] xl:m-0 md:w-full md:my-5 sm:w-10/12  sm:my-5 ">
+            <div className="2xl:w-2/12 lg:w-2/12 xl:w-2/12 md:w-full sm:w-full pt-5 sm:pt-0 md:pt-0 lg:py-0  text-center">
               {/* <Image
                   src={leaves}
                   className="mx-auto 2xl:w-16 md:w-10 sm:w-7 w-5 my-2"
@@ -30,12 +34,9 @@ const Footer = () => {
               </h1> */}
               <img
                 src="/images/logo.png"
-                className="w-36 xl:w-40 2xl:w-52 mx-auto"
+                className="w-48 xl:w-40  2xl:w-52 xl:mt-20 lg:mt-16"
               />
             </div>
-          </div>
-          <div className="2xl:w-8/12 xl:w-8/12 lg:w-4/6 md:w-10/12  sm:w-1/3 w-1/3 mx-auto   md:flex md:justify-center  sm:mx-auto   sm:flex sm:justify-center  flex justify-center ">
-            <div className="flex flex-col sm:flex sm:flex-col md:flex-row 2xl:justify-between mx-auto lg:w-full lg:m-0 xl:w-[70%]  2xl:w-[90%] xl:m-0 md:w-full md:my-5 sm:w-10/12  sm:my-5 ">
               <div className="sm:mx-auto sm:my-5 mx-auto my-5 ">
                 <h1
                   className="list-none cursor-pointer 2xl:pb-[15px] xl:pb-[10px] lg:pb-[8px]  2xl:my-3 2xl:leading-[27px] 2xl:text-[18px] text-[##1E1E1E] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-hesdings"
@@ -173,7 +174,7 @@ const Footer = () => {
                 </h1>
                 <Image
                   src={arrow}
-                  className="absolute z-20 ml-48 mt-2 2xl:w-7  2xl:ml-[285px]  2xl:mt-[10px] 2xl:mb-4 xl:w-4  xl:ml-[200px]  xl:mt-[11px] lg:ml-[165px] lg:w-4 lg:mt-[6px]  md:w-3 md:mt-[10px] md:ml-56 sm:w-3 sm:mt-2 sm:ml-48 arrow w-3"
+                  className="absolute z-20 ml-48 mt-2 2xl:w-7  2xl:ml-[325px]  2xl:mt-[10px] 2xl:mb-4 xl:w-4  xl:ml-[220px]  xl:mt-[11px] lg:ml-[180px] lg:w-4 lg:mt-[6px]  md:w-3 md:mt-[10px] md:ml-56 sm:w-3 sm:mt-2 sm:ml-48 arrow w-3"
                 />
                 <input
                   type="text"

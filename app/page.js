@@ -93,7 +93,7 @@ const page = () => {
         <div className="">
           <Navbar />
           <div
-            className="border border-red flex  2xl:py-[0px] 2xl:h-screen xl:py-44 lg:py-[132px] md:pt-24 md:pb-24 sm:pt-20 sm:pb-20 pt-6 pb-6 h-auto xms-m"
+            className="border border-red flex  2xl:py-[0px] 2xl:h-screen xl:py-44 lg:py-[132px] md:pt-24 md:pb-24 sm:pt-20 sm:pb-20 pt-6 pb-6 h-auto xms-m xl:mt-14 2xl:mt-20"
             id="bg-poster"
           >
             {/* <div className="2xl:my-auto 2xl:ml-56 xl:mt- xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16  ml-8 mt-8 sticky"> */}

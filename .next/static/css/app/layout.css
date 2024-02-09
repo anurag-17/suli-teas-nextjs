@@ -620,6 +620,9 @@ video {
 .z-40 {
   z-index: 40;
 }
+.z-50 {
+  z-index: 50;
+}
 .float-right {
   float: right;
 }
@@ -770,6 +773,12 @@ video {
 .mt-6 {
   margin-top: 1.5rem;
 }
+.mt-auto {
+  margin-top: auto;
+}
+.mt-16 {
+  margin-top: 4rem;
+}
 .flex {
   display: flex;
 }
@@ -868,6 +877,9 @@ video {
 }
 .w-1\/4 {
   width: 25%;
+}
+.w-48 {
+  width: 12rem;
 }
 .-translate-x-0 {
   --tw-translate-x: -0px;
@@ -2748,6 +2760,18 @@ li:hover::before {
     margin-top: 6px;
   }
 
+  .lg\:ml-\[200px\] {
+    margin-left: 200px;
+  }
+
+  .lg\:ml-\[180px\] {
+    margin-left: 180px;
+  }
+
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -2955,6 +2979,10 @@ li:hover::before {
     padding-top: 2rem;
   }
 
+  .lg\:pt-0 {
+    padding-top: 0px;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -3155,6 +3183,18 @@ li:hover::before {
     margin-top: 60px;
   }
 
+  .xl\:ml-\[240px\] {
+    margin-left: 240px;
+  }
+
+  .xl\:ml-\[220px\] {
+    margin-left: 220px;
+  }
+
+  .xl\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
   .xl\:flex {
     display: flex;
   }
@@ -3165,6 +3205,10 @@ li:hover::before {
 
   .xl\:h-\[190px\] {
     height: 190px;
+  }
+
+  .xl\:h-40 {
+    height: 10rem;
   }
 
   .xl\:w-1\/3 {
@@ -3359,6 +3403,10 @@ li:hover::before {
 
   .xl\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .xl\:pt-4 {
+    padding-top: 1rem;
   }
 
   .xl\:text-\[12px\] {
@@ -3630,6 +3678,30 @@ li:hover::before {
     margin-top: 4rem;
   }
 
+  .\32xl\:ml-\[305px\] {
+    margin-left: 305px;
+  }
+
+  .\32xl\:ml-\[315px\] {
+    margin-left: 315px;
+  }
+
+  .\32xl\:ml-\[320px\] {
+    margin-left: 320px;
+  }
+
+  .\32xl\:ml-\[325px\] {
+    margin-left: 325px;
+  }
+
+  .\32xl\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
+  .\32xl\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .\32xl\:flex {
     display: flex;
   }
@@ -3857,6 +3929,10 @@ li:hover::before {
 
   .\32xl\:pt-\[70px\] {
     padding-top: 70px;
+  }
+
+  .\32xl\:pt-\[20px\] {
+    padding-top: 20px;
   }
 
   .\32xl\:text-\[16px\] {

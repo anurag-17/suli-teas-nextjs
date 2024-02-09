@@ -45,8 +45,8 @@ const Navbar = () => {
   };
   return (
     <div>
-      <nav className="border 2xl:py-8 xl:py-4 lg:py-4 md:py-2 sm:py-2  bg-white navv">
-        <div className="2xl:w-[1300px] xl:w-[1000px]  lg:w-[750px] flex justify-between m-auto nav">
+      <nav className="border 2xl:py-8 xl:py-4 lg:py-4 md:py-2 sm:py-2  bg-white fixed top-0 w-full z-50 navv">
+        <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px] flex justify-between m-auto nav">
           <div id="nav-menu" className=" my-auto w-1/4 ">
             <div className="flex 2xl:gap-8 xl:gap-6 lg:gap-4 md:gap-4 sm:gap-2 py-auto ">
               <div>
