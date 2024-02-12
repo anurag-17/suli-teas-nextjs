@@ -52,7 +52,7 @@ const ShopTea = () => {
   return (
     <>
     <Navbar/>
-      <div className="flex justify-center  2xl:mt-[150px] xl:mt-32 lg:mt-28 md:mt-10 sm:mt-6 my-10">
+      <div className="flex justify-center  2xl:mt-[150px] xl:mt-32 lg:mt-28 sm:mt-24 mt-20">
         <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto nav ">
           <h1
             id="head"

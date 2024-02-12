@@ -6,7 +6,7 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <div className="2xl:mt-[150px] xl:mt-32 lg:mt-28 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px] md:w-[620px] sm:w-[600px] w-[420px] flex justify-between m-auto ">
+      <div className="2xl:mt-[150px] xl:mt-32 lg:mt-28 sm:mt-24 mt-12 2xl:w-[1500px] xl:w-[1000px]  lg:w-[880px]  md:w-[620px] sm:w-[550px] w-[420px] flex justify-between m-auto nav ">
         <div className=" mx-auto" data-aos="fade-up">
           <h1 className="font-semibold  text-[40px] my-10 ">
             Terms of service

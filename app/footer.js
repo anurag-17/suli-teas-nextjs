@@ -13,33 +13,34 @@ const Footer = () => {
   return (
     <>
       <div>
-        <footer className="bg-[#E9F5DE] 2xl:pt-[20px] 2xl:mt-[100px]   xl:pt-4 xl:mt-20  lg:pt-0 lg:mt-16 md:pt-10 md:mt-10 sm:pt-10 sm:mt-10 ">
-          <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto lg:flex  lg:justify-around lg:flex-row  xl:flex xl:flex-row  2xl:mx-auto 2xl:flex 2xl:justify-around   2xl:mb-10 xl:mb-2 lg:mb-8 md:flex-col md:justify-center md:mb-10 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center nav">
-            
-          </div>
-          <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]   mx-auto lg:flex  lg:justify-around lg:flex-row  xl:flex xl:flex-row  2xl:mx-auto 2xl:flex 2xl:justify-around   2xl:mb-10 xl:mb-2 lg:mb-8 md:flex-col md:justify-center md:mb-10 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center nav">
+        <footer className="bg-[#E9F5DE] 2xl:pt-[20px] 2xl:mt-[100px] xl:pt-4 xl:mt-20  lg:pt-0 lg:mt-16 md:pt-5 md:mt-0 sm:pt-5 sm:mt-10  mt-10    font-size: 16px !important;
+">
+          <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[880px]   mx-auto lg:flex  lg:justify-around lg:flex-row  xl:flex xl:flex-row  2xl:mx-auto 2xl:flex 2xl:justify-around   2xl:mb-10 xl:mb-2 lg:mb-8 md:flex-col md:justify-center md:mb-10 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center nav"></div>
+          <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[880px] md:w-[620px] sm:w-[550px]  mx-auto lg:flex  lg:justify-around lg:flex-row  xl:flex xl:flex-row  2xl:mx-auto 2xl:flex 2xl:justify-around   2xl:mb-10 xl:mb-2 lg:mb-8 md:flex-col md:justify-center md:mb-10 sm:flex-col sm:justify-center sm:mb-5  flex-col justify-center nav">
             <div className="flex flex-col sm:flex sm:flex-col md:flex-row 2xl:justify-between mx-auto lg:w-full lg:m-0 xl:w-[70%]  2xl:w-[90%] xl:m-0 md:w-full md:my-5 sm:w-10/12  sm:my-5 ">
-            <div className="2xl:w-2/12 lg:w-2/12 xl:w-2/12 md:w-full sm:w-full pt-5 sm:pt-0 md:pt-0 lg:py-0  text-center">
-              {/* <Image
+              <div className=" md:w-1/4 w-full pt-5 sm:pt-0 md:pt-0 lg:py-0 flex  items-center">
+                {/* <Image
                   src={leaves}
                   className="mx-auto 2xl:w-16 md:w-10 sm:w-7 w-5 my-2"
                 />
 
-              <h1
-                className="2xl:text-[40px] 2xl:mt-8 2xl:leading-[26px] xl:text-[30px] xl:leading-[20px]  lg:text-[25px] lg:leading-[16px] lg:mt-6 md:text-[20px]  sm:text-[18px] sm:mb-5 text-[25px]  footer-logo text-center"
+               <h1
+                className="2xl:text-[40px] 2xl:mt-8 2xl:leading-[26px] xl:text-[30px] xl:leading-[20px]  lg:text-[25px] lg:leading-[16px] lg:mt-6 md:text-[20px]  sm:text-[18px] sm:mb-5 text-[25px] footer-logo text-center"
                 id="nav-head"
-              >
+               >
                 TEAS
                 
-              </h1> */}
-            <Link href="/">
-            <img
-                src="/images/logo.png"
-                className="w-48 xl:w-40  2xl:w-52 xl:mt-20 lg:mt-16"
-              />
-            </Link>
-            </div>
-              <div className="sm:mx-auto sm:my-5 mx-auto my-5 ">
+               </h1> */}
+                <div className="mx-auto md:mx-0">
+                  <Link href="/">
+                    <img
+                      src="/images/logo.png"
+                      className="w-24 xl:w-40  2xl:w-52   mx-auto"
+                    />
+                  </Link>
+                </div>
+              </div>
+              <div className="mx-auto sm:my-5  my-5 w-1/3 md:w-1/4 text-center md:text-left ">
                 <h1
                   className="list-none cursor-pointer 2xl:pb-[15px] xl:pb-[10px] lg:pb-[8px]  2xl:my-3 2xl:leading-[27px] 2xl:text-[18px] text-[##1E1E1E] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-hesdings"
                   id="b-font"
@@ -83,7 +84,7 @@ const Footer = () => {
                   </li>
                 </Link>
               </div>
-              <div className="sm:mx-auto sm:my-5 mx-auto my-5 ">
+              <div className="mx-auto sm:my-5 my-5 w-1/3 md:w-1/4 text-center md:text-left">
                 <h1
                   className="list-none 2xl:pb-[15px] xl:pb-[10px] lg:pb-[8px]  cursor-pointer  2xl:my-3 2xl:leading-[27px] 2xl:text-[18px] text-[##1E1E1E] xl:my-1 xl:leading-[20px] xl:text-[14px] lg:my-1 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] footer-hesdings"
                   id="b-font"
@@ -167,7 +168,7 @@ const Footer = () => {
               className="flex justify-center my-4
               5 md:flex md:justify-center sm:flex sm:justify-center lg:w-4/12 lg:flex-none xl:flex-none xl:w-3/12 2xl:w-3/12 "
             >
-              <div className=" relative lg:w-10/12 xl:w-full 2xl:w-full  md:w-4/12 sm:w-4/12 mx-auto text-center lg:text-left">
+              <div className=" relative lg:w-10/12 xl:w-full 2xl:w-full  md:w-6/12 sm:w-5/12 w-5/12 mx-auto text-center lg:text-left">
                 <h1
                   className="list-none cursor-pointer  2xl:my-4 2xl:leading-[27px] 2xl:text-[18px] text-[##1E1E1E] xl:mt-2 xl:leading-[20px] xl:text-[14px] lg:my-2 lg:leading-[18px] lg:text-[12px] md:my-1 md:leading-[18px] md:text-[12px]  sm:my-1 sm:leading-[10px] sm:text-[10px] text-[10px] leading-[18px] mb-2 footer-hesdings"
                   id="b-font"
@@ -176,7 +177,7 @@ const Footer = () => {
                 </h1>
                 <Image
                   src={arrow}
-                  className="absolute z-20 ml-48 mt-2 2xl:w-7  2xl:ml-[325px]  2xl:mt-[10px] 2xl:mb-4 xl:w-4  xl:ml-[220px]  xl:mt-[11px] lg:ml-[180px] lg:w-4 lg:mt-[6px]  md:w-3 md:mt-[10px] md:ml-56 sm:w-3 sm:mt-2 sm:ml-48 arrow w-3"
+                  className="absolute z-20 ml-[190px] mt-2 2xl:w-7  2xl:ml-[335px]  2xl:mt-[10px] 2xl:mb-4 xl:w-4  xl:ml-[220px]  xl:mt-[11px] lg:ml-[220px] lg:w-4 lg:mt-[6px]  md:w-3 md:mt-[10px] md:ml-[290px] sm:w-3 sm:mt-2 sm:ml-[210px] arrow w-3"
                 />
                 <input
                   type="text"
@@ -224,7 +225,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <hr className="mx-auto 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px]  opacity-[50%] sm:w-[70%]   border-[#315031] nav " />
+          <hr className="mx-auto 2xl:w-[1500px] xl:w-[1000px]  lg:w-[880px]  opacity-[50%] sm:w-[70%]   border-[#315031] nav " />
           <h1 className=" 2xl:text-[16px] 2xl:py-4 2xl:leading-[24px] xl:text-[12px]  xl:leading-[20px] lg:text-[12px]  lg:leading-[20px]  text-[#666666] text-center  md:text-[12px]  md:leading-[20px] sm:text-[12px]  sm:leading-[20px] text-[12px] py-3 footer-0ptions">
             © 2024 Teas. All Rights Reserved.
           </h1>

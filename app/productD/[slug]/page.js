@@ -6,8 +6,10 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Footer from "@/app/footer";
 import { useState } from "react";
+import { useCart } from "@/app/create-context/cart-context";
 
 const AboutUS = ({ params }) => {
+  const {addToCart, cart} = useCart();
   const [count, setCount] = useState(0);
   const router = useRouter();
   const productid = params?.slug || "";
@@ -109,7 +111,13 @@ const AboutUS = ({ params }) => {
                         </button>
                       </div>
                       <div>
-                        <button className="bg-[#315031] hover:bg-transparent hover:text-[#315031] hover:border border hover:border-[#315031] text-white  py-2 px-4 2xl:py-3 2xl:px-8 rounded text-[16px] 2xl:text-[18px] w-full my-8 2xl:my-14">
+                        <button
+                          onClick={() => {
+                            addToCart(filterProduct[0]);
+                            alert("product Added");
+                          }}
+                          className="bg-[#315031] hover:bg-transparent hover:text-[#315031] hover:border border hover:border-[#315031] text-white  py-2 px-4 2xl:py-3 2xl:px-8 rounded text-[16px] 2xl:text-[18px] w-full my-8 2xl:my-14"
+                        >
                           Add to Cart
                         </button>
                       </div>

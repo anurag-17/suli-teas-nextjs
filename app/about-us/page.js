@@ -17,30 +17,26 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <div className="2xl:mt-[150px] xl:mt-32 lg:mt-28 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px] md:w-[620px] sm:w-[600px] w-[420px] flex justify-between m-auto nav">
+      <div className="2xl:mt-[150px] xl:mt-32 lg:mt-28 sm:mt-12 mt-12 2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px] md:w-[620px] sm:w-[600px] w-[85%] flex justify-between m-auto nav">
         <div>
-          <div className="container mx-auto  mt-16">
-            <div className="flex bg-[#f4eeee] w-[100%]">
-              <div className="w-[50%]">
-                <Image src={lady} className="h-[100%] w-[100%]" />
+          <div className="container mx-auto  mt-12 md:mt-16">
+            <div className="flex flex-col lg:flex-row bg-[#f4eeee] w-[100%]">
+              <div className="w-[50%] flex mx-auto">
+               <div> <Image src={lady} className="h-auto lg:h-[100%] w-[100%] mx-auto pt-5 lg:pt-0" /></div>
+
               </div>
-              <div className="w-[50%]">
-                <div className="p-8">
-                  <p
-                    id="p-font"
-                    className="text-[#666666] text-left  Bringing-pera my-6 2xl:my-10 mb-3"
-                  >
-                    About me
-                  </p>
+              <div className="lg:w-[50%] ">
+                <div className="p-6 md:p-8 text-center">
+                  
                   <h1
                     id="head"
-                    className="text-[#1E1E1E] 2xl:text-[60px] text-left 2xl:leading-[70px] 2xl:mt-7 xl:text-[40px] xl:leading-[35px] xl:mt-1 lg:text-[30px] lg:leading-[40px] lg:mt-1 md:text-[30px] md:leading-[30px] md:mt-2 sm:text-[28px] sm:leading-[25px] sm:mt-2 text-[24px] leading-[30px] Unique-head mb-8"
+                    className="text-[#1E1E1E] 2xl:text-[60px] text-left 2xl:leading-[70px] 2xl:mt-7 xl:text-[40px] xl:leading-[35px] xl:mt-1 lg:text-[30px] lg:leading-[40px] lg:mt-1 md:text-[22px] md:leading-[30px] md:mt-2 sm:text-[18px] sm:leading-[25px] sm:mt-2 text-[16px] leading-[30px] Unique-head  md:mb-8"
                   >
                     Becoming epilepsy2 entrepreneur
                   </h1>
                   <p
                     id="p-font"
-                    className="text-[#666666] text-left  Bringing-pera my-6 2xl:my-10
+                    className="text-[#666666] text-left  Bringing-pera my-4 md:my-6 2xl:my-10 text-[12px] lg:[16px]
               "
                   >
                     My name is Teri, I created Suli teas based on what I loved
@@ -52,7 +48,7 @@ const page = () => {
 
                   <p
                     id="p-font"
-                    className="text-[#666666] text-left  Bringing-pera my-6 2xl:my-10
+                    className="text-[#666666] text-left  Bringing-pera my-6 2xl:my-10 text-[12px] lg:[16px]
               "
                   >
                     I have fought epilepsy, autoimmune, and anxiety since I was
@@ -66,7 +62,7 @@ const page = () => {
 
                   <p
                     id="p-font"
-                    className="text-[#666666] text-left  mt-1  Bringing-pera
+                    className="text-[#666666] text-left  mt-1  Bringing-pera text-[12px] lg:[16px]
               "
                   >
                     I went on the hunt for more than the standard boring
@@ -81,7 +77,7 @@ const page = () => {
                   <br />
                   <p
                     id="p-font"
-                    className="text-[#666666] text-left Bringing-pera
+                    className="text-[#666666] text-left Bringing-pera text-[12px] lg:[16px]
               "
                   >
                     The flavors I have available are my favorites and most used.

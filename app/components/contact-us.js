@@ -8,7 +8,7 @@ const ContactUs = () => {
     <>
       <section className="bg-[#F1F3F6] h-screen ">
         <Navbar />
-        <div className="2xl:mt-[135px] xl:mt-20 lg:mt-28 2xl:w-[1500px] xl:w-[1000px]  lg:w-[800px] md:w-[620px] sm:w-[600px] w-[420px] flex justify-between m-auto nav">
+        <div className="2xl:mt-[135px] xl:mt-20 lg:mt-28 sm:mt-24 mt-12 2xl:w-[1500px] xl:w-[1000px]  lg:w-[800px] md:w-[620px] sm:w-[600px] w-[420px] flex justify-between m-auto nav">
           <div className="w-full 2xl:mt-10">
             <div className="w-2/3 mx-auto my-14" data-aos="fade-up">
               <h1 className="font-semibold w-full text-[40px] my-10  ">

@@ -210,8 +210,9 @@ const page = () => {
                 required.
               </p>
               <div className=" mx-auto 2xl:mt-[74px] xl:mt-10 lg:mt-8 md:mt-4 sm:mt-4 mt-3">
-                <div className="flex flex-wrap 2xl:gap-20 justify-center lg:justify-between md:flex-row md:gap-8 flex-col sm:gap-6 gap-6 ">
-                  {products.map((product, index) => (
+                <div className="flex justify-center flex-wrap 2xl:gap-20  lg:justify-between lg:flex-row md:gap-8 flex-col sm:gap-6 gap-6 ">
+                <div className=" mx-auto">
+                {products.map((product, index) => (
                     <Link
                       href="/productD/[slug]"
                       as={`/productD/${product.id}`}
@@ -234,6 +235,7 @@ const page = () => {
                       </div>
                     </Link>
                   ))}
+                </div>
                 </div>
               </div>
             </div>

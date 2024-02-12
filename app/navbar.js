@@ -7,8 +7,10 @@ import leaves from "../public/images/leaves 1.svg";
 import user from "../public/images/usera.webp";
 import shopbag from "../public/images/shopbag.webp";
 import Link from "next/link";
+import { useCart } from "./create-context/cart-context";
 
 const Navbar = () => {
+  const {cart} = useCart();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const [dialogMatch, setDialogMatch] = useState(false);
@@ -45,9 +47,9 @@ const Navbar = () => {
   };
   return (
     <div>
-      <nav className="border 2xl:py-8 xl:py-4 lg:py-4 md:py-2 sm:py-2  bg-white fixed top-0 w-full z-50 navv">
-        <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[750px] flex justify-between m-auto nav">
-          <div id="nav-menu" className=" my-auto w-1/4 ">
+      <nav className="border 2xl:py-8 xl:py-4 lg:py-4 md:py-4 sm:py-3 py-3  bg-white fixed top-0 w-full z-50 navv">
+        <div className="2xl:w-[1500px] xl:w-[1000px]  lg:w-[880px] flex justify-between m-auto nav">
+          <div id="nav-menu" className=" my-auto ">
             <div className="flex 2xl:gap-8 xl:gap-6 lg:gap-4 md:gap-4 sm:gap-2 py-auto ">
               <div>
                 <Link href="/">
@@ -82,13 +84,13 @@ const Navbar = () => {
             </div>
           </div>
           <div className=" ml-3" id="nav-drawer">
-            <div className="text-center my-auto">
+            <div className="text-center my-auto ">
               <button
                 className="  focus:ring-4  font-medium rounded-lg text-[10px] mx-auto focus:outline-none "
                 type="button"
                 onClick={openDrawer}
               >
-                <div className="mt-3">
+                <div className="mt-3 ">
                   <div className="bg-black sm:p-[1.2px] md:p-[1.5px] p-[1px] my-1 sm:w-6 w-5"></div>
                   <div className="bg-black sm:p-[1px] md:p-[1.5px] p-[1px] my-1"></div>
                   <div className="bg-black sm:p-[1px] md:p-[1.5px] p-[1px] my-1"></div>
@@ -128,19 +130,31 @@ const Navbar = () => {
                   </div>
                   <hr />
                   <ul className="flex flex-col">
-                    <li
-                      id="hover-underline-animation"
-                      className=" text-[#666666] text-[10px] sm:text-sm first-letter:uppercase text-center mt-2 mx-auto"
-                    >
-                      Shop Teas
-                    </li>
-                    <br />
-                    <li
-                      id="hover-underline-animation"
-                      className=" text-[#666666] text-[10px]  sm:text-sm first-letter:uppercase text-center mx-auto"
-                    >
-                      About Me
-                    </li>
+                    <Link href="/shop-teas">
+                      <li
+                        id="hover-underline-animation"
+                        className=" text-[#666666] text-[10px] sm:text-sm first-letter:uppercase text-center mt-2 mx-auto"
+                      >
+                        Shop Teas
+                      </li>
+                    </Link>
+
+                    <Link href="/about-us">
+                      <li
+                        id="hover-underline-animation"
+                        className=" text-[#666666] text-[10px]  sm:text-sm first-letter:uppercase text-center mx-auto"
+                      >
+                        About Me
+                      </li>
+                    </Link>
+                    <Link href="/FAQ">
+                      <li
+                        id="hover-underline-animation"
+                        className=" text-[#666666] text-[10px]  sm:text-sm first-letter:uppercase text-center mx-auto"
+                      >
+                        FAQs
+                      </li>
+                    </Link>
                   </ul>
                 </div>
               </div>
@@ -156,21 +170,26 @@ const Navbar = () => {
             <Link href="/">
               <img
                 src="/images/logo.png"
-                className="w-36 xl:w-40 2xl:w-52 mx-auto"
+                className="w-24 md:w-32 xl:w-40 2xl:w-52 mx-auto"
               />
             </Link>
           </div>
-          <div className=" mr-3 xl:mr-0 lg:mr-10 flex justify-end 2xl:gap-10 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto w-1/4">
+          <div className="relative mr-6 xl:mr-0 lg:mr-0 flex justify-end 2xl:gap-10 xl:gap-6 lg:gap-5 md:gap-4 sm:gap-3 gap-3 my-auto ">
             <button onClick={() => setDialogMatch(true)}>
               <Image
                 src={user}
-                className="cursor-pointer 2xl:w-[21px] 2xl:h-[23px] xl:w-4 xl:h-4 lg:w-4 lg:h-4 md:w-4  sm:w-3 w-2"
+                className="cursor-pointer 2xl:w-[21px] 2xl:h-[23px] xl:w-4 xl:h-4 lg:w-4 lg:h-4 md:w-4  sm:w-[14px] w-3"
               />
             </button>
-            <Link href="/shop-teas">
+            <Link href="/cart">
+            {cart.length > 0 &&(
+              <span className="absolute 2xl:text-[16px] text-[10px] 2xl:bottom-[18px] 2xl:left-[70px] xl:bottom-[13px] xl:left-[47px] lg:bottom-[13px] lg:left-[45px] md:bottom-[16px] md:left-[37px] sm:bottom-[13px] sm:left-[34px] bottom-[11px] left-[30px] border rounded-full p-[2px] lg:py-1  px-2 2xl:py-1 2xl:px-3 text-white bg-[#315031]">
+                {cart.length}
+              </span>
+              )}
               <Image
                 src={shopbag}
-                className="cursor-pointer 2xl:w-[21px] 2xl:h-[23px]  xl:w-4 xl:h-4 lg:w-4 lg:h-4 md:w-4  sm:w-3 w-2"
+                className="cursor-pointer 2xl:w-[21px] 2xl:h-[23px]  xl:w-4 xl:h-4 lg:w-4 lg:h-4 md:w-4  sm:w-[14px] w-3 relative"
               />
             </Link>
           </div>
