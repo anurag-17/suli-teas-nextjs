@@ -20,6 +20,7 @@ const AboutUS = ({ params }) => {
   const handleIncrement = () => {
     setCount(count + 1);
   };
+  
 
   const handleDecrement = () => {
     if (count > 0) {
