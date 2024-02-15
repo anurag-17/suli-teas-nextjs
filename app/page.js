@@ -112,7 +112,7 @@ const page = () => {
         <div className="">
           <Navbar />
           <div
-            className="border border-red flex  2xl:py-[0px] 2xl:h-screen xl:py-44 lg:py-[132px] md:pt-24 md:pb-24 sm:pt-20 sm:pb-20 pt-6 pb-6 h-auto xms-m xl:mt-14 2xl:mt-20"
+            className="border border-red flex  2xl:py-[0px] 2xl:h-screen xl:py-44 lg:py-[132px] md:pt-24 md:pb-24 sm:pt-20 sm:pb-20 pt-6 pb-6 h-auto xms-m xl:mt-14 2xl:mt-20 mt-[60px]"
             id="bg-poster"
           >
             {/* <div className="2xl:my-auto 2xl:ml-56 xl:mt- xl:ml-40 lg:mt-40 lg:ml-32  md:mt-32 md:ml-28 sm:mt-24 sm:ml-16  ml-8 mt-8 sticky"> */}
@@ -211,8 +211,7 @@ const page = () => {
               </p>
               <div className=" mx-auto 2xl:mt-[74px] xl:mt-10 lg:mt-8 md:mt-4 sm:mt-4 mt-3">
                 <div className="flex justify-center flex-wrap 2xl:gap-20  lg:justify-between lg:flex-row md:gap-8 flex-col sm:gap-6 gap-6 ">
-                <div className=" mx-auto">
-                {products.map((product, index) => (
+                  {products.map((product, index) => (
                     <Link
                       href="/productD/[slug]"
                       as={`/productD/${product.id}`}
@@ -235,7 +234,6 @@ const page = () => {
                       </div>
                     </Link>
                   ))}
-                </div>
                 </div>
               </div>
             </div>

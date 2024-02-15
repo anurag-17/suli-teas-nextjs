@@ -9,8 +9,8 @@ import { useState } from "react";
 import { useCart } from "@/app/create-context/cart-context";
 
 const AboutUS = ({ params }) => {
-  const {addToCart, cart} = useCart();
   const [count, setCount] = useState(0);
+  const {addToCart, cart} = useCart();
   const router = useRouter();
   const productid = params?.slug || "";
 

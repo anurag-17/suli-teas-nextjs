@@ -29,6 +29,9 @@ const Cart = () => {
                   <h1 className=" 2xl:my-3 2xl:text-[36px] 2xl:leading-[25px] xl:text-[22px] xl:my-2 xl:leading-[20px] lg:text-[20px] lg:leading-[25px] md:text-[18px] md:my-1 md:leading-[25px] sm:text-[18px] sm:leading-[25px] text-[14px] product-price">
                     {product.price}
                   </h1>
+                  <button className="bg-[#315031] hover:bg-transparent hover:text-[#315031] hover:border border hover:border-[#315031] text-white  py-1 px-4 2xl:py-3 2xl:px-8 rounded text-[16px] 2xl:text-[18px]  my-5 2xl:my-14">
+                    Buy Now
+                  </button>
                 </div>
                 <div
                   className="w-1/12 flex justify-end"
@@ -36,7 +39,10 @@ const Cart = () => {
                     removeFromCart(product.id);
                   }}
                 >
-                  <img src="/images/wrong.svg" className="w-3 lg:w-6 2xl:w-10" />
+                  <img
+                    src="/images/wrong.svg"
+                    className="w-3 lg:w-6 2xl:w-10"
+                  />
                 </div>
               </div>
             ))}

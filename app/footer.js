@@ -177,12 +177,12 @@ const Footer = () => {
                 </h1>
                 <Image
                   src={arrow}
-                  className="absolute z-20 ml-[190px] mt-2 2xl:w-7  2xl:ml-[335px]  2xl:mt-[10px] 2xl:mb-4 xl:w-4  xl:ml-[220px]  xl:mt-[11px] lg:ml-[220px] lg:w-4 lg:mt-[6px]  md:w-3 md:mt-[10px] md:ml-[290px] sm:w-3 sm:mt-2 sm:ml-[210px] arrow w-3"
+                  className="absolute z-20 ml-[150px] mt-2 2xl:w-7  2xl:ml-[335px]  2xl:mt-[10px] 2xl:mb-4 xl:w-4  xl:ml-[220px]  xl:mt-[11px] lg:ml-[220px] lg:w-4 lg:mt-[6px]  md:w-3 md:mt-[10px] md:ml-[290px] sm:w-3 sm:mt-2 sm:ml-[210px] arrow w-3"
                 />
                 <input
                   type="text"
                   placeholder="Email"
-                  className="flex cursor-pointer border relative border-[#315031] bg-[#E9F5DE]  rounded  2xl:w-full 2xl:mt-3 2xl:p-[11px] xl:w-full xl:mt-3 xl:p-0.5  lg:w-full lg:p-0.5 lg:mt-2 w-[100%] sm:w-full sm:my-1 px-1 md:p-1 md:w-12/12  mx-auto"
+                  className="flex cursor-pointer border relative border-[#315031] bg-[#E9F5DE]  rounded  2xl:w-full 2xl:mt-3 2xl:p-[11px] xl:p-[2px] xl:pl-[8px] lg:p-[1px] lg:pl-[8px] xl:w-full xl:mt-3 lg:w-full  lg:mt-2 w-[100%] sm:w-full sm:my-1 px-1 md:p-1 md:w-12/12  mx-auto"
                 />
                 <div className="flex justify-center md:justify-center lg:justify-start sm:justify-center 2xl:gap-7  2xl:my-5 xl:gap-5  xl:my-3 lg:my-2 lg:gap-4 md:my-5 sm:my-5 md:w-11/12  md:gap-4 sm:gap-4 my-2 gap-4  ">
                   <Link href="https://twitter.com/" target="_blank">

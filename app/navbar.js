@@ -10,7 +10,7 @@ import Link from "next/link";
 import { useCart } from "./create-context/cart-context";
 
 const Navbar = () => {
-  const {cart} = useCart();
+  const { cart } = useCart();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const [dialogMatch, setDialogMatch] = useState(false);
@@ -129,7 +129,7 @@ const Navbar = () => {
                     </h1>
                   </div>
                   <hr />
-                  <ul className="flex flex-col">
+                  <ul className="flex flex-col text-center">
                     <Link href="/shop-teas">
                       <li
                         id="hover-underline-animation"
@@ -182,10 +182,10 @@ const Navbar = () => {
               />
             </button>
             <Link href="/cart">
-            {cart.length > 0 &&(
-              <span className="absolute 2xl:text-[16px] text-[10px] 2xl:bottom-[18px] 2xl:left-[70px] xl:bottom-[13px] xl:left-[47px] lg:bottom-[13px] lg:left-[45px] md:bottom-[16px] md:left-[37px] sm:bottom-[13px] sm:left-[34px] bottom-[11px] left-[30px] border rounded-full p-[2px] lg:py-1  px-2 2xl:py-1 2xl:px-3 text-white bg-[#315031]">
-                {cart.length}
-              </span>
+              {cart.length > 0 && (
+                <span className="absolute 2xl:text-[16px] text-[10px] 2xl:bottom-[18px] 2xl:left-[70px] xl:bottom-[13px] xl:left-[47px] lg:bottom-[13px] lg:left-[45px] md:bottom-[16px] md:left-[37px] sm:bottom-[13px] sm:left-[34px] bottom-[11px] left-[30px] border rounded-full p-[2px] lg:py-1  px-2 2xl:py-1 2xl:px-3 text-white bg-[#315031]">
+                  {cart.length}
+                </span>
               )}
               <Image
                 src={shopbag}
