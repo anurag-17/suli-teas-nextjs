@@ -31,9 +31,12 @@ export const CartProvider = ({ children }) => {
       return newCart;
     });
   };
-
+  const clearCart = () => {
+    setCart([]);
+    saveCartToLocalStorage([]);
+  };
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart }}>
+    <CartContext.Provider value={{ cart, addToCart, removeFromCart, clearCart }}>
       {children}
     </CartContext.Provider>
   );
